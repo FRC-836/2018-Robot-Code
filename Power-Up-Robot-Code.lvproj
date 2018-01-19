@@ -128,10 +128,11 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="ClimbCommands.ctl" Type="VI" URL="../CommandTypes/ClimbCommands.ctl"/>
-		<Item Name="DriveCommands.ctl" Type="VI" URL="../CommandTypes/DriveCommands.ctl"/>
-		<Item Name="IntakeCommands.ctl" Type="VI" URL="../CommandTypes/IntakeCommands.ctl"/>
-		<Item Name="LiftCommands.ctl" Type="VI" URL="../CommandTypes/LiftCommands.ctl"/>
+		<Item Name="Camera.lvlib" Type="Library" URL="../SharedVarLibs/Camera.lvlib"/>
+		<Item Name="ClimbStatus.lvlib" Type="Library" URL="../SharedVarLibs/ClimbStatus.lvlib"/>
+		<Item Name="DriveStatus.lvlib" Type="Library" URL="../SharedVarLibs/DriveStatus.lvlib"/>
+		<Item Name="IntakeStatus.lvlib" Type="Library" URL="../SharedVarLibs/IntakeStatus.lvlib"/>
+		<Item Name="LiftStatus.lvlib" Type="Library" URL="../SharedVarLibs/LiftStatus.lvlib"/>
 		<Item Name="Notifiers.lvlib" Type="Library" URL="../SharedVarLibs/Notifiers.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
