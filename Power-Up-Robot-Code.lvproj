@@ -2,16 +2,28 @@
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{13733B1E-2BFF-42DD-A005-ED56C20FEA07}" Type="Ref">/Target/Joystick.lvlib/Throttle</Property>
 	<Property Name="varPersistentID:{19DD43AA-2BA5-4FC1-B565-79A780909E1A}" Type="Ref">/Target/Notifiers.lvlib/LiftNotifiers</Property>
+	<Property Name="varPersistentID:{1A77C03D-49CD-4BEC-A6E5-651C17C1858D}" Type="Ref">/Target/Joystick.lvlib/Button_LT</Property>
 	<Property Name="varPersistentID:{2404CAB7-E0B7-4E84-A9B5-023D38A66AEC}" Type="Ref">/Target/Notifiers.lvlib/DriveNotifiers</Property>
 	<Property Name="varPersistentID:{279CDD05-BCD9-460E-8061-34887957CB43}" Type="Ref">/Target/Notifiers.lvlib/ClimbNotifiers</Property>
 	<Property Name="varPersistentID:{3792D767-C1C0-4036-BF17-9B491CDEC4C9}" Type="Ref">/Target/QCP.lvlib/QCP_DevRef_Out</Property>
+	<Property Name="varPersistentID:{3898C03C-E291-424C-A731-5D39C9359040}" Type="Ref">/Target/Joystick.lvlib/Button_B</Property>
+	<Property Name="varPersistentID:{4766273A-7F03-4433-9DCC-633915851482}" Type="Ref">/Target/Joystick.lvlib/Button_LB</Property>
 	<Property Name="varPersistentID:{4CDE1248-E61B-4A98-B80B-EBA3D699B37B}" Type="Ref">/Target/IntakeStatus.lvlib/Cube?</Property>
 	<Property Name="varPersistentID:{5A6A5AF5-71F4-48FE-857A-EFF21B8964FA}" Type="Ref">/Target/LiftStatus.lvlib/Position</Property>
 	<Property Name="varPersistentID:{7A70A78C-2407-43A8-896E-D3DD1141F480}" Type="Ref">/Target/DriveStatus.lvlib/Driving?</Property>
+	<Property Name="varPersistentID:{7C35AE90-4A91-483A-9CCD-0529A6A0BCA1}" Type="Ref">/Target/Joystick.lvlib/Wheel</Property>
 	<Property Name="varPersistentID:{83695BC4-C8EF-49DB-9E3A-F2B821EDD739}" Type="Ref">/Target/LiftStatus.lvlib/Moving?</Property>
 	<Property Name="varPersistentID:{8733220F-45BA-4D0C-B49A-BD60FF592BED}" Type="Ref">/Target/Notifiers.lvlib/IntakeNotifier</Property>
+	<Property Name="varPersistentID:{89DDC247-1253-4B2B-ABD9-E3772C9A1525}" Type="Ref">/Target/Joystick.lvlib/Button_Back</Property>
 	<Property Name="varPersistentID:{8FF9E381-FF51-4F3A-B4FC-5626829E7C9F}" Type="Ref">/Target/ClimbStatus.lvlib/Deployed?</Property>
+	<Property Name="varPersistentID:{AA0DB621-5CBF-42C9-917F-5EF94F761E3F}" Type="Ref">/Target/Joystick.lvlib/Button_Start</Property>
+	<Property Name="varPersistentID:{B479E6FD-B412-4618-A560-478CE3DFF700}" Type="Ref">/Target/Joystick.lvlib/Button_X</Property>
+	<Property Name="varPersistentID:{B5F31890-A966-4007-97BC-545C2F41D042}" Type="Ref">/Target/Joystick.lvlib/Button_Y</Property>
+	<Property Name="varPersistentID:{E052EEE7-2728-4D69-BD42-D5DF43E85761}" Type="Ref">/Target/Joystick.lvlib/Button_RT</Property>
+	<Property Name="varPersistentID:{E9C7DA0E-A351-484E-8F72-B2D0B2EE2B0F}" Type="Ref">/Target/Joystick.lvlib/Button_RB</Property>
+	<Property Name="varPersistentID:{F90CC957-481C-4D32-9DCD-C7370D2E4627}" Type="Ref">/Target/Joystick.lvlib/Button_A</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -138,6 +150,7 @@ AddOutputFilter chunkFilter
 		<Item Name="ClimbStatus.lvlib" Type="Library" URL="../SharedVarLibs/ClimbStatus.lvlib"/>
 		<Item Name="DriveStatus.lvlib" Type="Library" URL="../SharedVarLibs/DriveStatus.lvlib"/>
 		<Item Name="IntakeStatus.lvlib" Type="Library" URL="../SharedVarLibs/IntakeStatus.lvlib"/>
+		<Item Name="Joystick.lvlib" Type="Library" URL="../SharedVarLibs/Joystick.lvlib"/>
 		<Item Name="LiftStatus.lvlib" Type="Library" URL="../SharedVarLibs/LiftStatus.lvlib"/>
 		<Item Name="Notifiers.lvlib" Type="Library" URL="../SharedVarLibs/Notifiers.lvlib"/>
 		<Item Name="QCP.lvlib" Type="Library" URL="../../../TEST PROJECT/QCP.lvlib"/>
