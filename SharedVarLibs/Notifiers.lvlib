@@ -25,7 +25,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Notifiers.lvlib:DriveCommands.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../CommandTypes/DriveCommands.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"^?1!!!"=!A!!!!!!#!&amp;M!]1!!!!!!!!!#$UZP&gt;'FG;76S=SZM&gt;GRJ9B&amp;%=GFW:5.P&lt;7VB&lt;G2T,G.U&lt;!!R1"9!!Q:.97ZV:7Q-17.R&gt;7FS:3"$&gt;7*F#E2S;8:F)&amp;"B&gt;'A!!!2&amp;&lt;H6N!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#(AQ!!!"=!A!!!!!!#!'5!]1!!!!!!!!!#$UZP&gt;'FG;76S=SZM&gt;GRJ9B&amp;%=GFW:5.P&lt;7VB&lt;G2T,G.U&lt;!!\1"9!"!J%&lt;S"/&lt;X2I;7ZH"EVB&lt;H6F&lt;!R"9X&amp;V;8*F)%.V9G5+2(*J&gt;G5A5'&amp;U;!!%27ZV&lt;1!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="IntakeCommands.ctl" Type="VI" URL="../../CommandTypes/IntakeCommands.ctl"/>
 	<Item Name="IntakeNotifier" Type="Variable">
@@ -37,7 +37,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Notifiers.lvlib:IntakeCommands.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../CommandTypes/IntakeCommands.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"U=!!!!"=!A!!!!!!#!&amp;)!]1!!!!!!!!!#$UZP&gt;'FG;76S=SZM&gt;GRJ9B**&lt;H2B;W6$&lt;WVN97ZE=SZD&gt;'Q!*U!7!!-'47&amp;O&gt;76M"6.D&lt;X*F"U&amp;D=86J=G5!!!2&amp;&lt;H6N!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"_?A!!!"=!A!!!!!!#!&amp;Q!]1!!!!!!!!!#$UZP&gt;'FG;76S=SZM&gt;GRJ9B**&lt;H2B;W6$&lt;WVN97ZE=SZD&gt;'Q!-5!7!!1+2']A4G^U;'FO:Q:.97ZV:7Q&amp;5W.P=G5(17.R&gt;7FS:1!%27ZV&lt;1!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="LiftCommands.ctl" Type="VI" URL="../../CommandTypes/LiftCommands.ctl"/>
 	<Item Name="LiftNotifiers" Type="Variable">
@@ -49,6 +49,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">Notifiers.lvlib:LiftCommands.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../CommandTypes/LiftCommands.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#EI!!!!"=!A!!!!!!#!))!]1!!!!!!!!!#$UZP&gt;'FG;76S=SZM&gt;GRJ9B"-;7:U1W^N&lt;7&amp;O:(-O9X2M!&amp;F!&amp;A!("EVB&lt;H6F&lt;!2;:8*P"E&gt;S&lt;X6O:!F5&lt;S"4&gt;WFU9WA-6']A5W.B&lt;'5A4'^X$V2P)&amp;.D97RF)%VF:'FV&lt;1V5&lt;S"49W&amp;M:3");7&gt;I!!2&amp;&lt;H6N!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#QL!!!!"=!A!!!!!!#!)Y!]1!!!!!!!!!#$UZP&gt;'FG;76S=SZM&gt;GRJ9B"-;7:U1W^N&lt;7&amp;O:(-O9X2M!'6!&amp;A!)#U2P)#"/&lt;X2I;7ZH"EVB&lt;H6F&lt;!2;:8*P"E&gt;S&lt;X6O:!F5&lt;S"4&gt;WFU9WA-6']A5W.B&lt;'5A4'^X$V2P)&amp;.D97RF)%VF:'FV&lt;1V5&lt;S"49W&amp;M:3");7&gt;I!!2&amp;&lt;H6N!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
