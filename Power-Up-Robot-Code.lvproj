@@ -2,7 +2,8 @@
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{13733B1E-2BFF-42DD-A005-ED56C20FEA07}" Type="Ref">/Target/Joystick.lvlib/Throttle</Property>
+	<Property Name="varPersistentID:{12122519-D6DA-47DD-B11D-80E19523F2A2}" Type="Ref">/Target/Joystick.lvlib/Axis_3</Property>
+	<Property Name="varPersistentID:{13733B1E-2BFF-42DD-A005-ED56C20FEA07}" Type="Ref">/Target/Joystick.lvlib/Axis_1</Property>
 	<Property Name="varPersistentID:{18D783FB-C1C1-4FD3-89DD-3ABB5DEDBF07}" Type="Ref">/Target/Camera.lvlib/Valid_Target?</Property>
 	<Property Name="varPersistentID:{19DD43AA-2BA5-4FC1-B565-79A780909E1A}" Type="Ref">/Target/Notifiers.lvlib/LiftNotifiers</Property>
 	<Property Name="varPersistentID:{1A77C03D-49CD-4BEC-A6E5-651C17C1858D}" Type="Ref">/Target/Joystick.lvlib/Button_LT</Property>
@@ -15,7 +16,7 @@
 	<Property Name="varPersistentID:{4CDE1248-E61B-4A98-B80B-EBA3D699B37B}" Type="Ref">/Target/IntakeStatus.lvlib/Cube?</Property>
 	<Property Name="varPersistentID:{5A6A5AF5-71F4-48FE-857A-EFF21B8964FA}" Type="Ref">/Target/LiftStatus.lvlib/Position</Property>
 	<Property Name="varPersistentID:{7A70A78C-2407-43A8-896E-D3DD1141F480}" Type="Ref">/Target/DriveStatus.lvlib/Driving?</Property>
-	<Property Name="varPersistentID:{7C35AE90-4A91-483A-9CCD-0529A6A0BCA1}" Type="Ref">/Target/Joystick.lvlib/Wheel</Property>
+	<Property Name="varPersistentID:{7C35AE90-4A91-483A-9CCD-0529A6A0BCA1}" Type="Ref">/Target/Joystick.lvlib/Axis_2</Property>
 	<Property Name="varPersistentID:{83695BC4-C8EF-49DB-9E3A-F2B821EDD739}" Type="Ref">/Target/LiftStatus.lvlib/Moving?</Property>
 	<Property Name="varPersistentID:{8733220F-45BA-4D0C-B49A-BD60FF592BED}" Type="Ref">/Target/Notifiers.lvlib/IntakeNotifier</Property>
 	<Property Name="varPersistentID:{89DDC247-1253-4B2B-ABD9-E3772C9A1525}" Type="Ref">/Target/Joystick.lvlib/Button_Back</Property>
@@ -24,6 +25,7 @@
 	<Property Name="varPersistentID:{AA0DB621-5CBF-42C9-917F-5EF94F761E3F}" Type="Ref">/Target/Joystick.lvlib/Button_Start</Property>
 	<Property Name="varPersistentID:{B479E6FD-B412-4618-A560-478CE3DFF700}" Type="Ref">/Target/Joystick.lvlib/Button_X</Property>
 	<Property Name="varPersistentID:{B5F31890-A966-4007-97BC-545C2F41D042}" Type="Ref">/Target/Joystick.lvlib/Button_Y</Property>
+	<Property Name="varPersistentID:{C929C38B-73C3-4266-AB9B-3426A05D4033}" Type="Ref">/Target/Joystick.lvlib/Axis_0</Property>
 	<Property Name="varPersistentID:{D11BB856-5A6C-436F-BE24-586A80C6DA71}" Type="Ref">/Target/IMU.lvlib/Roll Wind</Property>
 	<Property Name="varPersistentID:{D3E956E5-A1C2-4A60-B49C-9DF28F382CC4}" Type="Ref">/Target/DriveDevRef.lvlib/Drive DevRef Out</Property>
 	<Property Name="varPersistentID:{D3F4A9AB-EFB9-4C0C-AE19-C2A9C56AFFC1}" Type="Ref">/Target/IMU.lvlib/Pitch Wind</Property>
@@ -212,6 +214,7 @@ AddOutputFilter chunkFilter
 				<Item Name="hmi_cheesy_drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/hmi_cheesy_drive.vi"/>
 				<Item Name="HoldPositionParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/HoldPositionParam.ctl"/>
 				<Item Name="HoldYawParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/HoldYawParam.ctl"/>
+				<Item Name="ImuDevRef.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/ImuDevRef.ctl"/>
 				<Item Name="IMUOrientGetSetRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientGetSetRefNum.vi"/>
 				<Item Name="IMUOrientOpen.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientOpen.vi"/>
 				<Item Name="IMUOrientRead.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRead.vi"/>
@@ -765,9 +768,6 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Intake level 1.vi" Type="VI" URL="../LevelOne/Intake level 1.vi"/>
-			<Item Name="Intake level 2.vi" Type="VI" URL="../LevelTwo/Intake level 2.vi"/>
-			<Item Name="IntakeScore Enum.ctl" Type="VI" URL="../LevelOne/IntakeScore Enum.ctl"/>
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
