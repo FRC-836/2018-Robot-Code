@@ -765,6 +765,9 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Intake level 1.vi" Type="VI" URL="../LevelOne/Intake level 1.vi"/>
+			<Item Name="Intake level 2.vi" Type="VI" URL="../LevelTwo/Intake level 2.vi"/>
+			<Item Name="IntakeScore Enum.ctl" Type="VI" URL="../LevelOne/IntakeScore Enum.ctl"/>
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
