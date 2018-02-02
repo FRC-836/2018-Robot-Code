@@ -18,6 +18,7 @@
 	<Property Name="varPersistentID:{47B02E1C-2332-4A1B-BE46-D0952849D32A}" Type="Ref">/Target/IntakeStatus.lvlib/Intake Period</Property>
 	<Property Name="varPersistentID:{4CDE1248-E61B-4A98-B80B-EBA3D699B37B}" Type="Ref">/Target/IntakeStatus.lvlib/Cube?</Property>
 	<Property Name="varPersistentID:{5A6A5AF5-71F4-48FE-857A-EFF21B8964FA}" Type="Ref">/Target/LiftStatus.lvlib/Position</Property>
+	<Property Name="varPersistentID:{6CBB048D-7034-47AB-BFC8-63CE8C78BAD0}" Type="Ref">/Target/Auto_Queue.lvlib/queue out</Property>
 	<Property Name="varPersistentID:{7A70A78C-2407-43A8-896E-D3DD1141F480}" Type="Ref">/Target/DriveStatus.lvlib/Driving?</Property>
 	<Property Name="varPersistentID:{7C35AE90-4A91-483A-9CCD-0529A6A0BCA1}" Type="Ref">/Target/Joystick.lvlib/Axis_2</Property>
 	<Property Name="varPersistentID:{83695BC4-C8EF-49DB-9E3A-F2B821EDD739}" Type="Ref">/Target/LiftStatus.lvlib/Moving?</Property>
@@ -25,6 +26,7 @@
 	<Property Name="varPersistentID:{89DDC247-1253-4B2B-ABD9-E3772C9A1525}" Type="Ref">/Target/Joystick.lvlib/Button_Back</Property>
 	<Property Name="varPersistentID:{8FF9E381-FF51-4F3A-B4FC-5626829E7C9F}" Type="Ref">/Target/ClimbStatus.lvlib/Deployed?</Property>
 	<Property Name="varPersistentID:{950868E3-4C19-41D6-93F8-3B692089F564}" Type="Ref">/Target/IMU.lvlib/Yaw Wind</Property>
+	<Property Name="varPersistentID:{A56E8380-9936-4B87-A054-CFD8B2D8CE84}" Type="Ref">/Target/QCP.lvlib/Auto_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{AA0DB621-5CBF-42C9-917F-5EF94F761E3F}" Type="Ref">/Target/Joystick.lvlib/Button_Start</Property>
 	<Property Name="varPersistentID:{B479E6FD-B412-4618-A560-478CE3DFF700}" Type="Ref">/Target/Joystick.lvlib/Button_X</Property>
 	<Property Name="varPersistentID:{B5F31890-A966-4007-97BC-545C2F41D042}" Type="Ref">/Target/Joystick.lvlib/Button_Y</Property>
@@ -159,6 +161,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="AquireCubeCommands.ctl" Type="VI" URL="../CommandTypes/AquireCubeCommands.ctl"/>
+		<Item Name="Auto_Queue.lvlib" Type="Library" URL="../AutoSupport/Auto_Queue.lvlib"/>
 		<Item Name="AutoCommands.ctl" Type="VI" URL="../CommandTypes/AutoCommands.ctl"/>
 		<Item Name="Camera.lvlib" Type="Library" URL="../SharedVarLibs/Camera.lvlib"/>
 		<Item Name="ClimbStatus.lvlib" Type="Library" URL="../SharedVarLibs/ClimbStatus.lvlib"/>
