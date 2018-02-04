@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{02051CE4-49E2-4C1D-BC03-C2ACE904AF31}" Type="Ref">/Target/LiftStatus.lvlib/Lift Period</Property>
 	<Property Name="varPersistentID:{086577EB-8C5D-4F26-9F3D-43E18EE3D31F}" Type="Ref">/Target/IntakeStatus.lvlib/Intake Iteration Duration</Property>
 	<Property Name="varPersistentID:{12122519-D6DA-47DD-B11D-80E19523F2A2}" Type="Ref">/Target/Joystick.lvlib/Axis_3</Property>
 	<Property Name="varPersistentID:{13733B1E-2BFF-42DD-A005-ED56C20FEA07}" Type="Ref">/Target/Joystick.lvlib/Axis_1</Property>
@@ -36,9 +37,11 @@
 	<Property Name="varPersistentID:{B5F31890-A966-4007-97BC-545C2F41D042}" Type="Ref">/Target/Joystick.lvlib/Button_Y</Property>
 	<Property Name="varPersistentID:{BED7A7A5-B2B8-49E2-96F5-1E7D7B39A456}" Type="Ref">/Target/IntakeStatus.lvlib/Intake Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{C929C38B-73C3-4266-AB9B-3426A05D4033}" Type="Ref">/Target/Joystick.lvlib/Axis_0</Property>
+	<Property Name="varPersistentID:{CE7252AE-F2BC-43AC-8DB1-29AC37528843}" Type="Ref">/Target/LiftStatus.lvlib/Lift Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{D11BB856-5A6C-436F-BE24-586A80C6DA71}" Type="Ref">/Target/IMU.lvlib/Roll Wind</Property>
 	<Property Name="varPersistentID:{D3E956E5-A1C2-4A60-B49C-9DF28F382CC4}" Type="Ref">/Target/DriveDevRef.lvlib/Drive DevRef Out</Property>
 	<Property Name="varPersistentID:{D3F4A9AB-EFB9-4C0C-AE19-C2A9C56AFFC1}" Type="Ref">/Target/IMU.lvlib/Pitch Wind</Property>
+	<Property Name="varPersistentID:{D800CC28-B581-4CBD-AF56-1F70EA54BEBD}" Type="Ref">/Target/LiftStatus.lvlib/Lift Iteration Duration</Property>
 	<Property Name="varPersistentID:{E052EEE7-2728-4D69-BD42-D5DF43E85761}" Type="Ref">/Target/Joystick.lvlib/Button_RT</Property>
 	<Property Name="varPersistentID:{E9C7DA0E-A351-484E-8F72-B2D0B2EE2B0F}" Type="Ref">/Target/Joystick.lvlib/Button_RB</Property>
 	<Property Name="varPersistentID:{F29C7B90-F91D-4B0C-946E-6C92F29FBE36}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Up</Property>
