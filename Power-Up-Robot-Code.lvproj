@@ -2,37 +2,47 @@
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{086577EB-8C5D-4F26-9F3D-43E18EE3D31F}" Type="Ref">/Target/IntakeStatus.lvlib/Intake Iteration Duration</Property>
+	<Property Name="varPersistentID:{086577EB-8C5D-4F26-9F3D-43E18EE3D31F}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Iteration Duration</Property>
 	<Property Name="varPersistentID:{12122519-D6DA-47DD-B11D-80E19523F2A2}" Type="Ref">/Target/Joystick.lvlib/Axis_3</Property>
 	<Property Name="varPersistentID:{13733B1E-2BFF-42DD-A005-ED56C20FEA07}" Type="Ref">/Target/Joystick.lvlib/Axis_1</Property>
+	<Property Name="varPersistentID:{14B1CC46-41EF-4BBE-AFC9-6259485347EE}" Type="Ref">/Target/DevRefs.lvlib/Lift_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{18D783FB-C1C1-4FD3-89DD-3ABB5DEDBF07}" Type="Ref">/Target/Camera.lvlib/Valid_Target?</Property>
-	<Property Name="varPersistentID:{19DD43AA-2BA5-4FC1-B565-79A780909E1A}" Type="Ref">/Target/Notifiers.lvlib/LiftNotifiers</Property>
+	<Property Name="varPersistentID:{19DD43AA-2BA5-4FC1-B565-79A780909E1A}" Type="Ref">/Target/DevRefs.lvlib/LiftNotifiers</Property>
 	<Property Name="varPersistentID:{1A77C03D-49CD-4BEC-A6E5-651C17C1858D}" Type="Ref">/Target/Joystick.lvlib/Button_LT</Property>
-	<Property Name="varPersistentID:{2033FD6F-2A31-4EE0-B3C2-AB6CDDDDC00A}" Type="Ref">/Target/IntakeStatus.lvlib/intake power out</Property>
-	<Property Name="varPersistentID:{2404CAB7-E0B7-4E84-A9B5-023D38A66AEC}" Type="Ref">/Target/Notifiers.lvlib/DriveNotifiers</Property>
-	<Property Name="varPersistentID:{279CDD05-BCD9-460E-8061-34887957CB43}" Type="Ref">/Target/Notifiers.lvlib/ClimbNotifiers</Property>
-	<Property Name="varPersistentID:{3792D767-C1C0-4036-BF17-9B491CDEC4C9}" Type="Ref">/Target/QCP.lvlib/QCP_DevRef_Out</Property>
+	<Property Name="varPersistentID:{2033FD6F-2A31-4EE0-B3C2-AB6CDDDDC00A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/intake power out</Property>
+	<Property Name="varPersistentID:{2404CAB7-E0B7-4E84-A9B5-023D38A66AEC}" Type="Ref">/Target/DevRefs.lvlib/DriveNotifiers</Property>
+	<Property Name="varPersistentID:{2D3BD628-2A81-41D0-A3D4-0FFB24705799}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Period</Property>
+	<Property Name="varPersistentID:{2DB48B0E-CCE3-4A5B-97E1-83E384071603}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Up</Property>
+	<Property Name="varPersistentID:{33581120-9503-4399-816A-12390958FF70}" Type="Ref">/Target/DevRefs.lvlib/ClimbNotifiers</Property>
+	<Property Name="varPersistentID:{341E7F82-99AE-4328-8BF9-B5EBE119D6FE}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Left</Property>
+	<Property Name="varPersistentID:{3792D767-C1C0-4036-BF17-9B491CDEC4C9}" Type="Ref">/Target/DevRefs.lvlib/Drive_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{3898C03C-E291-424C-A731-5D39C9359040}" Type="Ref">/Target/Joystick.lvlib/Button_B</Property>
 	<Property Name="varPersistentID:{3A5C221B-4043-415E-81BE-5808BEB01554}" Type="Ref">/Target/Camera.lvlib/Horizontal_Offset</Property>
 	<Property Name="varPersistentID:{4766273A-7F03-4433-9DCC-633915851482}" Type="Ref">/Target/Joystick.lvlib/Button_LB</Property>
-	<Property Name="varPersistentID:{47B02E1C-2332-4A1B-BE46-D0952849D32A}" Type="Ref">/Target/IntakeStatus.lvlib/Intake Period</Property>
-	<Property Name="varPersistentID:{4CDE1248-E61B-4A98-B80B-EBA3D699B37B}" Type="Ref">/Target/IntakeStatus.lvlib/Cube?</Property>
-	<Property Name="varPersistentID:{5A6A5AF5-71F4-48FE-857A-EFF21B8964FA}" Type="Ref">/Target/LiftStatus.lvlib/Position</Property>
-	<Property Name="varPersistentID:{7A70A78C-2407-43A8-896E-D3DD1141F480}" Type="Ref">/Target/DriveStatus.lvlib/Driving?</Property>
+	<Property Name="varPersistentID:{47B02E1C-2332-4A1B-BE46-D0952849D32A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Period</Property>
+	<Property Name="varPersistentID:{4CDE1248-E61B-4A98-B80B-EBA3D699B37B}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Cube?</Property>
+	<Property Name="varPersistentID:{535602D8-7C12-48BE-9603-16D68BFEF406}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Down</Property>
+	<Property Name="varPersistentID:{56631AD1-7C5E-46ED-BAC8-3058C522F021}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Verticle_Position</Property>
+	<Property Name="varPersistentID:{5994B984-1E5A-440D-BE26-75D9E242B941}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Right</Property>
+	<Property Name="varPersistentID:{64C5AE6A-D5CB-452C-ADD8-3F886B014E3B}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Rotational_Position</Property>
+	<Property Name="varPersistentID:{72E87DE9-B6A1-40BD-9810-1DD1EA34E072}" Type="Ref">/Target/DevRefs.lvlib/Intake_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{7C35AE90-4A91-483A-9CCD-0529A6A0BCA1}" Type="Ref">/Target/Joystick.lvlib/Axis_2</Property>
-	<Property Name="varPersistentID:{83695BC4-C8EF-49DB-9E3A-F2B821EDD739}" Type="Ref">/Target/LiftStatus.lvlib/Moving?</Property>
-	<Property Name="varPersistentID:{8733220F-45BA-4D0C-B49A-BD60FF592BED}" Type="Ref">/Target/Notifiers.lvlib/IntakeNotifier</Property>
+	<Property Name="varPersistentID:{8733220F-45BA-4D0C-B49A-BD60FF592BED}" Type="Ref">/Target/DevRefs.lvlib/IntakeNotifier</Property>
 	<Property Name="varPersistentID:{89DDC247-1253-4B2B-ABD9-E3772C9A1525}" Type="Ref">/Target/Joystick.lvlib/Button_Back</Property>
-	<Property Name="varPersistentID:{8FF9E381-FF51-4F3A-B4FC-5626829E7C9F}" Type="Ref">/Target/ClimbStatus.lvlib/Deployed?</Property>
-	<Property Name="varPersistentID:{950868E3-4C19-41D6-93F8-3B692089F564}" Type="Ref">/Target/IMU.lvlib/Yaw Wind</Property>
+	<Property Name="varPersistentID:{8D84DF85-E015-478F-BF0B-863C1BFFAF64}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Finished Late? [i-1]</Property>
+	<Property Name="varPersistentID:{8FF9E381-FF51-4F3A-B4FC-5626829E7C9F}" Type="Ref">/Target/Mechanisms/ClimbStatus.lvlib/Deployed?</Property>
+	<Property Name="varPersistentID:{950868E3-4C19-41D6-93F8-3B692089F564}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Yaw Wind</Property>
+	<Property Name="varPersistentID:{99ADAF4E-262C-4FC8-A06F-87E0C7168D44}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Moving?</Property>
+	<Property Name="varPersistentID:{A34213BF-92F7-421A-A6C0-6D0F0F42F9FB}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Iteration Duration</Property>
+	<Property Name="varPersistentID:{A56E8380-9936-4B87-A054-CFD8B2D8CE84}" Type="Ref">/Target/DevRefs.lvlib/Auto_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{AA0DB621-5CBF-42C9-917F-5EF94F761E3F}" Type="Ref">/Target/Joystick.lvlib/Button_Start</Property>
 	<Property Name="varPersistentID:{B479E6FD-B412-4618-A560-478CE3DFF700}" Type="Ref">/Target/Joystick.lvlib/Button_X</Property>
 	<Property Name="varPersistentID:{B5F31890-A966-4007-97BC-545C2F41D042}" Type="Ref">/Target/Joystick.lvlib/Button_Y</Property>
-	<Property Name="varPersistentID:{BED7A7A5-B2B8-49E2-96F5-1E7D7B39A456}" Type="Ref">/Target/IntakeStatus.lvlib/Intake Finished Late? [i-1]</Property>
+	<Property Name="varPersistentID:{BED7A7A5-B2B8-49E2-96F5-1E7D7B39A456}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{C929C38B-73C3-4266-AB9B-3426A05D4033}" Type="Ref">/Target/Joystick.lvlib/Axis_0</Property>
-	<Property Name="varPersistentID:{D11BB856-5A6C-436F-BE24-586A80C6DA71}" Type="Ref">/Target/IMU.lvlib/Roll Wind</Property>
-	<Property Name="varPersistentID:{D3E956E5-A1C2-4A60-B49C-9DF28F382CC4}" Type="Ref">/Target/DriveDevRef.lvlib/Drive DevRef Out</Property>
-	<Property Name="varPersistentID:{D3F4A9AB-EFB9-4C0C-AE19-C2A9C56AFFC1}" Type="Ref">/Target/IMU.lvlib/Pitch Wind</Property>
+	<Property Name="varPersistentID:{D11BB856-5A6C-436F-BE24-586A80C6DA71}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Roll Wind</Property>
+	<Property Name="varPersistentID:{D3E956E5-A1C2-4A60-B49C-9DF28F382CC4}" Type="Ref">/Target/DevRefs.lvlib/Drive DevRef Out</Property>
+	<Property Name="varPersistentID:{D3F4A9AB-EFB9-4C0C-AE19-C2A9C56AFFC1}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Pitch Wind</Property>
 	<Property Name="varPersistentID:{E052EEE7-2728-4D69-BD42-D5DF43E85761}" Type="Ref">/Target/Joystick.lvlib/Button_RT</Property>
 	<Property Name="varPersistentID:{E9C7DA0E-A351-484E-8F72-B2D0B2EE2B0F}" Type="Ref">/Target/Joystick.lvlib/Button_RB</Property>
 	<Property Name="varPersistentID:{F90CC957-481C-4D32-9DCD-C7370D2E4627}" Type="Ref">/Target/Joystick.lvlib/Button_A</Property>
@@ -144,6 +154,20 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Commands/States" Type="Folder">
+			<Item Name="AquireCubeStates.ctl" Type="VI" URL="../CommandTypes/AquireCubeStates.ctl"/>
+			<Item Name="AutoCommands.ctl" Type="VI" URL="../CommandTypes/AutoCommands.ctl"/>
+			<Item Name="ClimbCommand.ctl" Type="VI" URL="../CommandTypes/ClimbCommand.ctl"/>
+			<Item Name="DriveCommands.ctl" Type="VI" URL="../CommandTypes/DriveCommands.ctl"/>
+			<Item Name="IntakeCommands.ctl" Type="VI" URL="../CommandTypes/IntakeCommands.ctl"/>
+			<Item Name="LiftCommands.ctl" Type="VI" URL="../CommandTypes/LiftCommands.ctl"/>
+		</Item>
+		<Item Name="Mechanisms" Type="Folder">
+			<Item Name="ClimbStatus.lvlib" Type="Library" URL="../SharedVarLibs/ClimbStatus.lvlib"/>
+			<Item Name="DriveStatus.lvlib" Type="Library" URL="../SharedVarLibs/DriveStatus.lvlib"/>
+			<Item Name="IntakeStatus.lvlib" Type="Library" URL="../SharedVarLibs/IntakeStatus.lvlib"/>
+			<Item Name="LiftStatus.lvlib" Type="Library" URL="../SharedVarLibs/LiftStatus.lvlib"/>
+		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
@@ -158,17 +182,9 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="AquireCubeCommands.ctl" Type="VI" URL="../CommandTypes/AquireCubeCommands.ctl"/>
 		<Item Name="Camera.lvlib" Type="Library" URL="../SharedVarLibs/Camera.lvlib"/>
-		<Item Name="ClimbStatus.lvlib" Type="Library" URL="../SharedVarLibs/ClimbStatus.lvlib"/>
-		<Item Name="DriveDevRef.lvlib" Type="Library" URL="../SharedVarLibs/DriveDevRef.lvlib"/>
-		<Item Name="DriveStatus.lvlib" Type="Library" URL="../SharedVarLibs/DriveStatus.lvlib"/>
-		<Item Name="IMU.lvlib" Type="Library" URL="../SharedVarLibs/IMU.lvlib"/>
-		<Item Name="IntakeStatus.lvlib" Type="Library" URL="../SharedVarLibs/IntakeStatus.lvlib"/>
+		<Item Name="DevRefs.lvlib" Type="Library" URL="../SharedVarLibs/DevRefs.lvlib"/>
 		<Item Name="Joystick.lvlib" Type="Library" URL="../SharedVarLibs/Joystick.lvlib"/>
-		<Item Name="LiftStatus.lvlib" Type="Library" URL="../SharedVarLibs/LiftStatus.lvlib"/>
-		<Item Name="Notifiers.lvlib" Type="Library" URL="../SharedVarLibs/Notifiers.lvlib"/>
-		<Item Name="QCP.lvlib" Type="Library" URL="../SharedVarLibs/QCP.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -244,6 +260,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Sensor_Cluster.ctl"/>
 				<Item Name="Setup State.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Setup State.ctl"/>
 				<Item Name="Signal_Pulse.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Signal_Pulse.vi"/>
+				<Item Name="Soft_Stop_2017.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Motion_Control/Soft_Stop_2017.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Status.vi"/>
 				<Item Name="Tank_2_Motor.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/Tank_2_Motor.vi"/>
 				<Item Name="Tank_4_Motor.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/Tank_4_Motor.vi"/>
@@ -251,6 +268,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Tank_Allowed_Commands.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/Tank_Allowed_Commands.vi"/>
 				<Item Name="TankCommandProcess.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/TankCommandProcess.vi"/>
 				<Item Name="TankDriveParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TankDriveParam.ctl"/>
+				<Item Name="Timer.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Timer.vi"/>
+				<Item Name="TimerStates.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Logic_Support/TimerStates.ctl"/>
 				<Item Name="Tol_Check.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Tol_Check.vi"/>
 				<Item Name="TurnParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TurnParam.ctl"/>
 				<Item Name="TurnToCameraParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TurnToCameraParam.ctl"/>
@@ -296,7 +315,9 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_GetDevRefData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_GetDevRefData.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Set.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
 				<Item Name="CTRE_Phoenix_MotorController_Get_Enhanced.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorController_Get_Enhanced.vi"/>
 				<Item Name="CTRE_Phoenix_MotorController_GetAnalogData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Get/CTRE_Phoenix_MotorController_GetAnalogData.vi"/>
 				<Item Name="CTRE_Phoenix_MotorController_GetBusVoltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CCI/CTRE_Phoenix_MotorController_GetBusVoltage.vi"/>
@@ -421,15 +442,11 @@ AddOutputFilter chunkFilter
 				<Item Name="Make Table Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Make Table Operation.ctl"/>
 				<Item Name="Manage Connection List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Connection List.vi"/>
 				<Item Name="Manage Dirty Field ID List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Dirty Field ID List.vi"/>
-				<Item Name="NetComm_AllianceStation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_AllianceStation.ctl"/>
 				<Item Name="NetComm_ControlWord.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_ControlWord.ctl"/>
-				<Item Name="NetComm_getAllianceStation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getAllianceStation.vi"/>
 				<Item Name="NetComm_getControlWord.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getControlWord.vi"/>
 				<Item Name="NetComm_getJoystickAxes.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickAxes.vi"/>
 				<Item Name="NetComm_getJoystickButtons.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickButtons.vi"/>
 				<Item Name="NetComm_getJoystickPOVs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickPOVs.vi"/>
-				<Item Name="NetComm_getMatchInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getMatchInfo.vi"/>
-				<Item Name="NetComm_MatchType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_MatchType.ctl"/>
 				<Item Name="NetComm_ObserveUserProgramStarting.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_ObserveUserProgramStarting.vi"/>
 				<Item Name="NetComm_SendError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_SendError.vi"/>
 				<Item Name="NetComm_SetNewDataOccurrenceReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_SetNewDataOccurrenceReference.vi"/>
@@ -634,14 +651,11 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_DigitalOutputOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputOpen.vi"/>
 				<Item Name="WPI_DigitalOutputPWMAllocator.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputPWMAllocator.vi"/>
 				<Item Name="WPI_DigitalOutputPWMRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputPWMRef.ctl"/>
-				<Item Name="WPI_DriverStationAllianceInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationAllianceInfo.ctl"/>
 				<Item Name="WPI_DriverStationCreate Lib Version File.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationCreate Lib Version File.vi"/>
 				<Item Name="WPI_DriverStationDerivedRobotMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationDerivedRobotMode.ctl"/>
-				<Item Name="WPI_DriverStationGet Alliance Info.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Alliance Info.vi"/>
 				<Item Name="WPI_DriverStationGet Robot Mode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Robot Mode.vi"/>
 				<Item Name="WPI_DriverStationGetModeAndStatusInternal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGetModeAndStatusInternal.vi"/>
 				<Item Name="WPI_DriverStationMatch Info.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationMatch Info.ctl"/>
-				<Item Name="WPI_DriverStationPositionInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationPositionInfo.ctl"/>
 				<Item Name="WPI_DriverStationReport Robot Code State.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationReport Robot Code State.vi"/>
 				<Item Name="WPI_DriverStationRobotMode2.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationRobotMode2.ctl"/>
 				<Item Name="WPI_DriverStationStart Communication.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStart Communication.vi"/>
@@ -669,14 +683,11 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_I2COpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2COpen.vi"/>
 				<Item Name="WPI_I2CRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CRead.vi"/>
 				<Item Name="WPI_I2CWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CWrite.vi"/>
-				<Item Name="WPI_JoystickArcadeMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickArcadeMapping.vi"/>
-				<Item Name="WPI_JoystickButtonSpinMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickButtonSpinMapping.vi"/>
 				<Item Name="WPI_JoystickClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickClose.vi"/>
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
 				<Item Name="WPI_JoystickDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDevRef.ctl"/>
 				<Item Name="WPI_JoystickGetValues.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetValues.vi"/>
 				<Item Name="WPI_JoystickOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickOpen.vi"/>
-				<Item Name="WPI_JoystickRatioCurveMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRatioCurveMapping.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Set.vi"/>
 				<Item Name="WPI_JoystickTankMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickTankMapping.vi"/>
@@ -741,12 +752,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_PWMSetPeriodMultiplier.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMSetPeriodMultiplier.vi"/>
 				<Item Name="WPI_PWMSetValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMSetValue.vi"/>
 				<Item Name="WPI_PWMToDigitalModule.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMToDigitalModule.vi"/>
-				<Item Name="WPI_RobotDriveArcadeDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive.vi"/>
-				<Item Name="WPI_RobotDriveArcadeDrive_ButtonSpin.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_ButtonSpin.vi"/>
-				<Item Name="WPI_RobotDriveArcadeDrive_RatioCurve.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_RatioCurve.vi"/>
-				<Item Name="WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi"/>
 				<Item Name="WPI_RobotDriveClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveClose.vi"/>
-				<Item Name="WPI_RobotDriveDelayAndUpdateSafety.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDelayAndUpdateSafety.vi"/>
 				<Item Name="WPI_RobotDriveDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDevRef.ctl"/>
 				<Item Name="WPI_RobotDriveDoesDevRefExist.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDoesDevRefExist.vi"/>
 				<Item Name="WPI_RobotDriveMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMotors.vi"/>
@@ -778,6 +784,10 @@ AddOutputFilter chunkFilter
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="LiftRotLV1.vi" Type="VI" URL="../LevelOne/LiftRotLV1.vi"/>
+			<Item Name="LiftRotLV1Enum.ctl" Type="VI" URL="../LevelOne/LiftRotLV1Enum.ctl"/>
+			<Item Name="LV1VerticalLift.vi" Type="VI" URL="../LevelOne/LV1VerticalLift.vi"/>
+			<Item Name="LV2Lift.vi" Type="VI" URL="../LevelTwo/LV2Lift.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -791,6 +801,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="VerticalEnum.ctl" Type="VI" URL="../LevelOne/VerticalEnum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
