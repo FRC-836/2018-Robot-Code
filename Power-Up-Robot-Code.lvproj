@@ -186,6 +186,7 @@ AddOutputFilter chunkFilter
 		<Item Name="DevRefs.lvlib" Type="Library" URL="../SharedVarLibs/DevRefs.lvlib"/>
 		<Item Name="Joystick.lvlib" Type="Library" URL="../SharedVarLibs/Joystick.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="StartPointToEndPoint.vi" Type="VI" URL="../AutoSupport/StartPointToEndPoint.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AngleInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/AngleInfo.ctl"/>
@@ -781,6 +782,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Intake level 1.vi" Type="VI" URL="../LevelOne/Intake level 1.vi"/>
 			<Item Name="Intake level 2.vi" Type="VI" URL="../LevelTwo/Intake level 2.vi"/>
 			<Item Name="IntakeScore Enum.ctl" Type="VI" URL="../LevelOne/IntakeScore Enum.ctl"/>
+			<Item Name="KeyPoints.ctl" Type="VI" URL="../AutoSupport/KeyPoints.ctl"/>
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
