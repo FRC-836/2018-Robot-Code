@@ -14,6 +14,8 @@ Rotational_High_Speed_Near_Limit
 Rotational_Low_Speed_Near_Limit
 Free_Rotate_Height
 Rotational_Tolerance
+#Drive
+Lift_Elevation_Scale
 
 #LiftLVL1
 Vertical_Lift_Power
