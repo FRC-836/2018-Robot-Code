@@ -76,4 +76,16 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"=!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Lift_Command" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"R&lt;1!!!"=!A!!!!!!"!&amp;M!&amp;A!)#U2P)#"/&lt;X2I;7ZH"EVB&lt;H6F&lt;!2)&lt;WVF"E&gt;S&lt;X6O:!F5&lt;S"4&gt;WFU9WA-6']A5W.B&lt;'5A4'^X$V2P)&amp;.D97RF)%VF:'FV&lt;1V5&lt;S"49W&amp;M:3");7&gt;I!!!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>

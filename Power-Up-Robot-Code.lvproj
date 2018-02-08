@@ -20,11 +20,13 @@
 	<Property Name="varPersistentID:{3A5C221B-4043-415E-81BE-5808BEB01554}" Type="Ref">/Target/Camera.lvlib/Horizontal_Offset</Property>
 	<Property Name="varPersistentID:{4766273A-7F03-4433-9DCC-633915851482}" Type="Ref">/Target/Joystick.lvlib/Button_LB</Property>
 	<Property Name="varPersistentID:{47B02E1C-2332-4A1B-BE46-D0952849D32A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Period</Property>
+	<Property Name="varPersistentID:{496D7DD0-35AF-4F95-BDEF-E4963DD09156}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift_Command</Property>
 	<Property Name="varPersistentID:{4CDE1248-E61B-4A98-B80B-EBA3D699B37B}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Cube?</Property>
 	<Property Name="varPersistentID:{535602D8-7C12-48BE-9603-16D68BFEF406}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Down</Property>
 	<Property Name="varPersistentID:{56631AD1-7C5E-46ED-BAC8-3058C522F021}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Verticle_Position</Property>
 	<Property Name="varPersistentID:{5994B984-1E5A-440D-BE26-75D9E242B941}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Right</Property>
 	<Property Name="varPersistentID:{64C5AE6A-D5CB-452C-ADD8-3F886B014E3B}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Rotational_Position</Property>
+	<Property Name="varPersistentID:{68749949-9273-47E3-8BFA-F90DE5A9C9E9}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake_Command</Property>
 	<Property Name="varPersistentID:{72E87DE9-B6A1-40BD-9810-1DD1EA34E072}" Type="Ref">/Target/DevRefs.lvlib/Intake_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{7C35AE90-4A91-483A-9CCD-0529A6A0BCA1}" Type="Ref">/Target/Joystick.lvlib/Axis_2</Property>
 	<Property Name="varPersistentID:{8733220F-45BA-4D0C-B49A-BD60FF592BED}" Type="Ref">/Target/DevRefs.lvlib/IntakeNotifier</Property>
