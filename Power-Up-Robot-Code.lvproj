@@ -159,7 +159,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Commands/States" Type="Folder">
 			<Item Name="AquireCubeStates.ctl" Type="VI" URL="../CommandTypes/AquireCubeStates.ctl"/>
 			<Item Name="AutoCommands.ctl" Type="VI" URL="../CommandTypes/AutoCommands.ctl"/>
-			<Item Name="ClimbCommand.ctl" Type="VI" URL="../CommandTypes/ClimbCommand.ctl"/>
+			<Item Name="ClimbCommands.ctl" Type="VI" URL="../CommandTypes/ClimbCommands.ctl"/>
 			<Item Name="DriveCommands.ctl" Type="VI" URL="../CommandTypes/DriveCommands.ctl"/>
 			<Item Name="IntakeCommands.ctl" Type="VI" URL="../CommandTypes/IntakeCommands.ctl"/>
 			<Item Name="LiftCommands.ctl" Type="VI" URL="../CommandTypes/LiftCommands.ctl"/>
