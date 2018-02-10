@@ -2,50 +2,80 @@
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{0505A5DF-D04D-4302-8AAB-BE105F6340BE}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Vertical_Low_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{086577EB-8C5D-4F26-9F3D-43E18EE3D31F}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Iteration Duration</Property>
 	<Property Name="varPersistentID:{12122519-D6DA-47DD-B11D-80E19523F2A2}" Type="Ref">/Target/Joystick.lvlib/Axis_3</Property>
 	<Property Name="varPersistentID:{13733B1E-2BFF-42DD-A005-ED56C20FEA07}" Type="Ref">/Target/Joystick.lvlib/Axis_1</Property>
 	<Property Name="varPersistentID:{14B1CC46-41EF-4BBE-AFC9-6259485347EE}" Type="Ref">/Target/DevRefs.lvlib/Lift_QCP_DevRef</Property>
+	<Property Name="varPersistentID:{17D02FE7-DFD1-4BD2-BD02-A7991AF1FEDF}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Rotational_High_Speed_Near_Limit</Property>
+	<Property Name="varPersistentID:{183B1398-765B-43B0-BDF0-C4703D1A12DE}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/To_Scale_Low_Desired_Height</Property>
 	<Property Name="varPersistentID:{18D783FB-C1C1-4FD3-89DD-3ABB5DEDBF07}" Type="Ref">/Target/Camera.lvlib/Valid_Target?</Property>
 	<Property Name="varPersistentID:{19DD43AA-2BA5-4FC1-B565-79A780909E1A}" Type="Ref">/Target/DevRefs.lvlib/LiftNotifiers</Property>
 	<Property Name="varPersistentID:{1A77C03D-49CD-4BEC-A6E5-651C17C1858D}" Type="Ref">/Target/Joystick.lvlib/Button_LT</Property>
+	<Property Name="varPersistentID:{1F69B375-A183-4FC1-9322-D524A4EE5DDE}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Rotational_Low_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{2033FD6F-2A31-4EE0-B3C2-AB6CDDDDC00A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/intake power out</Property>
 	<Property Name="varPersistentID:{2404CAB7-E0B7-4E84-A9B5-023D38A66AEC}" Type="Ref">/Target/DevRefs.lvlib/DriveNotifiers</Property>
+	<Property Name="varPersistentID:{244B97AE-4337-4AFF-9E42-2D4BD3714D14}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Vertical_High_Near_Limit</Property>
 	<Property Name="varPersistentID:{2D3BD628-2A81-41D0-A3D4-0FFB24705799}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Period</Property>
 	<Property Name="varPersistentID:{2DB48B0E-CCE3-4A5B-97E1-83E384071603}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Up</Property>
+	<Property Name="varPersistentID:{2EB9FBAF-D8F7-4A56-AA75-B5542D49C9DE}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Rotational_High_Near_Limit</Property>
 	<Property Name="varPersistentID:{33581120-9503-4399-816A-12390958FF70}" Type="Ref">/Target/DevRefs.lvlib/ClimbNotifiers</Property>
 	<Property Name="varPersistentID:{341E7F82-99AE-4328-8BF9-B5EBE119D6FE}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Left</Property>
 	<Property Name="varPersistentID:{3792D767-C1C0-4036-BF17-9B491CDEC4C9}" Type="Ref">/Target/DevRefs.lvlib/Drive_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{3898C03C-E291-424C-A731-5D39C9359040}" Type="Ref">/Target/Joystick.lvlib/Button_B</Property>
 	<Property Name="varPersistentID:{3A5C221B-4043-415E-81BE-5808BEB01554}" Type="Ref">/Target/Camera.lvlib/Horizontal_Offset</Property>
+	<Property Name="varPersistentID:{3F0AF386-74F1-4A43-BC7C-7721D1EA090C}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Vertical_Lift_Power</Property>
 	<Property Name="varPersistentID:{4766273A-7F03-4433-9DCC-633915851482}" Type="Ref">/Target/Joystick.lvlib/Button_LB</Property>
 	<Property Name="varPersistentID:{47B02E1C-2332-4A1B-BE46-D0952849D32A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Period</Property>
+	<Property Name="varPersistentID:{4BCA8F82-BC3F-4DEA-94E5-680FB788CE08}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Ground_Desired_Height</Property>
 	<Property Name="varPersistentID:{4CDE1248-E61B-4A98-B80B-EBA3D699B37B}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Cube?</Property>
 	<Property Name="varPersistentID:{535602D8-7C12-48BE-9603-16D68BFEF406}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Down</Property>
+	<Property Name="varPersistentID:{54C23BFC-FF4B-42AA-AFB7-B46EEDBC3149}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Lift_Tolerance</Property>
+	<Property Name="varPersistentID:{562D9BE4-5856-484B-83A1-19EFA10530B1}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/To_Scale_Medium_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{56631AD1-7C5E-46ED-BAC8-3058C522F021}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Verticle_Position</Property>
 	<Property Name="varPersistentID:{5994B984-1E5A-440D-BE26-75D9E242B941}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Right</Property>
+	<Property Name="varPersistentID:{621FF35F-8E30-4B15-8068-2A3A1A800860}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/To_Scale_Low_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{64C5AE6A-D5CB-452C-ADD8-3F886B014E3B}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Rotational_Position</Property>
+	<Property Name="varPersistentID:{695A4E47-85CC-4271-A5FE-ABEEBB468BD3}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Rotational_Free_High_Limit</Property>
 	<Property Name="varPersistentID:{72E87DE9-B6A1-40BD-9810-1DD1EA34E072}" Type="Ref">/Target/DevRefs.lvlib/Intake_QCP_DevRef</Property>
+	<Property Name="varPersistentID:{755BBA09-5388-4C59-9F33-0A22A162DF67}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Ground_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{7C35AE90-4A91-483A-9CCD-0529A6A0BCA1}" Type="Ref">/Target/Joystick.lvlib/Axis_2</Property>
+	<Property Name="varPersistentID:{8630E220-761C-44BD-BAAC-2B96A3AC64A0}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Vertical_Low_Near_Limit</Property>
+	<Property Name="varPersistentID:{866ACEE6-1738-4FA4-B7BF-8132B6934523}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Rotational_Low_Limit</Property>
+	<Property Name="varPersistentID:{8688AD8E-ED01-4D16-B0AA-1D8BBC644E63}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Rotational_Tolerance</Property>
 	<Property Name="varPersistentID:{8733220F-45BA-4D0C-B49A-BD60FF592BED}" Type="Ref">/Target/DevRefs.lvlib/IntakeNotifier</Property>
 	<Property Name="varPersistentID:{89DDC247-1253-4B2B-ABD9-E3772C9A1525}" Type="Ref">/Target/Joystick.lvlib/Button_Back</Property>
 	<Property Name="varPersistentID:{8D84DF85-E015-478F-BF0B-863C1BFFAF64}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{8FF9E381-FF51-4F3A-B4FC-5626829E7C9F}" Type="Ref">/Target/Mechanisms/ClimbStatus.lvlib/Deployed?</Property>
+	<Property Name="varPersistentID:{93636EFE-C9A8-4A57-84F5-BF18DCF7E6EC}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Rotational_Mannuel_Motor_Power</Property>
 	<Property Name="varPersistentID:{950868E3-4C19-41D6-93F8-3B692089F564}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Yaw Wind</Property>
 	<Property Name="varPersistentID:{99ADAF4E-262C-4FC8-A06F-87E0C7168D44}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Moving?</Property>
+	<Property Name="varPersistentID:{A06B544C-AE0A-40FD-AB76-48A311A653F2}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/To_Scale_Medium_Desired_Height</Property>
 	<Property Name="varPersistentID:{A34213BF-92F7-421A-A6C0-6D0F0F42F9FB}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Iteration Duration</Property>
+	<Property Name="varPersistentID:{A4936C44-78B7-42D8-B048-B221B8731BF9}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/To_Switch_Desired_Height</Property>
 	<Property Name="varPersistentID:{A56E8380-9936-4B87-A054-CFD8B2D8CE84}" Type="Ref">/Target/DevRefs.lvlib/Auto_QCP_DevRef</Property>
+	<Property Name="varPersistentID:{A752E716-9A42-40EC-8C78-20262F050540}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Rotational_High_Limit</Property>
+	<Property Name="varPersistentID:{A756B151-34B1-47AD-9ADA-8D70225F51EC}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Vertical_Mannuel_Motor_Power</Property>
+	<Property Name="varPersistentID:{A7EB9943-51BF-46DD-B688-6524C1F67A22}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Rotational_Lift_Power</Property>
 	<Property Name="varPersistentID:{AA0DB621-5CBF-42C9-917F-5EF94F761E3F}" Type="Ref">/Target/Joystick.lvlib/Button_Start</Property>
+	<Property Name="varPersistentID:{AD867066-398F-4779-A00D-B4E4267A889B}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Rotational_Low_Near_Limit</Property>
 	<Property Name="varPersistentID:{B479E6FD-B412-4618-A560-478CE3DFF700}" Type="Ref">/Target/Joystick.lvlib/Button_X</Property>
 	<Property Name="varPersistentID:{B5F31890-A966-4007-97BC-545C2F41D042}" Type="Ref">/Target/Joystick.lvlib/Button_Y</Property>
+	<Property Name="varPersistentID:{B8C46419-EA35-48C6-855A-B45B5EF51DCF}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Vertical_High_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{BED7A7A5-B2B8-49E2-96F5-1E7D7B39A456}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Finished Late? [i-1]</Property>
+	<Property Name="varPersistentID:{BFCCFA21-954E-44D2-8A84-043DD94A1E87}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/To_Scale_High_Desired_Rotation</Property>
+	<Property Name="varPersistentID:{C70B24B5-D050-4BBC-8949-099C348CE1E8}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/To_Switch_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{C929C38B-73C3-4266-AB9B-3426A05D4033}" Type="Ref">/Target/Joystick.lvlib/Axis_0</Property>
+	<Property Name="varPersistentID:{CC0DCFA0-3847-424C-B916-8D58DBDD855A}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Vertical_Low_Limit</Property>
 	<Property Name="varPersistentID:{D11BB856-5A6C-436F-BE24-586A80C6DA71}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Roll Wind</Property>
 	<Property Name="varPersistentID:{D3E956E5-A1C2-4A60-B49C-9DF28F382CC4}" Type="Ref">/Target/DevRefs.lvlib/Drive DevRef Out</Property>
 	<Property Name="varPersistentID:{D3F4A9AB-EFB9-4C0C-AE19-C2A9C56AFFC1}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Pitch Wind</Property>
 	<Property Name="varPersistentID:{E052EEE7-2728-4D69-BD42-D5DF43E85761}" Type="Ref">/Target/Joystick.lvlib/Button_RT</Property>
 	<Property Name="varPersistentID:{E9C7DA0E-A351-484E-8F72-B2D0B2EE2B0F}" Type="Ref">/Target/Joystick.lvlib/Button_RB</Property>
+	<Property Name="varPersistentID:{EC1325E8-82C3-41F4-B307-A3D2B7511A1D}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Free_Rotate_Height</Property>
+	<Property Name="varPersistentID:{F67762FF-B214-4E4E-BCB2-2C99EA41791C}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/Vertical_High_Limit</Property>
 	<Property Name="varPersistentID:{F90CC957-481C-4D32-9DCD-C7370D2E4627}" Type="Ref">/Target/Joystick.lvlib/Button_A</Property>
+	<Property Name="varPersistentID:{FE970AF6-E24D-42AD-9651-707E75D13178}" Type="Ref">/Target/QCP Shared Variables/Lift.lvlib/To_Scale_High_Desired_Height</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -168,6 +198,14 @@ AddOutputFilter chunkFilter
 			<Item Name="IntakeStatus.lvlib" Type="Library" URL="../SharedVarLibs/IntakeStatus.lvlib"/>
 			<Item Name="LiftStatus.lvlib" Type="Library" URL="../SharedVarLibs/LiftStatus.lvlib"/>
 		</Item>
+		<Item Name="QCP Shared Variables" Type="Folder">
+			<Item Name="Climb.lvlib" Type="Library" URL="../SharedVarLibs/Climb.lvlib"/>
+			<Item Name="DriveLoop.lvlib" Type="Library" URL="../SharedVarLibs/DriveLoop.lvlib"/>
+			<Item Name="Intake.lvlib" Type="Library" URL="../SharedVarLibs/Intake.lvlib"/>
+			<Item Name="Lift.lvlib" Type="Library" URL="../SharedVarLibs/Lift.lvlib"/>
+			<Item Name="SensorLoop.lvlib" Type="Library" URL="../SharedVarLibs/SensorLoop.lvlib"/>
+			<Item Name="temp.txt" Type="Document" URL="../SharedVarLibs/temp.txt"/>
+		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
@@ -234,7 +272,6 @@ AddOutputFilter chunkFilter
 				<Item Name="hmi_cheesy_drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/hmi_cheesy_drive.vi"/>
 				<Item Name="HoldPositionParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/HoldPositionParam.ctl"/>
 				<Item Name="HoldYawParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/HoldYawParam.ctl"/>
-				<Item Name="ImuDevRef.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/ImuDevRef.ctl"/>
 				<Item Name="IMUOrientGetSetRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientGetSetRefNum.vi"/>
 				<Item Name="IMUOrientOpen.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientOpen.vi"/>
 				<Item Name="IMUOrientRead.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRead.vi"/>
@@ -269,7 +306,6 @@ AddOutputFilter chunkFilter
 				<Item Name="TankCommandProcess.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/TankCommandProcess.vi"/>
 				<Item Name="TankDriveParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TankDriveParam.ctl"/>
 				<Item Name="Timer.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Timer.vi"/>
-				<Item Name="TimerStates.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Logic_Support/TimerStates.ctl"/>
 				<Item Name="Tol_Check.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Tol_Check.vi"/>
 				<Item Name="TurnParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TurnParam.ctl"/>
 				<Item Name="TurnToCameraParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TurnToCameraParam.ctl"/>
