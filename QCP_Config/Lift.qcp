@@ -28,3 +28,11 @@ Vertical_Lift_Power, 0
 Rotation_Lift_Power, 0
 Rotational_Mannuel_Motor_Power, 0
 Vertical_Mannuel_Motor_Power, 0
+Verticle_Mech_Hi, 0
+Verticle_Mech_Low, 0
+Verticle_Sensor_Low, 0
+Verticle_Sensor_Hi, 0
+Rotation_Mech_Low, 0
+Rotation_Mech_Hi, 0
+Rotation_Sensor_Hi, 0
+Rotation_Sensor_Low, 0
