@@ -249,6 +249,7 @@ AddOutputFilter chunkFilter
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/JK_Latch.vi"/>
 				<Item Name="Kiwi.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Kiwi/Kiwi.vi"/>
 				<Item Name="Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Latch.vi"/>
+				<Item Name="LinearSensorCal.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/Conversions/LinearSensorCal.vi"/>
 				<Item Name="Mechanum.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Mechanum/Mechanum.vi"/>
 				<Item Name="Open_File_Simple.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/File_Operations/Open_File_Simple.vi"/>
 				<Item Name="PidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInputs.ctl"/>
