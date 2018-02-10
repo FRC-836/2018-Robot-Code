@@ -50,6 +50,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"=!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="LiftQCP.vi" Type="VI" URL="../LiftQCP.vi"/>
 	<Item Name="Rotational_Free_High_Limit" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Real-Time Features,Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
