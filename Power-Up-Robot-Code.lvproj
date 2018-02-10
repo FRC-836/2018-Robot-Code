@@ -13,18 +13,21 @@
 	<Property Name="varPersistentID:{2404CAB7-E0B7-4E84-A9B5-023D38A66AEC}" Type="Ref">/Target/DevRefs.lvlib/DriveNotifiers</Property>
 	<Property Name="varPersistentID:{2D3BD628-2A81-41D0-A3D4-0FFB24705799}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Period</Property>
 	<Property Name="varPersistentID:{2DB48B0E-CCE3-4A5B-97E1-83E384071603}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Up</Property>
-	<Property Name="varPersistentID:{33581120-9503-4399-816A-12390958FF70}" Type="Ref">/Target/DevRefs.lvlib/ClimbNotifiers</Property>
 	<Property Name="varPersistentID:{341E7F82-99AE-4328-8BF9-B5EBE119D6FE}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Left</Property>
 	<Property Name="varPersistentID:{3792D767-C1C0-4036-BF17-9B491CDEC4C9}" Type="Ref">/Target/DevRefs.lvlib/Drive_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{3898C03C-E291-424C-A731-5D39C9359040}" Type="Ref">/Target/Joystick.lvlib/Button_B</Property>
 	<Property Name="varPersistentID:{3A5C221B-4043-415E-81BE-5808BEB01554}" Type="Ref">/Target/Camera.lvlib/Horizontal_Offset</Property>
 	<Property Name="varPersistentID:{4766273A-7F03-4433-9DCC-633915851482}" Type="Ref">/Target/Joystick.lvlib/Button_LB</Property>
 	<Property Name="varPersistentID:{47B02E1C-2332-4A1B-BE46-D0952849D32A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Period</Property>
+	<Property Name="varPersistentID:{496D7DD0-35AF-4F95-BDEF-E4963DD09156}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift_Command</Property>
 	<Property Name="varPersistentID:{4CDE1248-E61B-4A98-B80B-EBA3D699B37B}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Cube?</Property>
 	<Property Name="varPersistentID:{535602D8-7C12-48BE-9603-16D68BFEF406}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Down</Property>
 	<Property Name="varPersistentID:{56631AD1-7C5E-46ED-BAC8-3058C522F021}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Verticle_Position</Property>
 	<Property Name="varPersistentID:{5994B984-1E5A-440D-BE26-75D9E242B941}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Right</Property>
 	<Property Name="varPersistentID:{64C5AE6A-D5CB-452C-ADD8-3F886B014E3B}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Rotational_Position</Property>
+	<Property Name="varPersistentID:{68749949-9273-47E3-8BFA-F90DE5A9C9E9}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake_Command</Property>
+	<Property Name="varPersistentID:{6A64DB5E-60A1-4E20-BD1D-9582DF121AD1}" Type="Ref">/Target/DevRefs.lvlib/LeftClimbNotifier</Property>
+	<Property Name="varPersistentID:{6B6A0067-0968-4EA9-97B7-5EBA0E0265C6}" Type="Ref">/Target/DevRefs.lvlib/RightClimbNotifier</Property>
 	<Property Name="varPersistentID:{72E87DE9-B6A1-40BD-9810-1DD1EA34E072}" Type="Ref">/Target/DevRefs.lvlib/Intake_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{7C35AE90-4A91-483A-9CCD-0529A6A0BCA1}" Type="Ref">/Target/Joystick.lvlib/Axis_2</Property>
 	<Property Name="varPersistentID:{8733220F-45BA-4D0C-B49A-BD60FF592BED}" Type="Ref">/Target/DevRefs.lvlib/IntakeNotifier</Property>
@@ -36,6 +39,7 @@
 	<Property Name="varPersistentID:{A34213BF-92F7-421A-A6C0-6D0F0F42F9FB}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Iteration Duration</Property>
 	<Property Name="varPersistentID:{A56E8380-9936-4B87-A054-CFD8B2D8CE84}" Type="Ref">/Target/DevRefs.lvlib/Auto_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{AA0DB621-5CBF-42C9-917F-5EF94F761E3F}" Type="Ref">/Target/Joystick.lvlib/Button_Start</Property>
+	<Property Name="varPersistentID:{AC09508E-3277-4A16-88D5-825DE98B298E}" Type="Ref">/Target/DevRefs.lvlib/Sensor_QCP_DevRef_Out</Property>
 	<Property Name="varPersistentID:{B479E6FD-B412-4618-A560-478CE3DFF700}" Type="Ref">/Target/Joystick.lvlib/Button_X</Property>
 	<Property Name="varPersistentID:{B5F31890-A966-4007-97BC-545C2F41D042}" Type="Ref">/Target/Joystick.lvlib/Button_Y</Property>
 	<Property Name="varPersistentID:{BED7A7A5-B2B8-49E2-96F5-1E7D7B39A456}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Finished Late? [i-1]</Property>
@@ -157,7 +161,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Commands/States" Type="Folder">
 			<Item Name="AquireCubeStates.ctl" Type="VI" URL="../CommandTypes/AquireCubeStates.ctl"/>
 			<Item Name="AutoCommands.ctl" Type="VI" URL="../CommandTypes/AutoCommands.ctl"/>
-			<Item Name="ClimbCommand.ctl" Type="VI" URL="../CommandTypes/ClimbCommand.ctl"/>
+			<Item Name="ClimbCommands.ctl" Type="VI" URL="../CommandTypes/ClimbCommands.ctl"/>
 			<Item Name="DriveCommands.ctl" Type="VI" URL="../CommandTypes/DriveCommands.ctl"/>
 			<Item Name="IntakeCommands.ctl" Type="VI" URL="../CommandTypes/IntakeCommands.ctl"/>
 			<Item Name="LiftCommands.ctl" Type="VI" URL="../CommandTypes/LiftCommands.ctl"/>
@@ -190,6 +194,7 @@ AddOutputFilter chunkFilter
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AngleInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/AngleInfo.ctl"/>
 				<Item Name="ApproachCameraParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/ApproachCameraParam.ctl"/>
+				<Item Name="Begins_With.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/String_Functions/Begins_With.vi"/>
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Camera_Cluster.ctl"/>
 				<Item Name="CheesyDriveParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/CheesyDriveParam.ctl"/>
 				<Item Name="CmdFinishedTypes.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/CmdFinishedTypes.ctl"/>
@@ -197,6 +202,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Command_Tolerances.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Command_Tolerances.ctl"/>
 				<Item Name="Create_Drive_Train_Base.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Create_Drive_Train_Base.vi"/>
 				<Item Name="CreateDriveTrain.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/CreateDriveTrain.vi"/>
+				<Item Name="De-Commentify.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/File_Operations/De-Commentify.vi"/>
 				<Item Name="DistanceInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/DistanceInfo.ctl"/>
 				<Item Name="Drive_Cmd_Approach_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Drive_Cmd_Approach_Camera.vi"/>
 				<Item Name="Drive_Cmd_Cheesey_Drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Drive_Cmd_Cheesey_Drive.vi"/>
@@ -243,7 +249,9 @@ AddOutputFilter chunkFilter
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/JK_Latch.vi"/>
 				<Item Name="Kiwi.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Kiwi/Kiwi.vi"/>
 				<Item Name="Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Latch.vi"/>
+				<Item Name="LinearSensorCal.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/Conversions/LinearSensorCal.vi"/>
 				<Item Name="Mechanum.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Mechanum/Mechanum.vi"/>
+				<Item Name="Open_File_Simple.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/File_Operations/Open_File_Simple.vi"/>
 				<Item Name="PidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInputs.ctl"/>
 				<Item Name="PidInversions.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInversions.ctl"/>
 				<Item Name="PidRange.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidRange.ctl"/>
@@ -251,6 +259,7 @@ AddOutputFilter chunkFilter
 				<Item Name="QCP_GetDbl.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCPSupportCode/QCP_GetDbl.vi"/>
 				<Item Name="QCP_GetDblArr.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCPSupportCode/QCP_GetDblArr.vi"/>
 				<Item Name="QCP_Open.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCP_Open.vi"/>
+				<Item Name="QCP_ReadFile.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCP_ReadFile.vi"/>
 				<Item Name="QCP_RefNum.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCPSupportCode/QCP_RefNum.ctl"/>
 				<Item Name="QCP_TuningModeSet.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCP_TuningModeSet.vi"/>
 				<Item Name="QCP_WriteFile.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCP_WriteFile.vi"/>
@@ -261,6 +270,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Setup State.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Setup State.ctl"/>
 				<Item Name="Signal_Pulse.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Signal_Pulse.vi"/>
 				<Item Name="Soft_Stop_2017.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Motion_Control/Soft_Stop_2017.vi"/>
+				<Item Name="Split_String.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/String_Functions/Split_String.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Status.vi"/>
 				<Item Name="Tank_2_Motor.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/Tank_2_Motor.vi"/>
 				<Item Name="Tank_4_Motor.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/Tank_4_Motor.vi"/>
@@ -463,6 +473,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="Normalize End Of Line.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Normalize End Of Line.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="NT Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Event Type.ctl"/>
 				<Item Name="NT Format Generic  to Config String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Format Generic  to Config String.vi"/>
