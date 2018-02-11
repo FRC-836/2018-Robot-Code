@@ -1,0 +1,18 @@
+pid output for lift needs negated
+PID: p: .0001 I: 0 D: 0
+  out high: 0.9
+  out low: -0.9
+
+  
+soft stops
+  limits
+    hi: 24000
+    lo: 1200
+  near limits
+    hi: 4000
+    lo: 3000
+  near speeds
+    hi: 0.15
+    lo: 0.15
+  motor coerce: 0.75
+  correlation: false
