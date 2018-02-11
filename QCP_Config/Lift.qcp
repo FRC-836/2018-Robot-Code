@@ -36,7 +36,7 @@ Rotation_Mech_Low, 0
 Rotation_Mech_Hi, 0
 Rotation_Sensor_Hi, 0
 Rotation_Sensor_Low, 0
-Rotational_PID_Dains, 0
+Rotational_PID_Gains, 0
 Rotational_PID_Output_Range, 0
 Verticle_PID_Gains, 0
 Verticle_PID_Output_Range, 0
