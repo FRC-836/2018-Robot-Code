@@ -20,6 +20,7 @@
 	<Property Name="varPersistentID:{13733B1E-2BFF-42DD-A005-ED56C20FEA07}" Type="Ref">/Target/Joystick.lvlib/Axis_1</Property>
 	<Property Name="varPersistentID:{14B1CC46-41EF-4BBE-AFC9-6259485347EE}" Type="Ref">/Target/DevRefs.lvlib/Lift_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{15028B7E-EC3C-4D59-AF27-1A0A9F564070}" Type="Ref">/Target/QCP/Lift.lvlib/To_Switch_Desired_Rotation_Tuning</Property>
+	<Property Name="varPersistentID:{15957CC3-AEF9-4E3C-BA10-DCE8A5B69C25}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Rotation_Tuning</Property>
 	<Property Name="varPersistentID:{16541A85-D6E0-497E-8BBC-1651868E0154}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Low_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{18D783FB-C1C1-4FD3-89DD-3ABB5DEDBF07}" Type="Ref">/Target/Camera.lvlib/Valid_Target?</Property>
 	<Property Name="varPersistentID:{19DD43AA-2BA5-4FC1-B565-79A780909E1A}" Type="Ref">/Target/DevRefs.lvlib/LiftNotifiers</Property>
@@ -81,6 +82,7 @@
 	<Property Name="varPersistentID:{700D85A6-0768-464D-807A-D13EAB2DCE1F}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Center_On_Cube_Tolerance_Tuning</Property>
 	<Property Name="varPersistentID:{72A2AE03-650A-4C3C-9FB1-8FCF6358462B}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Lift_Power_Tuning</Property>
 	<Property Name="varPersistentID:{72E87DE9-B6A1-40BD-9810-1DD1EA34E072}" Type="Ref">/Target/DevRefs.lvlib/Intake_QCP_DevRef</Property>
+	<Property Name="varPersistentID:{774061F2-3566-431C-8C07-2507A7E940F5}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Height_Tuning</Property>
 	<Property Name="varPersistentID:{77E5573B-F821-4877-AB93-E5CCC47B0EE6}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Free_High_Limit</Property>
 	<Property Name="varPersistentID:{798987C9-F49F-4947-B5F3-CD1F7E18F407}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Low_Desired_Height</Property>
 	<Property Name="varPersistentID:{7AEFD38C-AD7C-4973-908C-491080B24EB9}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Yaw_Driving_Straight_PID_Gains_Tuning</Property>
@@ -118,6 +120,7 @@
 	<Property Name="varPersistentID:{ADC8D5F4-F95A-423B-B127-0B3C485CE088}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Sensor_Low</Property>
 	<Property Name="varPersistentID:{AE3192D4-6DF3-4BEE-A873-0963CD7E0290}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Yaw_Holding_Still_PID_Gains</Property>
 	<Property Name="varPersistentID:{AE49CB6D-7FAC-4338-B25A-5E6202710325}" Type="Ref">/Target/QCP/Lift.lvlib/To_Switch_Desired_Height</Property>
+	<Property Name="varPersistentID:{AF79D593-1204-4457-A756-F9866E455251}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Height</Property>
 	<Property Name="varPersistentID:{B0FC1BBB-BA5C-411B-BA22-04D4861BB195}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_High_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{B111D108-F3BC-4031-ADB1-FFC6ACF96115}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Sensor_Low</Property>
 	<Property Name="varPersistentID:{B308984A-8550-4E9F-A3FF-78E51FDCCDE2}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Sensor_Hi</Property>
@@ -144,6 +147,7 @@
 	<Property Name="varPersistentID:{D3F4A9AB-EFB9-4C0C-AE19-C2A9C56AFFC1}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Pitch Wind</Property>
 	<Property Name="varPersistentID:{D61F2A6E-2396-4AAD-BA93-FE25131B7901}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Low_Speed_Near_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{DB8AAF96-B5D5-46FB-8093-24B0AF7421A7}" Type="Ref">/Target/QCP/Lift.lvlib/Lift_Tolerance_Tuning</Property>
+	<Property Name="varPersistentID:{E006DEDC-948C-4D99-B711-968FD6C748B1}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{E052EEE7-2728-4D69-BD42-D5DF43E85761}" Type="Ref">/Target/Joystick.lvlib/Button_RT</Property>
 	<Property Name="varPersistentID:{E1C2C66C-C992-4644-B2A0-79BB4C749DA5}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Low_Limit</Property>
 	<Property Name="varPersistentID:{E22AB930-6343-42DD-8B2C-462471AFF431}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Medium_Desired_Height_Tuning</Property>
