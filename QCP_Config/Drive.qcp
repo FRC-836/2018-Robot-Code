@@ -2,3 +2,6 @@ Yaw_Driving_Straight_PID_Gains, 0
 Yaw_Holding_Still_PID_Gains, 0
 Distance_Driving_Straight_PID_Gains, 0
 Distance_Holding_Still_PID_Gains, 0
+Center_On_Cube_Tolerance, 0
+Acquire_Cube_Speed, 0
+Center_Speed, 0
