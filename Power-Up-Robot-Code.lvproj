@@ -23,13 +23,13 @@
 	<Property Name="varPersistentID:{15957CC3-AEF9-4E3C-BA10-DCE8A5B69C25}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Rotation_Tuning</Property>
 	<Property Name="varPersistentID:{16541A85-D6E0-497E-8BBC-1651868E0154}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Low_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{18D783FB-C1C1-4FD3-89DD-3ABB5DEDBF07}" Type="Ref">/Target/Camera.lvlib/Valid_Target?</Property>
-	<Property Name="varPersistentID:{19DD43AA-2BA5-4FC1-B565-79A780909E1A}" Type="Ref">/Target/DevRefs.lvlib/LiftNotifiers</Property>
 	<Property Name="varPersistentID:{1A77C03D-49CD-4BEC-A6E5-651C17C1858D}" Type="Ref">/Target/Joystick.lvlib/Button_LT</Property>
 	<Property Name="varPersistentID:{1BCB8367-120D-4EDF-B921-3C84B8EB602A}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Near_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{2033FD6F-2A31-4EE0-B3C2-AB6CDDDDC00A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/intake power out</Property>
-	<Property Name="varPersistentID:{2404CAB7-E0B7-4E84-A9B5-023D38A66AEC}" Type="Ref">/Target/DevRefs.lvlib/DriveNotifiers</Property>
+	<Property Name="varPersistentID:{24E2D352-CAD6-4B14-B82E-36E3C50306F7}" Type="Ref">/Target/DevRefs.lvlib/IntakeNotifier</Property>
 	<Property Name="varPersistentID:{263A46E4-7182-40A5-8483-46CC7E8A2E33}" Type="Ref">/Target/QCP/Climb.lvlib/Climb_Deploy_Angle_Tuning</Property>
 	<Property Name="varPersistentID:{27ECDA34-3C08-4A2A-B59B-F6A82E898BEC}" Type="Ref">/Target/QCP/Lift.lvlib/Lift_Tolerance</Property>
+	<Property Name="varPersistentID:{2ADF8F2C-262B-4423-A8DD-F3A4B9A0AF64}" Type="Ref">/Target/DevRefs.lvlib/LiftNotifier</Property>
 	<Property Name="varPersistentID:{2BEF32BF-5388-4E2D-902B-CFAFB112412E}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Free_High_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{2D3BD628-2A81-41D0-A3D4-0FFB24705799}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Period</Property>
 	<Property Name="varPersistentID:{2DB48B0E-CCE3-4A5B-97E1-83E384071603}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Up</Property>
@@ -73,9 +73,8 @@
 	<Property Name="varPersistentID:{61430428-37EA-44A7-9F57-A497EA128EDB}" Type="Ref">/Target/QCP/Climb.lvlib/Climb_Motor_Power</Property>
 	<Property Name="varPersistentID:{640DCFAC-7E31-4BD9-9C7D-7847B6B2F6BC}" Type="Ref">/Target/QCP/Lift.lvlib/Ground_Desired_Height</Property>
 	<Property Name="varPersistentID:{64C5AE6A-D5CB-452C-ADD8-3F886B014E3B}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Rotational_Position</Property>
+	<Property Name="varPersistentID:{6630729D-4457-4097-B767-C14C8A850088}" Type="Ref">/Target/DevRefs.lvlib/RightClimbNotifier</Property>
 	<Property Name="varPersistentID:{68749949-9273-47E3-8BFA-F90DE5A9C9E9}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake_Command</Property>
-	<Property Name="varPersistentID:{6A64DB5E-60A1-4E20-BD1D-9582DF121AD1}" Type="Ref">/Target/DevRefs.lvlib/LeftClimbNotifier</Property>
-	<Property Name="varPersistentID:{6B6A0067-0968-4EA9-97B7-5EBA0E0265C6}" Type="Ref">/Target/DevRefs.lvlib/RightClimbNotifier</Property>
 	<Property Name="varPersistentID:{6BBB2247-A571-44A8-9545-EA0B05242EEF}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Holding_Still_PID_Gains</Property>
 	<Property Name="varPersistentID:{6CBD2C7D-BD77-4500-8ED7-8016887CDE1C}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/LiftTuningMode</Property>
 	<Property Name="varPersistentID:{6F84E6A8-9630-4006-9566-B99A5FE9D59F}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Mech_Hi</Property>
@@ -95,10 +94,10 @@
 	<Property Name="varPersistentID:{85E25265-8B01-41CB-B2C7-631AF529728B}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Driving_PID_Gains_Tuning</Property>
 	<Property Name="varPersistentID:{86079383-61CF-495D-84D9-5E0FA41C40D7}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{8700880B-4475-4A10-BF11-4E22E594C7BD}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Acquire_Cube_Speed</Property>
-	<Property Name="varPersistentID:{8733220F-45BA-4D0C-B49A-BD60FF592BED}" Type="Ref">/Target/DevRefs.lvlib/IntakeNotifier</Property>
 	<Property Name="varPersistentID:{88F5D3AF-878C-4539-80DF-6B2F21A6433A}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Manual_Motor_Power</Property>
 	<Property Name="varPersistentID:{8905642A-FB99-41B9-897A-2AC768D73714}" Type="Ref">/Target/QCP/Lift.lvlib/Ground_Desired_Rotation_Tuning</Property>
 	<Property Name="varPersistentID:{89DDC247-1253-4B2B-ABD9-E3772C9A1525}" Type="Ref">/Target/Joystick.lvlib/Button_Back</Property>
+	<Property Name="varPersistentID:{8B54D74D-7D85-48DA-8024-652FCC40491E}" Type="Ref">/Target/DevRefs.lvlib/LeftClimbNotifier</Property>
 	<Property Name="varPersistentID:{8D84DF85-E015-478F-BF0B-863C1BFFAF64}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{8FF9E381-FF51-4F3A-B4FC-5626829E7C9F}" Type="Ref">/Target/Mechanisms/ClimbStatus.lvlib/Deployed?</Property>
 	<Property Name="varPersistentID:{904D878F-D853-4E09-8F85-3CE13F42CC3E}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Low_Near_Limit_Tuning</Property>
@@ -123,6 +122,7 @@
 	<Property Name="varPersistentID:{AF79D593-1204-4457-A756-F9866E455251}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Height</Property>
 	<Property Name="varPersistentID:{B0FC1BBB-BA5C-411B-BA22-04D4861BB195}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_High_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{B111D108-F3BC-4031-ADB1-FFC6ACF96115}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Sensor_Low</Property>
+	<Property Name="varPersistentID:{B156DAFB-AEA7-4288-943E-DB986170BD51}" Type="Ref">/Target/DevRefs.lvlib/DriveNotifier</Property>
 	<Property Name="varPersistentID:{B308984A-8550-4E9F-A3FF-78E51FDCCDE2}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Sensor_Hi</Property>
 	<Property Name="varPersistentID:{B479E6FD-B412-4618-A560-478CE3DFF700}" Type="Ref">/Target/Joystick.lvlib/Button_X</Property>
 	<Property Name="varPersistentID:{B5F31890-A966-4007-97BC-545C2F41D042}" Type="Ref">/Target/Joystick.lvlib/Button_Y</Property>
@@ -133,6 +133,7 @@
 	<Property Name="varPersistentID:{BFCFB74E-E02C-42E5-8302-0FB2E8381766}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Low_Near_Limit</Property>
 	<Property Name="varPersistentID:{BFEFA428-C20E-435B-B918-DDFC9C7A6063}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_High_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{C2742F89-8F3C-45C0-B030-371007008648}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Center_Speed_Tuning</Property>
+	<Property Name="varPersistentID:{C2F88FAE-B9F8-44BD-9464-7EF051486D64}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Yaw</Property>
 	<Property Name="varPersistentID:{C450A8DB-73C8-426A-A2B8-49CF009EAFF2}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{C4771078-D343-4A06-BE91-90956DB67484}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Medium_Desired_Rotation_Tuning</Property>
 	<Property Name="varPersistentID:{C4FF5B57-FB30-4D40-BBC8-E05BC42DC357}" Type="Ref">/Target/QCP/Lift.lvlib/Free_Rotate_Height</Property>
@@ -140,6 +141,7 @@
 	<Property Name="varPersistentID:{C6D8F916-B0C9-4128-BB00-D7495F1FF2C1}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Mech_Low_Tuning</Property>
 	<Property Name="varPersistentID:{C929C38B-73C3-4266-AB9B-3426A05D4033}" Type="Ref">/Target/Joystick.lvlib/Axis_0</Property>
 	<Property Name="varPersistentID:{CAF8F2C3-D9B3-4730-9ACC-A2A9F1186680}" Type="Ref">/Target/QCP/Intake.lvlib/Intake_Motor_Power_Tuning</Property>
+	<Property Name="varPersistentID:{CDF8A928-779F-48E6-9EBF-BE6E2DB4166F}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Pitch</Property>
 	<Property Name="varPersistentID:{D1068074-0EE4-42C7-810B-E2D5B76D8079}" Type="Ref">/Target/QCP/Lift.lvlib/Ground_Desired_Height_Tuning</Property>
 	<Property Name="varPersistentID:{D11BB856-5A6C-436F-BE24-586A80C6DA71}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Roll Wind</Property>
 	<Property Name="varPersistentID:{D1E18414-2D36-4F00-8CE5-C09DE43E6A2B}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Near_Limit</Property>
@@ -154,6 +156,7 @@
 	<Property Name="varPersistentID:{E93C6369-887C-4CDB-B953-5AAF653B6777}" Type="Ref">/Target/QCP/Climb.lvlib/Climb_Deploy_Angle</Property>
 	<Property Name="varPersistentID:{E9C7DA0E-A351-484E-8F72-B2D0B2EE2B0F}" Type="Ref">/Target/Joystick.lvlib/Button_RB</Property>
 	<Property Name="varPersistentID:{EAFD87C3-9796-4289-AAB1-20B7394976F6}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Tolerance_Tuning</Property>
+	<Property Name="varPersistentID:{F33E776E-5FE3-4A12-93B7-ACBD7ABAEFF1}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Roll</Property>
 	<Property Name="varPersistentID:{F49D6D4A-A735-422A-A400-FC471B87AB06}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Center_Speed</Property>
 	<Property Name="varPersistentID:{F90CC957-481C-4D32-9DCD-C7370D2E4627}" Type="Ref">/Target/Joystick.lvlib/Button_A</Property>
 	<Property Name="varPersistentID:{FE9ED7E1-CC6B-4B9E-AB72-208E9FF2F2A0}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Low_Desired_Height_Tuning</Property>
@@ -507,6 +510,9 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_DIOReadMXPSpecialFunction.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadMXPSpecialFunction.vi"/>
 				<Item Name="FPGA_DIOReadOutputEnable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadOutputEnable.vi"/>
 				<Item Name="FPGA_DIOReadPWMValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadPWMValue.vi"/>
+				<Item Name="FPGA_DIOReadSlowValueRelayFwd.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadSlowValueRelayFwd.vi"/>
+				<Item Name="FPGA_DIOReadSlowValueRelayRev.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadSlowValueRelayRev.vi"/>
+				<Item Name="FPGA_DIORelayChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIORelayChannel.ctl"/>
 				<Item Name="FPGA_DIOWriteDO_PWMConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteDO_PWMConfig.vi"/>
 				<Item Name="FPGA_DIOWriteDO_PWMDutyCycle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteDO_PWMDutyCycle.vi"/>
 				<Item Name="FPGA_DIOWriteMXPSpecialFunction.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteMXPSpecialFunction.vi"/>
@@ -566,6 +572,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Make Table Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Make Table Operation.ctl"/>
 				<Item Name="Manage Connection List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Connection List.vi"/>
 				<Item Name="Manage Dirty Field ID List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Dirty Field ID List.vi"/>
+				<Item Name="NetComm_CAN_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_Receive.vi"/>
+				<Item Name="NetComm_CAN_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_Send.vi"/>
 				<Item Name="NetComm_ControlWord.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_ControlWord.ctl"/>
 				<Item Name="NetComm_getControlWord.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getControlWord.vi"/>
 				<Item Name="NetComm_getJoystickAxes.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getJoystickAxes.vi"/>
@@ -733,6 +741,14 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CameraWait for Raw Image String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraWait for Raw Image String.vi"/>
 				<Item Name="WPI_CameraWhite Balance Values.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraWhite Balance Values.ctl"/>
 				<Item Name="WPI_CameraWhiteBalanceConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/WPI_CameraWhiteBalanceConstants.vi"/>
+				<Item Name="WPI_CAN_PDPCommands.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPCommands.ctl"/>
+				<Item Name="WPI_CAN_PDPDecode4Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPDecode4Currents.vi"/>
+				<Item Name="WPI_CAN_PDPGetAll.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPGetAll.ctl"/>
+				<Item Name="WPI_CAN_PDPGlobal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPGlobal.vi"/>
+				<Item Name="WPI_CAN_PDPGlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPGlobalOps.ctl"/>
+				<Item Name="WPI_CAN_PDPMessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPMessageIDs.ctl"/>
+				<Item Name="WPI_CAN_PDPReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPReceive.vi"/>
+				<Item Name="WPI_CAN_PDPSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPSend.vi"/>
 				<Item Name="WPI_CounterAnalogTriggerToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterAnalogTriggerToDigitalSource.vi"/>
 				<Item Name="WPI_CounterCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterCache.vi"/>
 				<Item Name="WPI_CounterCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterCacheOp.ctl"/>
@@ -766,6 +782,8 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_DigitalModuleOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleOpen.vi"/>
 				<Item Name="WPI_DigitalModuleSetPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleSetPWM.vi"/>
 				<Item Name="WPI_DigitalModuleSetPWMPeriodScale.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleSetPWMPeriodScale.vi"/>
+				<Item Name="WPI_DigitalModuleSetRelayForward.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleSetRelayForward.vi"/>
+				<Item Name="WPI_DigitalModuleSetRelayReverse.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleSetRelayReverse.vi"/>
 				<Item Name="WPI_DigitalModuleValidateDIOChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleValidateDIOChannel.vi"/>
 				<Item Name="WPI_DigitalOutputClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputClose.vi"/>
 				<Item Name="WPI_DigitalOutputConfigurePWMRate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputConfigurePWMRate.vi"/>
@@ -797,9 +815,12 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_EncoderRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderRefNum Registry Set.vi"/>
 				<Item Name="WPI_EncoderType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderType.ctl"/>
 				<Item Name="WPI_ERRAcquireInvalidPWMChannelIdx.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_ERRAcquireInvalidPWMChannelIdx.vi"/>
+				<Item Name="WPI_ErrAllocAnInvalidRelayIdx.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_ErrAllocAnInvalidRelayIdx.vi"/>
 				<Item Name="WPI_ERREncoderAllocate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_ERREncoderAllocate.vi"/>
 				<Item Name="WPI_ERRNoFreeCounter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_ERRNoFreeCounter.vi"/>
 				<Item Name="WPI_ERRPwmChannelAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_ERRPwmChannelAllocated.vi"/>
+				<Item Name="WPI_ERRRelayAllocation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_ERRRelayAllocation.vi"/>
+				<Item Name="WPI_ERRSetOnNotAllocatedRelay.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_ERRSetOnNotAllocatedRelay.vi"/>
 				<Item Name="WPI_GetSetVariantRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_GetSetVariantRefNum.vi"/>
 				<Item Name="WPI_I2C_ERRI2CAlreadyAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2C_ERRI2CAlreadyAllocated.vi"/>
 				<Item Name="WPI_I2C_ERRInvalidI2C_Index.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2C_ERRInvalidI2C_Index.vi"/>
@@ -857,6 +878,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_MXP SPI Bus to first MXP Pin.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP SPI Bus to first MXP Pin.vi"/>
 				<Item Name="WPI_MXP_ChannelCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP_ChannelCache.vi"/>
 				<Item Name="WPI_MXP_Grab Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP_Grab Mutex.vi"/>
+				<Item Name="WPI_Power Get PDP Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Currents.vi"/>
 				<Item Name="WPI_PWMChannelCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMChannelCache.vi"/>
 				<Item Name="WPI_PWMChannelCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMChannelCacheOp.ctl"/>
 				<Item Name="WPI_PWMClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMClose.vi"/>
@@ -877,6 +899,21 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_PWMSetPeriodMultiplier.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMSetPeriodMultiplier.vi"/>
 				<Item Name="WPI_PWMSetValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMSetValue.vi"/>
 				<Item Name="WPI_PWMToDigitalModule.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMToDigitalModule.vi"/>
+				<Item Name="WPI_RelayCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayCache.vi"/>
+				<Item Name="WPI_RelayCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayCacheOp.ctl"/>
+				<Item Name="WPI_RelayDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayDevRef.ctl"/>
+				<Item Name="WPI_RelayDirection.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayDirection.ctl"/>
+				<Item Name="WPI_RelayDoesDevRefExist.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayDoesDevRefExist.vi"/>
+				<Item Name="WPI_RelayOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayOpen.vi"/>
+				<Item Name="WPI_RelayRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayRefNum Registry Get.vi"/>
+				<Item Name="WPI_RelayRefNum Registry Read Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayRefNum Registry Read Name.vi"/>
+				<Item Name="WPI_RelayRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayRefNum Registry Set.vi"/>
+				<Item Name="WPI_RelaySafetyCheck.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelaySafetyCheck.vi"/>
+				<Item Name="WPI_RelaySafetyError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelaySafetyError.vi"/>
+				<Item Name="WPI_RelaySafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelaySafetyUpdate.vi"/>
+				<Item Name="WPI_RelaySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelaySet.vi"/>
+				<Item Name="WPI_RelaySetArraysInCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelaySetArraysInCache.vi"/>
+				<Item Name="WPI_RelayValue.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayValue.ctl"/>
 				<Item Name="WPI_RobotDriveClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveClose.vi"/>
 				<Item Name="WPI_RobotDriveDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDevRef.ctl"/>
 				<Item Name="WPI_RobotDriveDoesDevRefExist.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDoesDevRefExist.vi"/>
