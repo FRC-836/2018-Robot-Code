@@ -29,3 +29,8 @@ Verticle_Mech_Hi, 0
 Verticle_Mech_Low, 24.1875
 Verticle_Sensor_Hi, 26537
 Verticle_Sensor_Low, 587
+Brake_Engage_Time_Sec, .2
+Brake_Servo_Engage_Angle, 0
+Brake_Servo_Disengage_Angle, 0.2
+Rotation_Setpoint_Limit, 2000
+Rotation_Feed_Forward, -0.126041
