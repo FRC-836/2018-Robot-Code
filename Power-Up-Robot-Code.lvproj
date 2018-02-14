@@ -23,13 +23,13 @@
 	<Property Name="varPersistentID:{15957CC3-AEF9-4E3C-BA10-DCE8A5B69C25}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Rotation_Tuning</Property>
 	<Property Name="varPersistentID:{16541A85-D6E0-497E-8BBC-1651868E0154}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Low_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{18D783FB-C1C1-4FD3-89DD-3ABB5DEDBF07}" Type="Ref">/Target/Camera.lvlib/Valid_Target?</Property>
-	<Property Name="varPersistentID:{19DD43AA-2BA5-4FC1-B565-79A780909E1A}" Type="Ref">/Target/DevRefs.lvlib/LiftNotifiers</Property>
 	<Property Name="varPersistentID:{1A77C03D-49CD-4BEC-A6E5-651C17C1858D}" Type="Ref">/Target/Joystick.lvlib/Button_LT</Property>
 	<Property Name="varPersistentID:{1BCB8367-120D-4EDF-B921-3C84B8EB602A}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Near_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{2033FD6F-2A31-4EE0-B3C2-AB6CDDDDC00A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/intake power out</Property>
-	<Property Name="varPersistentID:{2404CAB7-E0B7-4E84-A9B5-023D38A66AEC}" Type="Ref">/Target/DevRefs.lvlib/DriveNotifiers</Property>
+	<Property Name="varPersistentID:{24E2D352-CAD6-4B14-B82E-36E3C50306F7}" Type="Ref">/Target/DevRefs.lvlib/IntakeNotifier</Property>
 	<Property Name="varPersistentID:{263A46E4-7182-40A5-8483-46CC7E8A2E33}" Type="Ref">/Target/QCP/Climb.lvlib/Climb_Deploy_Angle_Tuning</Property>
 	<Property Name="varPersistentID:{27ECDA34-3C08-4A2A-B59B-F6A82E898BEC}" Type="Ref">/Target/QCP/Lift.lvlib/Lift_Tolerance</Property>
+	<Property Name="varPersistentID:{2ADF8F2C-262B-4423-A8DD-F3A4B9A0AF64}" Type="Ref">/Target/DevRefs.lvlib/LiftNotifier</Property>
 	<Property Name="varPersistentID:{2BEF32BF-5388-4E2D-902B-CFAFB112412E}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Free_High_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{2D3BD628-2A81-41D0-A3D4-0FFB24705799}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Period</Property>
 	<Property Name="varPersistentID:{2DB48B0E-CCE3-4A5B-97E1-83E384071603}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Up</Property>
@@ -73,9 +73,8 @@
 	<Property Name="varPersistentID:{61430428-37EA-44A7-9F57-A497EA128EDB}" Type="Ref">/Target/QCP/Climb.lvlib/Climb_Motor_Power</Property>
 	<Property Name="varPersistentID:{640DCFAC-7E31-4BD9-9C7D-7847B6B2F6BC}" Type="Ref">/Target/QCP/Lift.lvlib/Ground_Desired_Height</Property>
 	<Property Name="varPersistentID:{64C5AE6A-D5CB-452C-ADD8-3F886B014E3B}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Rotational_Position</Property>
+	<Property Name="varPersistentID:{6630729D-4457-4097-B767-C14C8A850088}" Type="Ref">/Target/DevRefs.lvlib/RightClimbNotifier</Property>
 	<Property Name="varPersistentID:{68749949-9273-47E3-8BFA-F90DE5A9C9E9}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake_Command</Property>
-	<Property Name="varPersistentID:{6A64DB5E-60A1-4E20-BD1D-9582DF121AD1}" Type="Ref">/Target/DevRefs.lvlib/LeftClimbNotifier</Property>
-	<Property Name="varPersistentID:{6B6A0067-0968-4EA9-97B7-5EBA0E0265C6}" Type="Ref">/Target/DevRefs.lvlib/RightClimbNotifier</Property>
 	<Property Name="varPersistentID:{6BBB2247-A571-44A8-9545-EA0B05242EEF}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Holding_Still_PID_Gains</Property>
 	<Property Name="varPersistentID:{6CBD2C7D-BD77-4500-8ED7-8016887CDE1C}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/LiftTuningMode</Property>
 	<Property Name="varPersistentID:{6F84E6A8-9630-4006-9566-B99A5FE9D59F}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Mech_Hi</Property>
@@ -95,10 +94,10 @@
 	<Property Name="varPersistentID:{85E25265-8B01-41CB-B2C7-631AF529728B}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Driving_PID_Gains_Tuning</Property>
 	<Property Name="varPersistentID:{86079383-61CF-495D-84D9-5E0FA41C40D7}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{8700880B-4475-4A10-BF11-4E22E594C7BD}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Acquire_Cube_Speed</Property>
-	<Property Name="varPersistentID:{8733220F-45BA-4D0C-B49A-BD60FF592BED}" Type="Ref">/Target/DevRefs.lvlib/IntakeNotifier</Property>
 	<Property Name="varPersistentID:{88F5D3AF-878C-4539-80DF-6B2F21A6433A}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Manual_Motor_Power</Property>
 	<Property Name="varPersistentID:{8905642A-FB99-41B9-897A-2AC768D73714}" Type="Ref">/Target/QCP/Lift.lvlib/Ground_Desired_Rotation_Tuning</Property>
 	<Property Name="varPersistentID:{89DDC247-1253-4B2B-ABD9-E3772C9A1525}" Type="Ref">/Target/Joystick.lvlib/Button_Back</Property>
+	<Property Name="varPersistentID:{8B54D74D-7D85-48DA-8024-652FCC40491E}" Type="Ref">/Target/DevRefs.lvlib/LeftClimbNotifier</Property>
 	<Property Name="varPersistentID:{8D84DF85-E015-478F-BF0B-863C1BFFAF64}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{8FF9E381-FF51-4F3A-B4FC-5626829E7C9F}" Type="Ref">/Target/Mechanisms/ClimbStatus.lvlib/Deployed?</Property>
 	<Property Name="varPersistentID:{904D878F-D853-4E09-8F85-3CE13F42CC3E}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Low_Near_Limit_Tuning</Property>
@@ -123,6 +122,7 @@
 	<Property Name="varPersistentID:{AF79D593-1204-4457-A756-F9866E455251}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Height</Property>
 	<Property Name="varPersistentID:{B0FC1BBB-BA5C-411B-BA22-04D4861BB195}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_High_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{B111D108-F3BC-4031-ADB1-FFC6ACF96115}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Sensor_Low</Property>
+	<Property Name="varPersistentID:{B156DAFB-AEA7-4288-943E-DB986170BD51}" Type="Ref">/Target/DevRefs.lvlib/DriveNotifier</Property>
 	<Property Name="varPersistentID:{B308984A-8550-4E9F-A3FF-78E51FDCCDE2}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Sensor_Hi</Property>
 	<Property Name="varPersistentID:{B479E6FD-B412-4618-A560-478CE3DFF700}" Type="Ref">/Target/Joystick.lvlib/Button_X</Property>
 	<Property Name="varPersistentID:{B5F31890-A966-4007-97BC-545C2F41D042}" Type="Ref">/Target/Joystick.lvlib/Button_Y</Property>
