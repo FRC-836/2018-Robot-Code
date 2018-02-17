@@ -47,6 +47,7 @@
 	<Property Name="varPersistentID:{3FE48595-D9F1-44ED-8528-982A4F976816}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Low_Near_Limit</Property>
 	<Property Name="varPersistentID:{40FB04D2-8C37-4232-9121-34D8C5F0B99F}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Mech_Hi_Tuning</Property>
 	<Property Name="varPersistentID:{412A40ED-8F62-4C19-A1B2-98E43EA4A28E}" Type="Ref">/Target/QCP/Lift.lvlib/Brake_Engage_Time_Sec_Tuning</Property>
+	<Property Name="varPersistentID:{41A7B66F-7948-4001-8A8C-4ACDCD8B2451}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Slow Mode?</Property>
 	<Property Name="varPersistentID:{41B06A63-FCE9-45D1-ABC8-71534FB1E98F}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Manual_Motor_Power</Property>
 	<Property Name="varPersistentID:{41C5F062-2692-4D10-9B00-CD7288A95238}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Manual_Motor_Power_Tuning</Property>
 	<Property Name="varPersistentID:{42D054D0-2ABE-42CF-94D1-B4AA634A4E36}" Type="Ref">/Target/QCP/Intake.lvlib/Intake_Motor_Power</Property>
