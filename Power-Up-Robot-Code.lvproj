@@ -93,6 +93,7 @@
 	<Property Name="varPersistentID:{798987C9-F49F-4947-B5F3-CD1F7E18F407}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Low_Desired_Height</Property>
 	<Property Name="varPersistentID:{7AEFD38C-AD7C-4973-908C-491080B24EB9}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Yaw_Driving_Straight_PID_Gains_Tuning</Property>
 	<Property Name="varPersistentID:{7C35AE90-4A91-483A-9CCD-0529A6A0BCA1}" Type="Ref">/Target/Joystick.lvlib/Axis_2</Property>
+	<Property Name="varPersistentID:{7CB60F5B-32F4-417E-A2B7-031A1F4AEFBD}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift IMU Failed?</Property>
 	<Property Name="varPersistentID:{7CF8E3EE-9D41-4779-A625-1DBBEADA9902}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Low_Near_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{7DB37F70-7118-4922-A8BD-E64F1F936100}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Sensor_Hi_Tuning</Property>
 	<Property Name="varPersistentID:{8033B4C8-214F-42DE-B351-6270E223B0ED}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Speed_Near_Limit_Tuning</Property>
@@ -319,6 +320,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Joystick.lvlib" Type="Library" URL="../SharedVarLibs/Joystick.lvlib"/>
 		<Item Name="MotorControlWithBrake.vi" Type="VI" URL="../Support/MotorControlWithBrake.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="SingleButtonDetect.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/SingleButtonDetect.vi"/>
+		<Item Name="SingleButtonDetectStates.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Logic_Support/SingleButtonDetectStates.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AngleInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/AngleInfo.ctl"/>
@@ -337,6 +340,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Create_Drive_Train_Base.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Create_Drive_Train_Base.vi"/>
 				<Item Name="CreateDriveTrain.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/CreateDriveTrain.vi"/>
 				<Item Name="De-Commentify.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/File_Operations/De-Commentify.vi"/>
+				<Item Name="Deadzone.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Deadzone.vi"/>
 				<Item Name="DistanceInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/DistanceInfo.ctl"/>
 				<Item Name="Drive_Cmd_Approach_Camera.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Drive_Cmd_Approach_Camera.vi"/>
 				<Item Name="Drive_Cmd_Cheesey_Drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Drive_Cmd_Cheesey_Drive.vi"/>
@@ -391,6 +395,7 @@ AddOutputFilter chunkFilter
 				<Item Name="PidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInputs.ctl"/>
 				<Item Name="PidInversions.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInversions.ctl"/>
 				<Item Name="PidRange.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidRange.ctl"/>
+				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
 				<Item Name="QCP_Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCP_Get.vi"/>
 				<Item Name="QCP_GetDbl.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCPSupportCode/QCP_GetDbl.vi"/>
 				<Item Name="QCP_GetDblArr.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCPSupportCode/QCP_GetDblArr.vi"/>
@@ -405,7 +410,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Sensor_Cluster.ctl"/>
 				<Item Name="Setup State.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Setup State.ctl"/>
 				<Item Name="Signal_Pulse.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Signal_Pulse.vi"/>
-				<Item Name="Soft_Stop_2017.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Motion_Control/Soft_Stop_2017.vi"/>
 				<Item Name="Split_String.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/String_Functions/Split_String.vi"/>
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Status.vi"/>
@@ -557,6 +561,7 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_ERRInvalidAnalogTriggerChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_ERRInvalidAnalogTriggerChannel.vi"/>
 				<Item Name="FPGA_MapDIOChannelEnumToModuleLine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_MapDIOChannelEnumToModuleLine.vi"/>
 				<Item Name="FPGA_NIFPGAInterfaceFPGAResourceConstant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/FPGA_NIFPGAInterfaceFPGAResourceConstant.vi"/>
+				<Item Name="FPGA_PowerStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Power/FPGA_PowerStatus.ctl"/>
 				<Item Name="FPGA_SPI_Write_EnableDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPI_Write_EnableDIO.vi"/>
 				<Item Name="FPGA_SystemAsync VI Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemAsync VI Agent.vi"/>
 				<Item Name="FPGA_SystemAsynch VI Registration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemAsynch VI Registration.vi"/>
@@ -822,6 +827,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_DriverStationDerivedRobotMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationDerivedRobotMode.ctl"/>
 				<Item Name="WPI_DriverStationGame Specific Data.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGame Specific Data.vi"/>
 				<Item Name="WPI_DriverStationGet Robot Mode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Robot Mode.vi"/>
+				<Item Name="WPI_DriverStationGetModeAndStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGetModeAndStatus.vi"/>
 				<Item Name="WPI_DriverStationGetModeAndStatusInternal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGetModeAndStatusInternal.vi"/>
 				<Item Name="WPI_DriverStationMatch Info.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationMatch Info.ctl"/>
 				<Item Name="WPI_DriverStationReport Robot Code State.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationReport Robot Code State.vi"/>
@@ -903,7 +909,12 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_MXP SPI Bus to first MXP Pin.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP SPI Bus to first MXP Pin.vi"/>
 				<Item Name="WPI_MXP_ChannelCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP_ChannelCache.vi"/>
 				<Item Name="WPI_MXP_Grab Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP_Grab Mutex.vi"/>
+				<Item Name="WPI_Power Get 3Volt Rail Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get 3Volt Rail Voltage and Current.vi"/>
+				<Item Name="WPI_Power Get 5Volt Rail Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get 5Volt Rail Voltage and Current.vi"/>
+				<Item Name="WPI_Power Get 6Volt Rail Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get 6Volt Rail Voltage and Current.vi"/>
 				<Item Name="WPI_Power Get PDP Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Currents.vi"/>
+				<Item Name="WPI_Power Get Rail Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get Rail Voltage and Current.vi"/>
+				<Item Name="WPI_Power Get roboRIO Rail Faults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get roboRIO Rail Faults.vi"/>
 				<Item Name="WPI_PWMChannelCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMChannelCache.vi"/>
 				<Item Name="WPI_PWMChannelCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMChannelCacheOp.ctl"/>
 				<Item Name="WPI_PWMClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMClose.vi"/>
