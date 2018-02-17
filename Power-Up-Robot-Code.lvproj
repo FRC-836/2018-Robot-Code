@@ -3,13 +3,17 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{0048D722-F5DA-4B44-94EA-8197614284A8}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Mech_Low_Tuning</Property>
+	<Property Name="varPersistentID:{0057BAED-E362-4FFC-A613-388082E5D88E}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{00970FF0-D65E-493C-AB1E-61A137143DA6}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_L_To.lvlib/Switch_L_To_CubeAcq_R_Y</Property>
 	<Property Name="varPersistentID:{01F4623C-CFEB-4F42-8A90-4808B922D59C}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Driving_PID_Gains</Property>
+	<Property Name="varPersistentID:{03C266DA-D9BE-4674-A9DE-F5D426119F78}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_L_X</Property>
 	<Property Name="varPersistentID:{03E6F7A8-36EA-4762-8658-627E753E98D4}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Low_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{0467006F-5385-4737-9BBE-24FB397B389F}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Yaw_Driving_Straight_PID_Gains</Property>
 	<Property Name="varPersistentID:{0555B901-D0B5-48F7-8183-5728DE22BDE3}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Low_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{06A7B15B-A995-4274-8175-284471EA0B88}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_High_Near_Limit</Property>
+	<Property Name="varPersistentID:{081EFA62-F1A4-4F79-9547-CB6D690E97DB}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_Back_L_Y</Property>
 	<Property Name="varPersistentID:{086577EB-8C5D-4F26-9F3D-43E18EE3D31F}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Iteration Duration</Property>
+	<Property Name="varPersistentID:{08EBDB14-388B-4A0B-A104-F41CB3B524FF}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_Back_R_Y</Property>
 	<Property Name="varPersistentID:{0941AFEA-B29C-4617-873A-1CD4ECB28F64}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_High_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{09E50394-4F53-4CB5-B027-992B3941D68A}" Type="Ref">/Target/QCP/SensorLoop.lvlib/Lift_Rotation_Scale_Tuning</Property>
 	<Property Name="varPersistentID:{0A709179-6278-4882-A00D-C495AFCAEB72}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Medium_Desired_Rotation</Property>
@@ -21,9 +25,12 @@
 	<Property Name="varPersistentID:{103B0C4D-616C-4A40-9BB4-730B2EFF5C3F}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Low_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{12122519-D6DA-47DD-B11D-80E19523F2A2}" Type="Ref">/Target/Joystick.lvlib/Axis_3</Property>
 	<Property Name="varPersistentID:{13733B1E-2BFF-42DD-A005-ED56C20FEA07}" Type="Ref">/Target/Joystick.lvlib/Axis_1</Property>
+	<Property Name="varPersistentID:{13FA1A16-2E16-4D12-9B25-BBD71B1879A4}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Scale_R_Y</Property>
 	<Property Name="varPersistentID:{14B1CC46-41EF-4BBE-AFC9-6259485347EE}" Type="Ref">/Target/DevRefs.lvlib/Lift_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{15028B7E-EC3C-4D59-AF27-1A0A9F564070}" Type="Ref">/Target/QCP/Lift.lvlib/To_Switch_Desired_Rotation_Tuning</Property>
+	<Property Name="varPersistentID:{158B3D2E-FBF8-40FE-9FB3-020F450D28D0}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_R_X</Property>
 	<Property Name="varPersistentID:{15957CC3-AEF9-4E3C-BA10-DCE8A5B69C25}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Rotation_Tuning</Property>
+	<Property Name="varPersistentID:{15C95D1D-CB55-41F4-8B93-C0DD7F5E64C2}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_Back_R_To.lvlib/Switch_Back_R_To_CubeAcq_R_X</Property>
 	<Property Name="varPersistentID:{16541A85-D6E0-497E-8BBC-1651868E0154}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Low_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{18D783FB-C1C1-4FD3-89DD-3ABB5DEDBF07}" Type="Ref">/Target/Camera.lvlib/Valid_Target?</Property>
 	<Property Name="varPersistentID:{19DD43AA-2BA5-4FC1-B565-79A780909E1A}" Type="Ref">/Target/DevRefs.lvlib/LiftNotifiers</Property>
@@ -32,7 +39,11 @@
 	<Property Name="varPersistentID:{1D5C4D62-ED3F-421D-899C-6ABD22DD93A1}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Scale_R_To.lvlib/Scale_R_To_CubeAcq_L_Y</Property>
 	<Property Name="varPersistentID:{1FF0E12B-C442-4373-A7A0-30537675C6AF}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_L_To.lvlib/Switch_L_To_CubeAcq_L_Y</Property>
 	<Property Name="varPersistentID:{2033FD6F-2A31-4EE0-B3C2-AB6CDDDDC00A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/intake power out</Property>
+	<Property Name="varPersistentID:{205C0038-C6E9-4C87-BE4D-9E6EACD92DC1}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_Back_R_X</Property>
+	<Property Name="varPersistentID:{2246B065-46A2-42E5-BBEE-9BCE14ACA2D1}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_Back_L_X</Property>
+	<Property Name="varPersistentID:{22581282-EA38-4BB2-8A18-50A6B6347255}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Scale_L_Y</Property>
 	<Property Name="varPersistentID:{2404CAB7-E0B7-4E84-A9B5-023D38A66AEC}" Type="Ref">/Target/DevRefs.lvlib/DriveNotifiers</Property>
+	<Property Name="varPersistentID:{251875C9-1DDC-4AEF-B5AF-2F5C043F99E1}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_Back_L_X</Property>
 	<Property Name="varPersistentID:{263A46E4-7182-40A5-8483-46CC7E8A2E33}" Type="Ref">/Target/QCP/Climb.lvlib/Climb_Deploy_Angle_Tuning</Property>
 	<Property Name="varPersistentID:{270C5C34-7CD9-4AE4-9869-706C57D5B03E}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{27974F55-420D-4B16-990A-05EFDB262BAF}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Scale_R_Y</Property>
@@ -41,9 +52,11 @@
 	<Property Name="varPersistentID:{2BEF32BF-5388-4E2D-902B-CFAFB112412E}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Free_High_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{2D3BD628-2A81-41D0-A3D4-0FFB24705799}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Period</Property>
 	<Property Name="varPersistentID:{2DB48B0E-CCE3-4A5B-97E1-83E384071603}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Up</Property>
+	<Property Name="varPersistentID:{31DF663E-E2AE-447E-8C0B-9A319B14F869}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_R_Y</Property>
 	<Property Name="varPersistentID:{32DEBEB7-AE73-4F6B-A21D-26AC08356AC3}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_1_To_.lvlib/Start_1_To_Scale_R_X</Property>
 	<Property Name="varPersistentID:{341E7F82-99AE-4328-8BF9-B5EBE119D6FE}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Left</Property>
 	<Property Name="varPersistentID:{34D124AF-FE67-47B0-8D3F-BFAF8C6DEA16}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Sensor_Low_Tuning</Property>
+	<Property Name="varPersistentID:{35134143-3AE6-4B78-92E6-8053D3DF5110}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_R_Y</Property>
 	<Property Name="varPersistentID:{3792D767-C1C0-4036-BF17-9B491CDEC4C9}" Type="Ref">/Target/DevRefs.lvlib/Drive_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{3898C03C-E291-424C-A731-5D39C9359040}" Type="Ref">/Target/Joystick.lvlib/Button_B</Property>
 	<Property Name="varPersistentID:{3914C8E9-A561-4FEA-B936-CB9070A71EA4}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Low_Limit</Property>
@@ -56,47 +69,66 @@
 	<Property Name="varPersistentID:{41B06A63-FCE9-45D1-ABC8-71534FB1E98F}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Manual_Motor_Power</Property>
 	<Property Name="varPersistentID:{41C5F062-2692-4D10-9B00-CD7288A95238}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Manual_Motor_Power_Tuning</Property>
 	<Property Name="varPersistentID:{42D054D0-2ABE-42CF-94D1-B4AA634A4E36}" Type="Ref">/Target/QCP/Intake.lvlib/Intake_Motor_Power</Property>
+	<Property Name="varPersistentID:{443C96D8-5141-4B65-AB95-0E846820FE78}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Scale_L_Y</Property>
 	<Property Name="varPersistentID:{467750BA-536F-43EE-A56F-61481C3A5839}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_High_Speed_Near_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{467E9F0A-F829-4163-8218-C8B32B02BBD2}" Type="Ref">/Target/QCP/Climb.lvlib/Climb_Motor_Power_Tuning</Property>
 	<Property Name="varPersistentID:{470AF109-3DD8-4073-9A57-3CE92E9CD64A}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Lift_Power</Property>
 	<Property Name="varPersistentID:{4766273A-7F03-4433-9DCC-633915851482}" Type="Ref">/Target/Joystick.lvlib/Button_LB</Property>
 	<Property Name="varPersistentID:{4766AF86-0DDA-41DA-8D6E-57B05418BF8F}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Center_On_Cube_Tolerance</Property>
 	<Property Name="varPersistentID:{47B02E1C-2332-4A1B-BE46-D0952849D32A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Period</Property>
+	<Property Name="varPersistentID:{4895C82B-9025-4513-9FC0-3AFCD5D92FAA}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Switch_Back_L_X</Property>
 	<Property Name="varPersistentID:{492064C4-6456-4670-8454-8DB58055C088}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_L_To.lvlib/Switch_L_To_CubeAcq_L_X</Property>
 	<Property Name="varPersistentID:{496D7DD0-35AF-4F95-BDEF-E4963DD09156}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift_Command</Property>
 	<Property Name="varPersistentID:{4A2CFB4E-FCE2-4844-8A8F-4C322DA19ACE}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Low_Desired_Rotation_Tuning</Property>
 	<Property Name="varPersistentID:{4C34C4DB-3E57-44CC-8192-588353339FAB}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Switch_Back_R_Y</Property>
+	<Property Name="varPersistentID:{4C5C3D04-15FD-4FAE-8689-FFD931037349}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_Back_L_X</Property>
 	<Property Name="varPersistentID:{4C76B9CF-6528-48A8-A589-72D90DC76E59}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Scale_R_To.lvlib/Scale_R_To_CubeAcq_R_X</Property>
 	<Property Name="varPersistentID:{4CDE1248-E61B-4A98-B80B-EBA3D699B37B}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Cube?</Property>
+	<Property Name="varPersistentID:{4E54E3CF-AD40-4768-AC41-CCB348AFA0D4}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Scale_R_X</Property>
+	<Property Name="varPersistentID:{4E7FFC86-0D17-4932-91D3-433F8848DF4C}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Scale_R_Y</Property>
+	<Property Name="varPersistentID:{4EA53AA2-416B-4F33-A797-EAC861C553A6}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_Back_R_To.lvlib/Switch_Back_R_To_CubeAcq_L_X</Property>
 	<Property Name="varPersistentID:{5025F445-1D40-4411-AA5B-1B393A027F0A}" Type="Ref">/Target/QCP/Lift.lvlib/Free_Rotate_Height_Tuning</Property>
 	<Property Name="varPersistentID:{510D4923-6353-41A9-BAD6-91830C508875}" Type="Ref">/Target/QCP/SensorLoop.lvlib/Lift_Rotation_Scale</Property>
+	<Property Name="varPersistentID:{524CFADE-418B-4051-92B4-45AC2D58D919}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Switch_Back_R_X</Property>
+	<Property Name="varPersistentID:{52B96789-B797-4176-8ED7-D1A27B457F25}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Switch_Back_R_Y</Property>
 	<Property Name="varPersistentID:{52CC8036-75B3-447C-AEFA-3DA55E4BFB4B}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Acquire_Cube_Speed_Tuning</Property>
 	<Property Name="varPersistentID:{535602D8-7C12-48BE-9603-16D68BFEF406}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Down</Property>
+	<Property Name="varPersistentID:{536CDF6F-5E5C-4D5B-AD86-A91D30350066}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Switch_R_Y</Property>
 	<Property Name="varPersistentID:{55769B19-B51C-450C-AF73-DE598D282691}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_High_Desired_Height</Property>
 	<Property Name="varPersistentID:{56631AD1-7C5E-46ED-BAC8-3058C522F021}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Verticle_Position</Property>
 	<Property Name="varPersistentID:{56F3C2F0-1D0F-4207-AEC4-5AD89A936CBC}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Mech_Low</Property>
+	<Property Name="varPersistentID:{57AE7360-4477-4A61-9EB4-0284F55C32E0}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_Back_R_Y</Property>
 	<Property Name="varPersistentID:{57AED0C5-E525-486B-9ED4-5F33D71F8517}" Type="Ref">/Target/QCP/Lift.lvlib/Ground_Desired_Rotation</Property>
+	<Property Name="varPersistentID:{591AECE2-FF39-451B-A9C6-607189C698EF}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Scale_L_X</Property>
+	<Property Name="varPersistentID:{596BB9AC-9DA7-4215-A16F-6500AFF5F076}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_R_Y</Property>
 	<Property Name="varPersistentID:{5994B984-1E5A-440D-BE26-75D9E242B941}" Type="Ref">/Target/Joystick.lvlib/Button_D_Pad_Right</Property>
 	<Property Name="varPersistentID:{5A3BB964-E27C-4B78-8CFC-132625F26C73}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Yaw_Holding_Still_PID_Gains_Tuning</Property>
 	<Property Name="varPersistentID:{5B94494A-2E4C-4B68-9B61-ED02F977AD70}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Low_Speed_Near_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{5C2CF5B8-E2A4-43EF-9FDB-9CDD99A77BFB}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Sensor_Hi</Property>
 	<Property Name="varPersistentID:{5D05D526-A123-4BD3-987F-430D5492FFDC}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Sensor_Low_Tuning</Property>
 	<Property Name="varPersistentID:{5D5FFC6E-013F-42A1-BD4D-BF38A3AB0048}" Type="Ref">/Target/QCP/SensorLoop.lvlib/Lift_Elevation_Scale</Property>
+	<Property Name="varPersistentID:{5E0038B5-DC92-4CF2-8D99-C3249808FB37}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Switch_L_X</Property>
 	<Property Name="varPersistentID:{5F0253CD-89B0-4DDF-BA54-4F32677001C5}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Limit</Property>
 	<Property Name="varPersistentID:{61430428-37EA-44A7-9F57-A497EA128EDB}" Type="Ref">/Target/QCP/Climb.lvlib/Climb_Motor_Power</Property>
 	<Property Name="varPersistentID:{62C36658-734C-4038-AB8A-E29476B42D9E}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Scale_R_To.lvlib/Scale_R_To_CubeAcq_R_Y</Property>
+	<Property Name="varPersistentID:{635B0454-D5B0-40F9-86D2-BF550F1A1597}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_Back_L_To.lvlib/Switch_Back_L_To_CubeAcq_R_X</Property>
 	<Property Name="varPersistentID:{640DCFAC-7E31-4BD9-9C7D-7847B6B2F6BC}" Type="Ref">/Target/QCP/Lift.lvlib/Ground_Desired_Height</Property>
 	<Property Name="varPersistentID:{64C5AE6A-D5CB-452C-ADD8-3F886B014E3B}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Rotational_Position</Property>
 	<Property Name="varPersistentID:{652A6043-E930-45AB-BDAF-68AE8449F3F4}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_L_To.lvlib/Switch_L_To_CubeAcq_R_X</Property>
 	<Property Name="varPersistentID:{66BCD71C-8072-45D1-A3CD-E9BD29B6CD3E}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_3_To.lvlib/Start_3_To_Scale_L_X</Property>
 	<Property Name="varPersistentID:{68749949-9273-47E3-8BFA-F90DE5A9C9E9}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake_Command</Property>
+	<Property Name="varPersistentID:{68A84367-4E1C-49D4-B7C5-E5640DB4C707}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_Back_R_X</Property>
 	<Property Name="varPersistentID:{6A64DB5E-60A1-4E20-BD1D-9582DF121AD1}" Type="Ref">/Target/DevRefs.lvlib/LeftClimbNotifier</Property>
+	<Property Name="varPersistentID:{6AB94293-E61B-4A0B-A053-801A68C17CDA}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_Back_R_Y</Property>
 	<Property Name="varPersistentID:{6B6A0067-0968-4EA9-97B7-5EBA0E0265C6}" Type="Ref">/Target/DevRefs.lvlib/RightClimbNotifier</Property>
 	<Property Name="varPersistentID:{6BBB2247-A571-44A8-9545-EA0B05242EEF}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Holding_Still_PID_Gains</Property>
+	<Property Name="varPersistentID:{6C426DD0-6D6A-49D4-963F-CCA1D1C88823}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Scale_R_X</Property>
 	<Property Name="varPersistentID:{6C8C7644-287A-4D25-A502-A2600AC56DF4}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_R_To.lvlib/Switch_R_To_CubeAcq_L_Y</Property>
 	<Property Name="varPersistentID:{6CBD2C7D-BD77-4500-8ED7-8016887CDE1C}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/LiftTuningMode</Property>
+	<Property Name="varPersistentID:{6E9CCDA4-57EA-43F6-B830-12F60BF35045}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Switch_Back_L_Y</Property>
 	<Property Name="varPersistentID:{6F84E6A8-9630-4006-9566-B99A5FE9D59F}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Mech_Hi</Property>
 	<Property Name="varPersistentID:{700D85A6-0768-464D-807A-D13EAB2DCE1F}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Center_On_Cube_Tolerance_Tuning</Property>
+	<Property Name="varPersistentID:{7071F402-9E85-45D4-A874-6E86517320F5}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Switch_R_X</Property>
 	<Property Name="varPersistentID:{72A2AE03-650A-4C3C-9FB1-8FCF6358462B}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Lift_Power_Tuning</Property>
 	<Property Name="varPersistentID:{72E87DE9-B6A1-40BD-9810-1DD1EA34E072}" Type="Ref">/Target/DevRefs.lvlib/Intake_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{73461050-5CCB-4265-9B38-5D858B980DA9}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Scale_L_To.lvlib/Scale_L_To_CubeAcq_R_Y</Property>
@@ -104,41 +136,66 @@
 	<Property Name="varPersistentID:{774061F2-3566-431C-8C07-2507A7E940F5}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Height_Tuning</Property>
 	<Property Name="varPersistentID:{77E5573B-F821-4877-AB93-E5CCC47B0EE6}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Free_High_Limit</Property>
 	<Property Name="varPersistentID:{785C0D7A-FE63-4F1E-9AB2-B37A1F59FE93}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Switch_Back_R_X</Property>
+	<Property Name="varPersistentID:{78FFEE4D-83C0-4CCF-BB98-57E74D518D76}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_L_X</Property>
 	<Property Name="varPersistentID:{798987C9-F49F-4947-B5F3-CD1F7E18F407}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Low_Desired_Height</Property>
 	<Property Name="varPersistentID:{7AEFD38C-AD7C-4973-908C-491080B24EB9}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Yaw_Driving_Straight_PID_Gains_Tuning</Property>
+	<Property Name="varPersistentID:{7BE0273C-C20C-4887-AB3C-429A3CA63D03}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{7C35AE90-4A91-483A-9CCD-0529A6A0BCA1}" Type="Ref">/Target/Joystick.lvlib/Axis_2</Property>
 	<Property Name="varPersistentID:{7CF8E3EE-9D41-4779-A625-1DBBEADA9902}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Low_Near_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{7DB37F70-7118-4922-A8BD-E64F1F936100}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Sensor_Hi_Tuning</Property>
 	<Property Name="varPersistentID:{8033B4C8-214F-42DE-B351-6270E223B0ED}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Speed_Near_Limit_Tuning</Property>
+	<Property Name="varPersistentID:{81F508E3-1714-4516-A568-53CB577616C0}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Scale_L_Y</Property>
 	<Property Name="varPersistentID:{822AF371-C8F7-4CF4-979C-9889DD807E4F}" Type="Ref">/Target/QCP/Lift.lvlib/To_Switch_Desired_Height_Tuning</Property>
 	<Property Name="varPersistentID:{845C877F-9349-42FD-AE56-5FF78FF71383}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Mech_Low</Property>
 	<Property Name="varPersistentID:{85B06F34-DEAD-45F9-A92F-810FF0CF42C7}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Switch_R_Y</Property>
 	<Property Name="varPersistentID:{85E25265-8B01-41CB-B2C7-631AF529728B}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Driving_PID_Gains_Tuning</Property>
 	<Property Name="varPersistentID:{86079383-61CF-495D-84D9-5E0FA41C40D7}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Speed_Near_Limit</Property>
+	<Property Name="varPersistentID:{864712EC-7F8A-472B-8BEC-A3A7518307DF}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Scale_L_Y</Property>
 	<Property Name="varPersistentID:{8700880B-4475-4A10-BF11-4E22E594C7BD}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Acquire_Cube_Speed</Property>
 	<Property Name="varPersistentID:{8733220F-45BA-4D0C-B49A-BD60FF592BED}" Type="Ref">/Target/DevRefs.lvlib/IntakeNotifier</Property>
+	<Property Name="varPersistentID:{878C318A-AF22-4D81-8C40-42485B84EEFB}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Scale_R_Y</Property>
 	<Property Name="varPersistentID:{88F5D3AF-878C-4539-80DF-6B2F21A6433A}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Manual_Motor_Power</Property>
 	<Property Name="varPersistentID:{8905642A-FB99-41B9-897A-2AC768D73714}" Type="Ref">/Target/QCP/Lift.lvlib/Ground_Desired_Rotation_Tuning</Property>
 	<Property Name="varPersistentID:{89DDC247-1253-4B2B-ABD9-E3772C9A1525}" Type="Ref">/Target/Joystick.lvlib/Button_Back</Property>
+	<Property Name="varPersistentID:{8B806428-A640-47DA-AD85-84B6E7C72579}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_Back_L_X</Property>
+	<Property Name="varPersistentID:{8CBA06EB-C0F2-4CBF-A50B-5F26BBE183D9}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_Back_L_Y</Property>
 	<Property Name="varPersistentID:{8D84DF85-E015-478F-BF0B-863C1BFFAF64}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Finished Late? [i-1]</Property>
+	<Property Name="varPersistentID:{8DFDE2EE-E4BE-46FC-93EB-85EF1B23CE3D}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Scale_R_X</Property>
+	<Property Name="varPersistentID:{8E28EF49-E8AA-49A6-A78B-E16E967DA03E}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_Back_R_Y</Property>
 	<Property Name="varPersistentID:{8F838C96-B951-474E-A0F2-FE75CE76A34A}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_R_To.lvlib/Switch_R_To_CubeAcq_R_X</Property>
 	<Property Name="varPersistentID:{8FF9E381-FF51-4F3A-B4FC-5626829E7C9F}" Type="Ref">/Target/Mechanisms/ClimbStatus.lvlib/Deployed?</Property>
 	<Property Name="varPersistentID:{904D878F-D853-4E09-8F85-3CE13F42CC3E}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Low_Near_Limit_Tuning</Property>
+	<Property Name="varPersistentID:{9098B4FF-D35D-47C7-9D8D-5943B9203A8D}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_Back_L_To.lvlib/Switch_Back_L_To_CubeAcq_L_X</Property>
 	<Property Name="varPersistentID:{91037A4C-F041-454F-8584-9FBE512A3900}" Type="Ref">/Target/QCP/Lift.lvlib/To_Switch_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{91B3E723-AD61-4F53-B648-AC5DE798044A}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Sensor_Hi_Tuning</Property>
+	<Property Name="varPersistentID:{92A457BF-8544-4769-BE41-CBFD663DC8DB}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{950868E3-4C19-41D6-93F8-3B692089F564}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Yaw Wind</Property>
+	<Property Name="varPersistentID:{960D55EC-375C-4AE6-A200-44D409CEDBF4}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{9634DFB9-8E8A-4CA4-8877-EF0AC56F924B}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_High_Desired_Height_Tuning</Property>
+	<Property Name="varPersistentID:{96C947BF-E9AE-4A26-AC5B-8518D58A0345}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Scale_L_Y</Property>
 	<Property Name="varPersistentID:{975CEBCD-CBC1-44A4-8128-A5AF2092AB1D}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Manual_Motor_Power_Tuning</Property>
+	<Property Name="varPersistentID:{98E6C1E8-F554-4F93-85BA-62E7B8AE49B7}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_Back_L_To.lvlib/Switch_Back_L_To_CubeAcq_R_Y</Property>
 	<Property Name="varPersistentID:{99ADAF4E-262C-4FC8-A06F-87E0C7168D44}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Moving?</Property>
+	<Property Name="varPersistentID:{9C07EDC4-8F38-4A88-947B-1B5BE862B5C5}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Scale_R_X</Property>
+	<Property Name="varPersistentID:{9C5C87A2-5AB8-4037-B5EE-944D19B7653E}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_Back_L_Y</Property>
+	<Property Name="varPersistentID:{9DE633ED-32FD-4BFC-AFEB-DAFBD4B88201}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_L_X</Property>
+	<Property Name="varPersistentID:{9E328394-2E52-49FF-AD2C-96373999505B}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Scale_R_X</Property>
 	<Property Name="varPersistentID:{9F48DAF0-B1F1-4776-9772-F30A6C33542B}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Holding_Still_PID_Gains_Tuning</Property>
 	<Property Name="varPersistentID:{9F871802-B402-4E02-94E1-08335187E2D6}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Switch_R_X</Property>
+	<Property Name="varPersistentID:{A021AD7F-633F-4544-8064-A73087F70DD2}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Scale_L_X</Property>
 	<Property Name="varPersistentID:{A0E55841-D1E1-4806-BD55-10FDA9C83196}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Scale_R_X</Property>
 	<Property Name="varPersistentID:{A24FC68B-480A-431B-8EB0-75A37729EB28}" Type="Ref">/Target/Mechanisms/ClimbStatus.lvlib/ClimbTuningMode</Property>
+	<Property Name="varPersistentID:{A2A62DE6-F9EB-4745-9EC7-C581CA844193}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Scale_R_Y</Property>
 	<Property Name="varPersistentID:{A34213BF-92F7-421A-A6C0-6D0F0F42F9FB}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Iteration Duration</Property>
+	<Property Name="varPersistentID:{A4F26B4F-15B8-4D9C-AD5F-B53E1B2FEA4F}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Scale_L_X</Property>
+	<Property Name="varPersistentID:{A542A301-7404-4B5C-AAD5-64DFCB3A6B66}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Scale_L_Y</Property>
 	<Property Name="varPersistentID:{A56E8380-9936-4B87-A054-CFD8B2D8CE84}" Type="Ref">/Target/DevRefs.lvlib/Auto_QCP_DevRef</Property>
 	<Property Name="varPersistentID:{A5C54F4E-824B-4742-984F-473C9FCD57BB}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_High_Limit</Property>
+	<Property Name="varPersistentID:{A770DE15-18CF-4C6C-BAFD-5EA6B11B58F6}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_R_X</Property>
+	<Property Name="varPersistentID:{A792D5AE-2BBF-4A2D-A61C-00B5A0738B80}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_Back_L_Y</Property>
 	<Property Name="varPersistentID:{A8712350-5369-476F-A508-CD93789FB0C5}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_3_To.lvlib/Start_3_To_Scale_R_X</Property>
 	<Property Name="varPersistentID:{AA0DB621-5CBF-42C9-917F-5EF94F761E3F}" Type="Ref">/Target/Joystick.lvlib/Button_Start</Property>
+	<Property Name="varPersistentID:{AA789C09-8041-4F9B-AD1C-464DE933F99F}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Scale_L_X</Property>
 	<Property Name="varPersistentID:{AB68FF79-E0F6-4A28-93D8-8E0636918872}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Low_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{AC09508E-3277-4A16-88D5-825DE98B298E}" Type="Ref">/Target/DevRefs.lvlib/Sensor_QCP_DevRef_Out</Property>
 	<Property Name="varPersistentID:{AC71FC84-AED9-4826-9040-93C2B43B3E7B}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_R_To.lvlib/Switch_R_To_CubeAcq_R_Y</Property>
@@ -147,50 +204,73 @@
 	<Property Name="varPersistentID:{AE3192D4-6DF3-4BEE-A873-0963CD7E0290}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Yaw_Holding_Still_PID_Gains</Property>
 	<Property Name="varPersistentID:{AE49CB6D-7FAC-4338-B25A-5E6202710325}" Type="Ref">/Target/QCP/Lift.lvlib/To_Switch_Desired_Height</Property>
 	<Property Name="varPersistentID:{AF79D593-1204-4457-A756-F9866E455251}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Height</Property>
+	<Property Name="varPersistentID:{AF9E1A46-D57B-4B3F-9944-F3F012153DA4}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Scale_R_X</Property>
+	<Property Name="varPersistentID:{AFE4DFC9-B4B7-47C7-8E41-06FFD28A41BC}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Scale_L_X</Property>
 	<Property Name="varPersistentID:{B0FC1BBB-BA5C-411B-BA22-04D4861BB195}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_High_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{B111D108-F3BC-4031-ADB1-FFC6ACF96115}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Sensor_Low</Property>
 	<Property Name="varPersistentID:{B308984A-8550-4E9F-A3FF-78E51FDCCDE2}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Sensor_Hi</Property>
+	<Property Name="varPersistentID:{B33ADCA7-D43A-48B6-88C9-AC07A0EB9BA0}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_R_Y</Property>
 	<Property Name="varPersistentID:{B479E6FD-B412-4618-A560-478CE3DFF700}" Type="Ref">/Target/Joystick.lvlib/Button_X</Property>
 	<Property Name="varPersistentID:{B5F31890-A966-4007-97BC-545C2F41D042}" Type="Ref">/Target/Joystick.lvlib/Button_Y</Property>
+	<Property Name="varPersistentID:{B689D07C-8A19-4044-92C7-36DB92E74500}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_R_X</Property>
 	<Property Name="varPersistentID:{B71BD6A0-8D7E-41D1-8FA4-67833A8F0C59}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Mech_Hi</Property>
+	<Property Name="varPersistentID:{B82115A0-9CB4-4E4F-B70C-C66733FB6AD6}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Scale_R_Y</Property>
+	<Property Name="varPersistentID:{B83710F3-B461-444B-A22F-0CE03E26AE9D}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_Back_R_To.lvlib/Switch_Back_R_To_CubeAcq_R_Y</Property>
 	<Property Name="varPersistentID:{BA6ED149-2CE6-4CE0-BC9A-A825430838D9}" Type="Ref">/Target/QCP/SensorLoop.lvlib/Lift_Elevation_Scale_Tuning</Property>
 	<Property Name="varPersistentID:{BDCBF253-25FE-4595-B4A5-4C7E89716639}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Tolerance</Property>
+	<Property Name="varPersistentID:{BDF6F933-2BAB-4504-9FE1-3B37714EC2C5}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_Back_L_Y</Property>
+	<Property Name="varPersistentID:{BE8D3D94-CB3A-410E-9FC8-BD8C007DE5FC}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_Back_R_X</Property>
+	<Property Name="varPersistentID:{BEC3DF5D-B903-43F8-9637-490FB3C17271}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{BED7A7A5-B2B8-49E2-96F5-1E7D7B39A456}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{BFCFB74E-E02C-42E5-8302-0FB2E8381766}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Low_Near_Limit</Property>
 	<Property Name="varPersistentID:{BFEFA428-C20E-435B-B918-DDFC9C7A6063}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_High_Speed_Near_Limit</Property>
 	<Property Name="varPersistentID:{C2742F89-8F3C-45C0-B030-371007008648}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Center_Speed_Tuning</Property>
+	<Property Name="varPersistentID:{C3524FBC-03F3-4460-AB4E-40C201228481}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_L_X</Property>
 	<Property Name="varPersistentID:{C3E629A0-061E-4D26-AF62-E23A2A19404D}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Scale_L_To.lvlib/Scale_L_To_CubeAcq_L_X</Property>
 	<Property Name="varPersistentID:{C431C0A6-5227-4AAC-90AC-AEE9F739BA32}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Switch_Back_L_X</Property>
 	<Property Name="varPersistentID:{C450A8DB-73C8-426A-A2B8-49CF009EAFF2}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{C4771078-D343-4A06-BE91-90956DB67484}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Medium_Desired_Rotation_Tuning</Property>
 	<Property Name="varPersistentID:{C4FF5B57-FB30-4D40-BBC8-E05BC42DC357}" Type="Ref">/Target/QCP/Lift.lvlib/Free_Rotate_Height</Property>
+	<Property Name="varPersistentID:{C5048F99-9A00-44B3-85D7-64B5A8B7A175}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_Back_R_X</Property>
 	<Property Name="varPersistentID:{C5ECFFB1-1DD3-4DEA-8A60-D1A62E6FE34F}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Medium_Desired_Height</Property>
 	<Property Name="varPersistentID:{C6D8F916-B0C9-4128-BB00-D7495F1FF2C1}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Mech_Low_Tuning</Property>
+	<Property Name="varPersistentID:{C7E3215E-172E-4DB1-86A6-5740F31CCD59}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_Back_R_Y</Property>
 	<Property Name="varPersistentID:{C929C38B-73C3-4266-AB9B-3426A05D4033}" Type="Ref">/Target/Joystick.lvlib/Axis_0</Property>
 	<Property Name="varPersistentID:{CAF8F2C3-D9B3-4730-9ACC-A2A9F1186680}" Type="Ref">/Target/QCP/Intake.lvlib/Intake_Motor_Power_Tuning</Property>
+	<Property Name="varPersistentID:{CF4182EF-ACEB-4717-BA96-AF600D780F5B}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_Back_R_To.lvlib/Switch_Back_R_To_CubeAcq_L_Y</Property>
 	<Property Name="varPersistentID:{D1068074-0EE4-42C7-810B-E2D5B76D8079}" Type="Ref">/Target/QCP/Lift.lvlib/Ground_Desired_Height_Tuning</Property>
 	<Property Name="varPersistentID:{D11BB856-5A6C-436F-BE24-586A80C6DA71}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Roll Wind</Property>
 	<Property Name="varPersistentID:{D1E18414-2D36-4F00-8CE5-C09DE43E6A2B}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_High_Near_Limit</Property>
 	<Property Name="varPersistentID:{D3E956E5-A1C2-4A60-B49C-9DF28F382CC4}" Type="Ref">/Target/DevRefs.lvlib/Drive DevRef Out</Property>
 	<Property Name="varPersistentID:{D3F4A9AB-EFB9-4C0C-AE19-C2A9C56AFFC1}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Pitch Wind</Property>
 	<Property Name="varPersistentID:{D4B5B0C3-B36B-4932-B1C9-B49DB14B9032}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Switch_Back_L_Y</Property>
+	<Property Name="varPersistentID:{D4DE3F17-E45A-4ECC-84C9-0F55E2E706A5}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_Back_L_X</Property>
 	<Property Name="varPersistentID:{D61F2A6E-2396-4AAD-BA93-FE25131B7901}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Low_Speed_Near_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{D6E848BC-0D79-4655-8368-EA0A30332A28}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_1_To_.lvlib/Start_1_To_Scale_R_Y</Property>
+	<Property Name="varPersistentID:{D82F0290-70E2-4164-900A-EC0582E8967E}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_Back_L_To.lvlib/Switch_Back_L_To_CubeAcq_L_Y</Property>
 	<Property Name="varPersistentID:{DB8AAF96-B5D5-46FB-8093-24B0AF7421A7}" Type="Ref">/Target/QCP/Lift.lvlib/Lift_Tolerance_Tuning</Property>
 	<Property Name="varPersistentID:{E006DEDC-948C-4D99-B711-968FD6C748B1}" Type="Ref">/Target/QCP/Lift.lvlib/To_Home_Desired_Rotation</Property>
+	<Property Name="varPersistentID:{E017ACE7-3C80-4405-8DD8-0034628E9EDD}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_R_X</Property>
 	<Property Name="varPersistentID:{E052EEE7-2728-4D69-BD42-D5DF43E85761}" Type="Ref">/Target/Joystick.lvlib/Button_RT</Property>
+	<Property Name="varPersistentID:{E19A68F0-D6F9-476A-B86B-249B045CC5BE}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{E1C2C66C-C992-4644-B2A0-79BB4C749DA5}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Low_Limit</Property>
 	<Property Name="varPersistentID:{E22AB930-6343-42DD-8B2C-462471AFF431}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Medium_Desired_Height_Tuning</Property>
+	<Property Name="varPersistentID:{E4800020-05B2-4FDD-86A3-17D2DEA6EF62}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_R_Y</Property>
+	<Property Name="varPersistentID:{E5B81ABF-530B-4A84-B3A7-A86E5FE7DAC2}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_Back_R_X</Property>
 	<Property Name="varPersistentID:{E73EA663-F48E-4E71-9DC6-28688D01A93C}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Scale_L_X</Property>
 	<Property Name="varPersistentID:{E93C6369-887C-4CDB-B953-5AAF653B6777}" Type="Ref">/Target/QCP/Climb.lvlib/Climb_Deploy_Angle</Property>
 	<Property Name="varPersistentID:{E9C7DA0E-A351-484E-8F72-B2D0B2EE2B0F}" Type="Ref">/Target/Joystick.lvlib/Button_RB</Property>
 	<Property Name="varPersistentID:{EAFD87C3-9796-4289-AAB1-20B7394976F6}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Tolerance_Tuning</Property>
 	<Property Name="varPersistentID:{EC547E9B-1940-40EA-A102-FC014120D839}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_3_To.lvlib/Start_3_To_Scale_R_Y</Property>
+	<Property Name="varPersistentID:{EE8E74C4-0800-4CC8-B377-7858075E569B}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_R_X</Property>
 	<Property Name="varPersistentID:{F12C9BC1-81E5-4FBE-9633-81E08ECA9962}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Start_3_To.lvlib/Start_3_To_Scale_L_Y</Property>
 	<Property Name="varPersistentID:{F3E88EDE-67DE-4F9A-B084-A31D848FD703}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Scale_L_To.lvlib/Scale_L_To_CubeAcq_R_X</Property>
+	<Property Name="varPersistentID:{F42B1453-28B9-44FD-9A04-A1098D8AD1FB}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_L_X</Property>
 	<Property Name="varPersistentID:{F49D6D4A-A735-422A-A400-FC471B87AB06}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Center_Speed</Property>
+	<Property Name="varPersistentID:{F6BE03DA-13F4-4603-975A-8906595CAF7C}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Scale_L_X</Property>
 	<Property Name="varPersistentID:{F90CC957-481C-4D32-9DCD-C7370D2E4627}" Type="Ref">/Target/Joystick.lvlib/Button_A</Property>
 	<Property Name="varPersistentID:{F965E955-9974-4670-9A84-1269E7B54237}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Scale_R_To.lvlib/Scale_R_To_CubeAcq_L_X</Property>
+	<Property Name="varPersistentID:{FA901042-306D-4F04-9F90-101A05E0DCBB}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Scale_R_Y</Property>
 	<Property Name="varPersistentID:{FE54D4D2-311D-48BF-90CA-6455BD04316E}" Type="Ref">/Target/QCP/AutoQCP.lvlib/Switch_R_To.lvlib/Switch_R_To_CubeAcq_L_X</Property>
 	<Property Name="varPersistentID:{FE9ED7E1-CC6B-4B9E-AB72-208E9FF2F2A0}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Low_Desired_Height_Tuning</Property>
 	<Item Name="My Computer" Type="My Computer">
