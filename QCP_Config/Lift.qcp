@@ -34,3 +34,6 @@ Brake_Servo_Engage_Angle, 0
 Brake_Servo_Disengage_Angle, 0.2
 Rotation_Setpoint_Limit, 2000
 Rotation_Feed_Forward, -0.126041
+To_Scale_Medium_Behind_Rotation, 0
+To_Scale_High_Behind_Rotation, 0
+To_Scale_Low_Behind_Rotation, 0
