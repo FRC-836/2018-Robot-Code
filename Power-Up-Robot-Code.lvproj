@@ -370,6 +370,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Drive_Code_PID_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/Drive_Code_PID_Bundle.ctl"/>
 				<Item Name="Drive_Loop_Command.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Loop_Command.vi"/>
 				<Item Name="Drive_Loop_Control_Loop.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Loop_Control_Loop.vi"/>
+				<Item Name="Drive_Loop_Get_PID_Inputs.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Loop_Get_PID_Inputs.vi"/>
 				<Item Name="Drive_Loop_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Loop_Initialize.vi"/>
 				<Item Name="Drive_Sensor_Camera_Write.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Sensor_Camera_Write.vi"/>
 				<Item Name="Drive_Sensor_Distance_Write.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Sensor_Distance_Write.vi"/>
@@ -986,6 +987,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="Auto.vi" Type="VI" URL="../QCP_Config/Auto.vi"/>
 			<Item Name="DriveLoop.vi" Type="VI" URL="../QCP_Config/DriveLoop.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
