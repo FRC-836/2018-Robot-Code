@@ -123,6 +123,7 @@
 	<Property Name="varPersistentID:{9634DFB9-8E8A-4CA4-8877-EF0AC56F924B}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_High_Desired_Height_Tuning</Property>
 	<Property Name="varPersistentID:{975CEBCD-CBC1-44A4-8128-A5AF2092AB1D}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Manual_Motor_Power_Tuning</Property>
 	<Property Name="varPersistentID:{99ADAF4E-262C-4FC8-A06F-87E0C7168D44}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Moving?</Property>
+	<Property Name="varPersistentID:{9A7AF7E4-1258-494D-BD6F-985749A5903D}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Behind Back?</Property>
 	<Property Name="varPersistentID:{9F48DAF0-B1F1-4776-9772-F30A6C33542B}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Holding_Still_PID_Gains_Tuning</Property>
 	<Property Name="varPersistentID:{A24FC68B-480A-431B-8EB0-75A37729EB28}" Type="Ref">/Target/Mechanisms/ClimbStatus.lvlib/ClimbTuningMode</Property>
 	<Property Name="varPersistentID:{A34213BF-92F7-421A-A6C0-6D0F0F42F9FB}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Iteration Duration</Property>
