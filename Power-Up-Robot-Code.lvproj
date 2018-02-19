@@ -88,6 +88,7 @@
 	<Property Name="varPersistentID:{68749949-9273-47E3-8BFA-F90DE5A9C9E9}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake_Command</Property>
 	<Property Name="varPersistentID:{6BBB2247-A571-44A8-9545-EA0B05242EEF}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Holding_Still_PID_Gains</Property>
 	<Property Name="varPersistentID:{6CBD2C7D-BD77-4500-8ED7-8016887CDE1C}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/LiftTuningMode</Property>
+	<Property Name="varPersistentID:{6D24C145-149A-43CA-8E24-231DA2112347}" Type="Ref">/Target/Voltage Reg.lvlib/x</Property>
 	<Property Name="varPersistentID:{6E45C62B-04BF-4123-AC74-CF00EFF5AA02}" Type="Ref">/Target/QCP/Intake.lvlib/Outtake_Motor_Power</Property>
 	<Property Name="varPersistentID:{6F84E6A8-9630-4006-9566-B99A5FE9D59F}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Mech_Hi</Property>
 	<Property Name="varPersistentID:{700D85A6-0768-464D-807A-D13EAB2DCE1F}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Center_On_Cube_Tolerance_Tuning</Property>
@@ -335,6 +336,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="SingleButtonDetect.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/SingleButtonDetect.vi"/>
 		<Item Name="SingleButtonDetectStates.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Logic_Support/SingleButtonDetectStates.ctl"/>
+		<Item Name="Voltage Reg.lvlib" Type="Library" URL="../SharedVarLibs/Voltage Reg.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AngleInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/AngleInfo.ctl"/>
