@@ -86,6 +86,7 @@
 	<Property Name="varPersistentID:{4766273A-7F03-4433-9DCC-633915851482}" Type="Ref">/Target/Joystick.lvlib/Button_LB</Property>
 	<Property Name="varPersistentID:{4766AF86-0DDA-41DA-8D6E-57B05418BF8F}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Center_On_Cube_Tolerance</Property>
 	<Property Name="varPersistentID:{47B02E1C-2332-4A1B-BE46-D0952849D32A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Period</Property>
+	<Property Name="varPersistentID:{47D31A8E-034E-4B15-954F-E873A18AD243}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/LeftDriveEncoder</Property>
 	<Property Name="varPersistentID:{48EE782D-D787-4AF1-9322-E8AA782275B3}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Medium_Behind_Rotation</Property>
 	<Property Name="varPersistentID:{496D7DD0-35AF-4F95-BDEF-E4963DD09156}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift_Command</Property>
 	<Property Name="varPersistentID:{4A2CFB4E-FCE2-4844-8A8F-4C322DA19ACE}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Low_Desired_Rotation_Tuning</Property>
@@ -208,6 +209,7 @@
 	<Property Name="varPersistentID:{A5C54F4E-824B-4742-984F-473C9FCD57BB}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_High_Limit</Property>
 	<Property Name="varPersistentID:{A5C7896E-EFF3-42C3-B720-B53633657536}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Switch_L_X</Property>
 	<Property Name="varPersistentID:{A625970D-4905-451B-8270-A4FA64EFD9D4}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Scale_L_X</Property>
+	<Property Name="varPersistentID:{A62EC0DE-9CAF-4E64-A8CC-C4873CF5C0D9}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/RightDriveEncoder</Property>
 	<Property Name="varPersistentID:{A64FDD40-9386-4D58-81D9-E4C9DD7E0DB8}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Scale_L_To.lvlib/Scale_L_To_CubeAcq_L_X</Property>
 	<Property Name="varPersistentID:{A782EB99-A07A-49A4-9807-AA39076E5DEF}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{A7DCE543-6F2D-42F8-85EB-F330F0EE9CB2}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_Back_L_Y</Property>
@@ -513,6 +515,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DrivePidRange.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/DrivePidRange.ctl"/>
 				<Item Name="DriveToPidRange.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveToPidRange.vi"/>
 				<Item Name="FollowCameraparam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/FollowCameraparam.ctl"/>
+				<Item Name="GenerateSpline.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Spline/GenerateSpline.vi"/>
 				<Item Name="GetCommandFinished.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/GetCommandFinished.vi"/>
 				<Item Name="hmi_cheesy_drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/hmi_cheesy_drive.vi"/>
 				<Item Name="HoldPositionParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/HoldPositionParam.ctl"/>
@@ -543,6 +546,7 @@ AddOutputFilter chunkFilter
 				<Item Name="QCP_WriteFile.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCP_WriteFile.vi"/>
 				<Item Name="QCPData.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCPSupportCode/QCPData.ctl"/>
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Quaternion to Euler.vi"/>
+				<Item Name="RadianWind2Wrap.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/Conversions/RadianWind2Wrap.vi"/>
 				<Item Name="Rate_Selective_Filter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/Rate_Selective_Filter.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Rot Order.ctl"/>
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Sensor_Cluster.ctl"/>
@@ -754,8 +758,10 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_Kinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/NI_Kinematics.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
