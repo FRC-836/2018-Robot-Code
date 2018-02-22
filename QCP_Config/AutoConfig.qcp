@@ -7,10 +7,7 @@ Start_1_To_Scale_L_X
 Start_1_To_Scale_L_Y
 Start_1_To_Scale_R_X
 Start_1_To_Scale_R_Y
-Start_1_To_Switch_Back_R_Y
-Start_1_To_Switch_Back_L_Y
-Start_1_To_Switch_Back_R_X
-Start_1_To_Switch_Back_L_X
+
 #Start_2_To_
 Start_2_To_Switch_L_Y
 Start_2_To_Switch_L_X
@@ -20,10 +17,7 @@ Start_2_To_Scale_L_X
 Start_2_To_Scale_L_Y
 Start_2_To_Scale_R_X
 Start_2_To_Scale_R_Y
-Start_2_To_Switch_Back_R_Y
-Start_2_To_Switch_Back_L_Y
-Start_2_To_Switch_Back_R_X
-Start_2_To_Switch_Back_L_X
+
 
 #Start_3_To_
 Start_3_To_Switch_L_Y
@@ -34,10 +28,6 @@ Start_3_To_Scale_L_X
 Start_3_To_Scale_L_Y
 Start_3_To_Scale_R_X
 Start_3_To_Scale_R_Y
-Start_3_To_Switch_Back_R_Y
-Start_3_To_Switch_Back_L_Y
-Start_3_To_Switch_Back_R_X
-Start_3_To_Switch_Back_L_X
 
 #Switch_L_To_
 Switch_L_To_CubeAcq_L_X
