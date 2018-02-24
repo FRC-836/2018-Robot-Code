@@ -202,6 +202,7 @@
 	<Property Name="varPersistentID:{A782EB99-A07A-49A4-9807-AA39076E5DEF}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{A7DCE543-6F2D-42F8-85EB-F330F0EE9CB2}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_Back_L_Y</Property>
 	<Property Name="varPersistentID:{A9A9A038-0117-496A-A1F9-72D913D7EBD7}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_L_X</Property>
+	<Property Name="varPersistentID:{A9F6D784-6CFE-4E4B-96CF-9C6999ABEB93}" Type="Ref">/Target/RobotSpecific.lvlib/Disabled?</Property>
 	<Property Name="varPersistentID:{AA0DB621-5CBF-42C9-917F-5EF94F761E3F}" Type="Ref">/Target/Joystick.lvlib/Button_Start</Property>
 	<Property Name="varPersistentID:{AC09508E-3277-4A16-88D5-825DE98B298E}" Type="Ref">/Target/DevRefs.lvlib/Sensor_QCP_DevRef_Out</Property>
 	<Property Name="varPersistentID:{AC7B9202-BEBA-4670-B03C-0C61757878E5}" Type="Ref">/Target/QCP/SensorLoop.lvlib/PBot_Elevator_Height_Diff_Tuning</Property>
