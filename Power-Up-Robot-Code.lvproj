@@ -44,6 +44,7 @@
 	<Property Name="varPersistentID:{24C8E08A-C55C-44FA-B9A8-E2EAACD12F39}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Switch_L_To.lvlib/Switch_L_To_CubeAcq_R_X</Property>
 	<Property Name="varPersistentID:{24E2D352-CAD6-4B14-B82E-36E3C50306F7}" Type="Ref">/Target/DevRefs.lvlib/IntakeNotifier</Property>
 	<Property Name="varPersistentID:{263A46E4-7182-40A5-8483-46CC7E8A2E33}" Type="Ref">/Target/QCP/Climb.lvlib/Climb_Deploy_Angle_Tuning</Property>
+	<Property Name="varPersistentID:{26BF5DC8-184A-40DF-8D5E-0AE81FC2674E}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/VerticalSetpoint</Property>
 	<Property Name="varPersistentID:{27ECDA34-3C08-4A2A-B59B-F6A82E898BEC}" Type="Ref">/Target/QCP/Lift.lvlib/Lift_Tolerance</Property>
 	<Property Name="varPersistentID:{2B747386-9A6B-4143-83E8-D4E2E54EBEAF}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Scale_R_X</Property>
 	<Property Name="varPersistentID:{2BEF32BF-5388-4E2D-902B-CFAFB112412E}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Free_High_Limit_Tuning</Property>
@@ -224,6 +225,7 @@
 	<Property Name="varPersistentID:{B5F31890-A966-4007-97BC-545C2F41D042}" Type="Ref">/Target/Joystick.lvlib/Button_Y</Property>
 	<Property Name="varPersistentID:{B5F6E9F7-3AAC-4EFA-AAE7-9ACF1890E344}" Type="Ref">/Target/QCP/Lift.lvlib/Lower_Limit</Property>
 	<Property Name="varPersistentID:{B71BD6A0-8D7E-41D1-8FA4-67833A8F0C59}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Mech_Hi</Property>
+	<Property Name="varPersistentID:{B86328C4-8F93-4566-A24A-EDA4FD06BCFE}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/RotationSetpoint</Property>
 	<Property Name="varPersistentID:{B8D29F7E-DD2D-441B-84E0-3E0BCC8BD136}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{B945EF90-8D77-4FF6-A359-F6B6511E5C62}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{B9A46E0A-664C-44C1-BE45-1CF634BADD5E}" Type="Ref">/Target/QCP/Lift.lvlib/Upper_Limit_Tuning</Property>
