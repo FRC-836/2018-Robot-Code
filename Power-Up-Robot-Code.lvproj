@@ -85,7 +85,6 @@
 	<Property Name="varPersistentID:{47B02E1C-2332-4A1B-BE46-D0952849D32A}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Period</Property>
 	<Property Name="varPersistentID:{47D31A8E-034E-4B15-954F-E873A18AD243}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/LeftDriveEncoder</Property>
 	<Property Name="varPersistentID:{48EE782D-D787-4AF1-9322-E8AA782275B3}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Medium_Behind_Rotation</Property>
-	<Property Name="varPersistentID:{496D7DD0-35AF-4F95-BDEF-E4963DD09156}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift_Command</Property>
 	<Property Name="varPersistentID:{4A2CFB4E-FCE2-4844-8A8F-4C322DA19ACE}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Low_Desired_Rotation_Tuning</Property>
 	<Property Name="varPersistentID:{4CDE1248-E61B-4A98-B80B-EBA3D699B37B}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Cube?</Property>
 	<Property Name="varPersistentID:{5025F445-1D40-4411-AA5B-1B393A027F0A}" Type="Ref">/Target/QCP/Lift.lvlib/Free_Rotate_Height_Tuning</Property>
@@ -281,6 +280,7 @@
 	<Property Name="varPersistentID:{EBE2D372-9380-43DE-9EEB-2F3D0AD36A5D}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Scale_R_X</Property>
 	<Property Name="varPersistentID:{ED29A588-3723-49DA-BC8F-9F1DE9987B19}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Start_3_To.lvlib/Start_3_To_Scale_R_X</Property>
 	<Property Name="varPersistentID:{EDAA7A03-CFF9-438D-AC71-0B151EFCF00C}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_Back_L_Y</Property>
+	<Property Name="varPersistentID:{EE73302B-0CB8-42F5-9709-EEA8DC890F68}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/LiftCommand</Property>
 	<Property Name="varPersistentID:{EF4B9C2C-4A07-4B22-A4F5-FBFB0DE2C941}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_Back_L_X</Property>
 	<Property Name="varPersistentID:{F27A7AA7-2839-4AC9-842F-9A3A6449B9A4}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/RotationPidGains</Property>
 	<Property Name="varPersistentID:{F2E2076E-AA56-4C63-8A55-C48573092E17}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Scale_R_X</Property>
@@ -526,6 +526,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Latch.vi"/>
 				<Item Name="LinearSensorCal.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/Conversions/LinearSensorCal.vi"/>
 				<Item Name="Mechanum.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Mechanum/Mechanum.vi"/>
+				<Item Name="NumBoolsTrue.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/NumBoolsTrue.vi"/>
 				<Item Name="Open_File_Simple.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/File_Operations/Open_File_Simple.vi"/>
 				<Item Name="PidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInputs.ctl"/>
 				<Item Name="PidInversions.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInversions.ctl"/>
