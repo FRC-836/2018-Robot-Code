@@ -1156,6 +1156,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ScaleFirst.vi" Type="VI" URL="../AutoSupport/ScaleFirst.vi"/>
 			<Item Name="SensorLoop.vi" Type="VI" URL="../QCP_Config/SensorLoop.vi"/>
 			<Item Name="StartPointToEndPoint.vi" Type="VI" URL="../AutoSupport/StartPointToEndPoint.vi"/>
 			<Item Name="Startpos.ctl" Type="VI" URL="../DashboardSupport/Startpos.ctl"/>

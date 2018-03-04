@@ -1,139 +1,166 @@
 #Start_1
-Start_1_To_Switch_X
-Start_1_To_Switch_Y
-Start_1_To_Switch_Side_X
-Start_1_To_Switch_Side_Y
-Start_1_To_Scale_Close_X
-Start_1_To_Scale_Close_Y
-Start_1_To_Scale_Far_X
-Start_1_To_Scale_Far_Y
+Start_1_To_Switch_Side_Close_X, 1
+Start_1_To_Switch_Side_Close_Y, 2
+Start_1_To_Scale_Far_X, 3
+Start_1_To_Scale_Far_Y, 4
+Start_1_To_Scale_Close_X, 5
+Start_1_To_Scale_Close_Y, 6
 
 #Start_2
-Start_2_To_Switch_L_X
-Start_2_To_Switch_L_Y
-Start_2_To_Switch_R_X
-Start_2_To_Switch_R_Y
+Start_2_To_Switch_Far_X, 7
+Start_2_To_Switch_Far_Y, 8
+Start_2_To_Switch_Close_X, 9
+Start_2_To_Switch_Close_Y, 10
 
 #Start_3
-Start_3_To_Switch_X
-Start_3_To_Switch_Y
-Start_3_To_Switch_Side_X
-Start_3_To_Switch_Side_Y
-Start_3_To_Scale_Close_X
-Start_3_To_Scale_Close_Y
-Start_3_To_Scale_Far_X
-Start_3_To_Scale_Far_Y
+Start_3_To_Switch_Side_Close_X, 11
+Start_3_To_Switch_Side_Close_Y, 12
+Start_3_To_Scale_Far_X, 13
+Start_3_To_Scale_Far_Y, 14
+Start_3_To_Scale_Close_X, 15
+Start_3_To_Scale_Close_Y, 16
 
-#Switch_Side
-Switch_Side_To_CubeAcq_Close_X
-Switch_Side_To_CubeAcq_Close_Y
-Switch_Side_To_CubeAcq_Close_X
-Switch_Side_To_CubeAcq_Close_Y
+#Switch_Side_Close
+Switch_Side_Close_To_CubeAcq_Far_X, 17
+Switch_Side_Close_To_CubeAcq_Far_Y, 18
+Switch_Side_Close_To_CubeAcq_Close_X, 19
+Switch_Side_Close_To_CubeAcq_Close_Y, 20
 
-#Switch_Back
-Switch_Back_To_CubeAcq_Close_X
-Switch_Back_To_CubeAcq_Close_Y
-Switch_Back_To_CubeAcq_Close_X
-Switch_Back_To_CubeAcq_Close_Y
+#Switch_Side_Far
+Switch_Side_Far_To_CubeAcq_Far_X, 17
+Switch_Side_Far_To_CubeAcq_Far_Y, 18
+Switch_Side_Far_To_CubeAcq_Close_X, 19
+Switch_Side_Far_To_CubeAcq_Close_Y, 20
 
-#Scale
-Scale_To_CubeAcq_Close_X
-Scale_To_CubeAcq_Close_Y
-Scale_To_CubeAcq_Far_X
-Scale_To_CubeAcq_Far_Y
+#Switch_Back_Close
+Switch_Back_Close_To_CubeAcq_Far_X, 21
+Switch_Back_Close_To_CubeAcq_Far_Y, 22
+Switch_Back_Close_To_CubeAcq_Close_X, 23
+Switch_Back_Close_To_CubeAcq_Close_Y, 24
 
-#Switch_Side
-Switch_Side_To_CubeAcq_L_X
-Switch_Side_To_CubeAcq_L_Y
-Switch_Side_To_CubeAcq_R_X
-Switch_Side_To_CubeAcq_R_Y
+#Switch_Back_Far
+Switch_Back_Far_To_CubeAcq_Far_X, 21
+Switch_Back_Far_To_CubeAcq_Far_Y, 22
+Switch_Back_Far_To_CubeAcq_Close_X, 23
+Switch_Back_Far_To_CubeAcq_Close_Y, 24
+
+#Scale_Close
+Scale_Close_To_CubeAcq_Far_X, 25
+Scale_Close_To_CubeAcq_Far_Y, 26
+Scale_Close_To_CubeAcq_Close_X, 27
+Scale_Close_To_CubeAcq_Close_Y, 28
+
+#Scale_Far
+Scale_Far_To_CubeAcq_Far_X, 25
+Scale_Far_To_CubeAcq_Far_Y, 26
+Scale_Far_To_CubeAcq_Close_X, 27
+Scale_Far_To_CubeAcq_Close_Y, 28
 
 #Cube_1
-Cube_1_To_Switch_L_X
-Cube_1_To_Switch_L_Y
-Cube_1_To_Switch_R_X
-Cube_1_To_Switch_R_Y
-Cube_1_To_Scale_L_X
-Cube_1_To_Scale_L_Y
-Cube_1_To_Scale_R_X
-Cube_1_To_Scale_R_Y
-Cube_1_To_Switch_Back_L_X
-Cube_1_To_Switch_Back_L_Y
-Cube_1_To_Switch_Back_R_X
-Cube_1_To_Switch_Back_R_Y
+Cube_1_To_Scale_Far_X, 33
+Cube_1_To_Scale_Far_Y, 34
+Cube_1_To_Scale_Close_X, 35
+Cube_1_To_Scale_Close_Y, 36
+Cube_1_To_Switch_Back_Far_X, 37
+Cube_1_To_Switch_Back_Far_Y, 38
+Cube_1_To_Switch_Back_Close_X, 39
+Cube_1_To_Switch_Back_Close_Y, 40
 
 #Cube_2
-Cube_2_To_Switch_L_X
-Cube_2_To_Switch_L_Y
-Cube_2_To_Switch_R_X
-Cube_2_To_Switch_R_Y
-Cube_2_To_Scale_L_X
-Cube_2_To_Scale_L_Y
-Cube_2_To_Scale_R_X
-Cube_2_To_Scale_R_Y
-Cube_2_To_Switch_Back_L_X
-Cube_2_To_Switch_Back_L_Y
-Cube_2_To_Switch_Back_R_X
-Cube_2_To_Switch_Back_R_Y
+Cube_2_To_Scale_Far_X, 41
+Cube_2_To_Scale_Far_Y, 42
+Cube_2_To_Scale_Close_X, 43
+Cube_2_To_Scale_Close_Y, 44
+Cube_2_To_Switch_Back_Far_X, 45
+Cube_2_To_Switch_Back_Far_Y, 46
+Cube_2_To_Switch_Back_Close_X, 47
+Cube_2_To_Switch_Back_Close_Y, 48
 
 #Cube_3
-Cube_3_To_Switch_L_X
-Cube_3_To_Switch_L_Y
-Cube_3_To_Switch_R_X
-Cube_3_To_Switch_R_Y
-Cube_3_To_Scale_L_X
-Cube_3_To_Scale_L_Y
-Cube_3_To_Scale_R_X
-Cube_3_To_Scale_R_Y
-Cube_3_To_Switch_Back_L_X
-Cube_3_To_Switch_Back_L_Y
-Cube_3_To_Switch_Back_R_X
-Cube_3_To_Switch_Back_R_Y
+Cube_3_To_Scale_Far_X, 49
+Cube_3_To_Scale_Far_Y, 50
+Cube_3_To_Scale_Close_X, 51
+Cube_3_To_Scale_Close_Y, 52
+Cube_3_To_Switch_Back_Far_X, 53
+Cube_3_To_Switch_Back_Far_Y, 54
+Cube_3_To_Switch_Back_Close_X, 55
+Cube_3_To_Switch_Back_Close_Y, 56
 
 #Cube_4
-Cube_4_To_Switch_L_X
-Cube_4_To_Switch_L_Y
-Cube_4_To_Switch_R_X
-Cube_4_To_Switch_R_Y
-Cube_4_To_Scale_L_X
-Cube_4_To_Scale_L_Y
-Cube_4_To_Scale_R_X
-Cube_4_To_Scale_R_Y
-Cube_4_To_Switch_Back_L_X
-Cube_4_To_Switch_Back_L_Y
-Cube_4_To_Switch_Back_R_X
-Cube_4_To_Switch_Back_R_Y
+Cube_4_To_Scale_Far_X, 57
+Cube_4_To_Scale_Far_Y, 58
+Cube_4_To_Scale_Close_X, 59
+Cube_4_To_Scale_Close_Y, 60
+Cube_4_To_Switch_Back_Far_X, 61
+Cube_4_To_Switch_Back_Far_Y, 62
+Cube_4_To_Switch_Back_Close_X, 63
+Cube_4_To_Switch_Back_Close_Y, 64
 
 #Cube_5
-Cube_5_To_Switch_L_X
-Cube_5_To_Switch_L_Y
-Cube_5_To_Switch_R_X
-Cube_5_To_Switch_R_Y
-Cube_5_To_Scale_L_X
-Cube_5_To_Scale_L_Y
-Cube_5_To_Scale_R_X
-Cube_5_To_Scale_R_Y
-Cube_5_To_Switch_Back_L_X
-Cube_5_To_Switch_Back_L_Y
-Cube_5_To_Switch_Back_R_X
-Cube_5_To_Switch_Back_R_Y
+Cube_5_To_Scale_Far_X, 65
+Cube_5_To_Scale_Far_Y, 66
+Cube_5_To_Scale_Close_X, 67
+Cube_5_To_Scale_Close_Y, 68
+Cube_5_To_Switch_Back_Far_X, 69
+Cube_5_To_Switch_Back_Far_Y, 70
+Cube_5_To_Switch_Back_Close_X, 71
+Cube_5_To_Switch_Back_Close_Y, 72
 
 #Cube_6
-Cube_6_To_Switch_L_X
-Cube_6_To_Switch_L_Y
-Cube_6_To_Switch_R_X
-Cube_6_To_Switch_R_Y
-Cube_6_To_Scale_L_X
-Cube_6_To_Scale_L_Y
-Cube_6_To_Scale_R_X
-Cube_6_To_Scale_R_Y
-Cube_6_To_Switch_Back_L_X
-Cube_6_To_Switch_Back_L_Y
-Cube_6_To_Switch_Back_R_X
-Cube_6_To_Switch_Back_R_Y
+Cube_6_To_Scale_Far_X, 73
+Cube_6_To_Scale_Far_Y, 74
+Cube_6_To_Scale_Close_X, 75
+Cube_6_To_Scale_Close_Y, 76
+Cube_6_To_Switch_Back_Far_X, 77
+Cube_6_To_Switch_Back_Far_Y, 78
+Cube_6_To_Switch_Back_Close_X, 79
+Cube_6_To_Switch_Back_Close_Y, 80
+
+#CubeAcq_Close
+CubeAcq_Close_To_Cube_1_X, 100
+CubeAcq_Close_To_Cube_1_Y, 101
+CubeAcq_Close_To_Cube_2_X, 102
+CubeAcq_Close_To_Cube_2_Y, 103
+CubeAcq_Close_To_Cube_3_X, 104
+CubeAcq_Close_To_Cube_3_Y, 105
+CubeAcq_Close_To_Cube_4_X, 100
+CubeAcq_Close_To_Cube_4_Y, 101
+CubeAcq_Close_To_Cube_5_X, 102
+CubeAcq_Close_To_Cube_5_Y, 103
+CubeAcq_Close_To_Cube_6_X, 104
+CubeAcq_Close_To_Cube_6_Y, 105
+
+#CubeAcq_Far
+CubeAcq_Far_To_Cube_1_X, 100
+CubeAcq_Far_To_Cube_1_Y, 101
+CubeAcq_Far_To_Cube_2_X, 102
+CubeAcq_Far_To_Cube_2_Y, 103
+CubeAcq_Far_To_Cube_3_X, 104
+CubeAcq_Far_To_Cube_3_Y, 105
+CubeAcq_Far_To_Cube_4_X, 100
+CubeAcq_Far_To_Cube_4_Y, 101
+CubeAcq_Far_To_Cube_5_X, 102
+CubeAcq_Far_To_Cube_5_Y, 103
+CubeAcq_Far_To_Cube_6_X, 104
+CubeAcq_Far_To_Cube_6_Y, 105
 
 #Angles
-Angle_At_Point_Start_1
-Angle_At_Point_Start_2
-Angle_At_Point_Start_3
-Angle_At_Point_Switch_
+Angle_At_Point_Start_1, 0
+Angle_At_Point_Start_2, 0
+Angle_At_Point_Start_3, 0
+Angle_At_Point_Switch_Far. 0
+Angle_At_Point_Switch_Side_Far, 270
+Angle_At_Point_Switch_Side_Close, 270
+Angle_At_Point_Switch_Close. 0
+Angle_At_Point_Scale_Far, 0
+Angle_At_Point_Scale_Close, 0
+Angle_At_Point_Cube_1, 190
+Angle_At_Point_Cube_2, 190
+Angle_At_Point_Cube_3, 190
+Angle_At_Point_Cube_4, 190
+Angle_At_Point_Cube_5, 190
+Angle_At_Point_Cube_6, 190
+Angle_At_Point_CubeAcq_Far, 200
+Angle_At_Point_CubeAcq_Close, 200
+Angle_At_Point_Switch_Back_Far, 180
+Angle_At_Point_Switch_Back_Close, 180
