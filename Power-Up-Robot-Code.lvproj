@@ -9,7 +9,6 @@
 	<Property Name="varPersistentID:{03C0E11E-3701-4E13-99FE-C086564975D7}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Switch_Back_L_X</Property>
 	<Property Name="varPersistentID:{0467006F-5385-4737-9BBE-24FB397B389F}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Yaw_Driving_Straight_PID_Gains</Property>
 	<Property Name="varPersistentID:{06C276FB-47C1-4ADE-84A7-D36323271A6D}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Switch_L_To.lvlib/Switch_L_To_CubeAcq_L_Y</Property>
-	<Property Name="varPersistentID:{072F3784-5EC9-45C6-86F1-1225D759D4DF}" Type="Ref">/Target/Mechanisms/ClimbStatus.lvlib/Climb Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{086577EB-8C5D-4F26-9F3D-43E18EE3D31F}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Iteration Duration</Property>
 	<Property Name="varPersistentID:{095E8774-2BF9-406A-B237-ADFFA345C025}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_R_X</Property>
 	<Property Name="varPersistentID:{09E50394-4F53-4CB5-B027-992B3941D68A}" Type="Ref">/Target/QCP/SensorLoop.lvlib/Lift_Rotation_Scale_Tuning</Property>
@@ -49,7 +48,6 @@
 	<Property Name="varPersistentID:{263A46E4-7182-40A5-8483-46CC7E8A2E33}" Type="Ref">/Target/QCP/Climb.lvlib/Climb_Deploy_Angle_Tuning</Property>
 	<Property Name="varPersistentID:{26BF5DC8-184A-40DF-8D5E-0AE81FC2674E}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/VerticalSetpoint</Property>
 	<Property Name="varPersistentID:{27ECDA34-3C08-4A2A-B59B-F6A82E898BEC}" Type="Ref">/Target/QCP/Lift.lvlib/Lift_Tolerance</Property>
-	<Property Name="varPersistentID:{2A00440F-5818-49DA-BFBF-AAC589D0EEE0}" Type="Ref">/Target/Mechanisms/ClimbStatus.lvlib/Climb Iteration Duration</Property>
 	<Property Name="varPersistentID:{2B747386-9A6B-4143-83E8-D4E2E54EBEAF}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Scale_R_X</Property>
 	<Property Name="varPersistentID:{2BEF32BF-5388-4E2D-902B-CFAFB112412E}" Type="Ref">/Target/QCP/Lift.lvlib/Rotational_Free_High_Limit_Tuning</Property>
 	<Property Name="varPersistentID:{2C177A07-62BC-414B-854D-A472D941BB44}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_Back_R_Y</Property>
@@ -125,7 +123,6 @@
 	<Property Name="varPersistentID:{64C5AE6A-D5CB-452C-ADD8-3F886B014E3B}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Rotational_Position</Property>
 	<Property Name="varPersistentID:{6630729D-4457-4097-B767-C14C8A850088}" Type="Ref">/Target/DevRefs.lvlib/RightClimbNotifier</Property>
 	<Property Name="varPersistentID:{665EA094-9764-4CDB-A420-526A60F11F79}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_L_X</Property>
-	<Property Name="varPersistentID:{66803E7C-F620-4AFB-9869-D4EFB22302F3}" Type="Ref">/Target/Mechanisms/ClimbStatus.lvlib/Climb Period</Property>
 	<Property Name="varPersistentID:{6697A9B0-D50C-4C66-862C-920D2FC6139B}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_Back_R_X</Property>
 	<Property Name="varPersistentID:{68749949-9273-47E3-8BFA-F90DE5A9C9E9}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake_Command</Property>
 	<Property Name="varPersistentID:{68D2205D-52C9-4C22-ABFB-0342643704ED}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Scale_R_X</Property>
@@ -157,6 +154,7 @@
 	<Property Name="varPersistentID:{7DB37F70-7118-4922-A8BD-E64F1F936100}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Sensor_Hi_Tuning</Property>
 	<Property Name="varPersistentID:{7E75712D-BC7C-4C13-B008-7E62979976F4}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_Back_R_Y</Property>
 	<Property Name="varPersistentID:{815CA2B0-3ADB-4210-B28B-13BB8BE6BC23}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Start_3_To.lvlib/Start_3_To_Scale_R_Y</Property>
+	<Property Name="varPersistentID:{81714C62-5237-4785-B4E5-E9870FDC7BDD}" Type="Ref">/Target/Camera.lvlib/Target Area</Property>
 	<Property Name="varPersistentID:{81D75363-51D5-4CAF-824A-FCD614532803}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Switch_Back_L_To.lvlib/Switch_Back_L_To_CubeAcq_L_X</Property>
 	<Property Name="varPersistentID:{822AF371-C8F7-4CF4-979C-9889DD807E4F}" Type="Ref">/Target/QCP/Lift.lvlib/To_Switch_Desired_Height_Tuning</Property>
 	<Property Name="varPersistentID:{832550E7-38B3-4A2C-8385-B7A00E789061}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_Back_L_X</Property>
@@ -192,7 +190,6 @@
 	<Property Name="varPersistentID:{975CEBCD-CBC1-44A4-8128-A5AF2092AB1D}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Manual_Motor_Power_Tuning</Property>
 	<Property Name="varPersistentID:{979143CD-8555-40EE-B4BD-6A5A1E897A28}" Type="Ref">/Target/DevRefs.lvlib/BehindBackNotifier</Property>
 	<Property Name="varPersistentID:{9837E18D-44D0-4517-8E10-5D7306BF9D44}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Switch_Back_R_To.lvlib/Switch_Back_R_To_CubeAcq_L_Y</Property>
-	<Property Name="varPersistentID:{9A6D4239-ED99-4F8C-A9D3-937FD8B35752}" Type="Ref">/Target/DevRefs.lvlib/ClimbNotifier</Property>
 	<Property Name="varPersistentID:{9A7AF7E4-1258-494D-BD6F-985749A5903D}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Behind Back?</Property>
 	<Property Name="varPersistentID:{9BE65746-309A-4800-9E7A-8461203D6411}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_R_Y</Property>
 	<Property Name="varPersistentID:{9F48DAF0-B1F1-4776-9772-F30A6C33542B}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Holding_Still_PID_Gains_Tuning</Property>
@@ -1129,9 +1126,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Auto.vi" Type="VI" URL="../QCP_Config/Auto.vi"/>
-			<Item Name="Climb command.ctl" Type="VI" URL="../CommandTypes/Climb command.ctl"/>
-			<Item Name="Climb level 2.vi" Type="VI" URL="../LevelTwo/Climb level 2.vi"/>
 			<Item Name="DriveLoop.vi" Type="VI" URL="../QCP_Config/DriveLoop.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1162,6 +1156,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ScaleFirst.vi" Type="VI" URL="../AutoSupport/ScaleFirst.vi"/>
 			<Item Name="SensorLoop.vi" Type="VI" URL="../QCP_Config/SensorLoop.vi"/>
 			<Item Name="StartPointToEndPoint.vi" Type="VI" URL="../AutoSupport/StartPointToEndPoint.vi"/>
 			<Item Name="Startpos.ctl" Type="VI" URL="../DashboardSupport/Startpos.ctl"/>
