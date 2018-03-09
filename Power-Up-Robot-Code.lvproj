@@ -154,6 +154,7 @@
 	<Property Name="varPersistentID:{7DB37F70-7118-4922-A8BD-E64F1F936100}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Sensor_Hi_Tuning</Property>
 	<Property Name="varPersistentID:{7E75712D-BC7C-4C13-B008-7E62979976F4}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_Back_R_Y</Property>
 	<Property Name="varPersistentID:{815CA2B0-3ADB-4210-B28B-13BB8BE6BC23}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Start_3_To.lvlib/Start_3_To_Scale_R_Y</Property>
+	<Property Name="varPersistentID:{81714C62-5237-4785-B4E5-E9870FDC7BDD}" Type="Ref">/Target/Camera.lvlib/Target Area</Property>
 	<Property Name="varPersistentID:{81D75363-51D5-4CAF-824A-FCD614532803}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Switch_Back_L_To.lvlib/Switch_Back_L_To_CubeAcq_L_X</Property>
 	<Property Name="varPersistentID:{822AF371-C8F7-4CF4-979C-9889DD807E4F}" Type="Ref">/Target/QCP/Lift.lvlib/To_Switch_Desired_Height_Tuning</Property>
 	<Property Name="varPersistentID:{832550E7-38B3-4A2C-8385-B7A00E789061}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_Back_L_X</Property>
