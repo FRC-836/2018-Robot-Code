@@ -14,7 +14,7 @@ Start_2_To_Switch_Far_X, 20, 70, 120
 Start_2_To_Switch_Far_Y, 159.9, 200, 219
 Start_2_To_Switch_Far_Time, 4
 Start_2_To_Switch_Close_X, 20, 70, 120
-Start_2_To_Switch_Close_Y, 159.5, 140, 110
+Start_2_To_Switch_Close_Y, 159.5, 140, 100
 Start_2_To_Switch_Close_Time, 4
 
 #Start_3

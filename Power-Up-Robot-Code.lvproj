@@ -8,6 +8,7 @@
 	<Property Name="varPersistentID:{038AAA3E-142D-42DB-9AB9-82E98C089A1F}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Scale_L_Y</Property>
 	<Property Name="varPersistentID:{03C0E11E-3701-4E13-99FE-C086564975D7}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Switch_Back_L_X</Property>
 	<Property Name="varPersistentID:{0467006F-5385-4737-9BBE-24FB397B389F}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Yaw_Driving_Straight_PID_Gains</Property>
+	<Property Name="varPersistentID:{04AEB0DD-8C61-4D93-96D7-AD3175534FDF}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Home?</Property>
 	<Property Name="varPersistentID:{06C276FB-47C1-4ADE-84A7-D36323271A6D}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Switch_L_To.lvlib/Switch_L_To_CubeAcq_L_Y</Property>
 	<Property Name="varPersistentID:{086577EB-8C5D-4F26-9F3D-43E18EE3D31F}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Intake Iteration Duration</Property>
 	<Property Name="varPersistentID:{095E8774-2BF9-406A-B237-ADFFA345C025}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_R_X</Property>
@@ -542,6 +543,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Latch.vi"/>
 				<Item Name="LinearSensorCal.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/Conversions/LinearSensorCal.vi"/>
 				<Item Name="Logger_Init.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Logger_Init.vi"/>
+				<Item Name="Logger_Log_Data.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Logger_Log_Data.vi"/>
 				<Item Name="Logger_Loop.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Logger_Loop.vi"/>
 				<Item Name="Logging_Settings.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Logging_Settings.ctl"/>
 				<Item Name="Mechanum.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Mechanum/Mechanum.vi"/>
