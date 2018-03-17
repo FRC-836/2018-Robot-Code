@@ -37,3 +37,9 @@ Rotation_Feed_Forward, -0.126041
 To_Scale_Medium_Behind_Rotation, 0
 To_Scale_High_Behind_Rotation, 0
 To_Scale_Low_Behind_Rotation, 0
+Cube_Pile_Hi_Desired_Rotation, 0
+Cube_Pile_Hi_Desired_Height, 0
+Cube_Pile_Med_Desired_Rotation, 0
+Cube_Pile_Med_Desired_Height, 0
+Cube_Pile_Lo_Desired_Rotation, 0
+Cube_Pile_Lo_Desired_Height, 0
