@@ -195,4 +195,20 @@
 		<Property Name="typedefPath2" Type="PathRel">/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%W-A%!!"=!A!!!!!!-!""!-0````]'5X2S;7ZH!!!31%!!!@````]!!!6/97VF=Q!.1!I!"UZV&lt;76S;7-!%E"!!!(`````!!)&amp;18*S98E!%%"1!!%!!Q&gt;$&lt;(6T&gt;'6S!"2!1!!"`````Q!%"F:B&lt;(6F=Q!!%%!B#V2V&lt;GFO:UVP:'5`!$)!]1!!!!!!!!!"#V&amp;$5%2B&gt;'%O9X2M!"Z!5!!$!!%!"1!'$&amp;&amp;$5#"%982B)&amp;*F:A!!(5"Q!#!!!1!(!"&amp;%982B)&amp;:B&lt;(6F)&amp;*F:GZV&lt;1!&lt;1"9!!1FT:7VB='BP=G5!#8.F&lt;7&amp;Q;'^S:1!R!0(#=G/O!!!!!2"4:7VB='BP=G5A5G6G4H6N!"B!=!!"!!%!#1FT:7VB='BP=G5!#A"1!!)!#!!+!!%!#Q!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="TDMS DevRef Out" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">4</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">Channel_FIFO_Config.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Group_FIFO_Config.ctl</Property>
+		<Property Name="typedefName3" Type="Str">Logging_Settings.ctl</Property>
+		<Property Name="typedefName4" Type="Str">Semaphore RefNum</Property>
+		<Property Name="typedefPath1" Type="PathRel">/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Channel_FIFO_Config.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Group_FIFO_Config.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Logging_Settings.ctl</Property>
+		<Property Name="typedefPath4" Type="PathRel">/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,*R1)!!"=!A!!!!!!:!!Z!-0````]%4G&amp;N:1!!%%"Q!#))2GFM:3"3:79!!"*!6!!'#F.U98*U)&amp;2J&lt;75!!"&gt;!#A!12'&amp;U93"(=G&amp;C)&amp;"F=GFP:!!!&amp;U!+!"&amp;';7RF)&amp;&gt;S;82F)&amp;"F=GFP:!!61!I!$UVB?#"4&gt;'^S:71A5WF[:1!21!I!#E*V=H.U)&amp;.J?G5!!%%!]1!!!!!!!!!"&amp;%RP:W&gt;J&lt;G&gt;@5W6U&gt;'FO:X-O9X2M!#2!5!!%!!-!"!!&amp;!!914'^H:WFO:S"4:82U;7ZH=Q!!$E!Q`````Q6(=G^V=!!11$$`````"U.I97ZO:7Q!"1!+!!!11(!!)1!"!!I%2EF'4Q!!0!$R!!!!!!!!!!%81WBB&lt;GZF&lt;&amp;^'35:08U.P&lt;G:J:SZD&gt;'Q!(%"1!!)!#1!,$%.I97ZO:7QA37ZG&lt;Q!!&amp;E"!!!(`````!!Q)1WBB&lt;GZF&lt;(-!!""!-0````]'5X2S;7ZH!!!;1%!!!@````]!$AV$;'&amp;O&lt;G6M)%ZB&lt;76T!%)!]1!!!!!!!!!"&amp;5&gt;S&lt;X6Q8U:*2E^@1W^O:GFH,G.U&lt;!!E1&amp;!!!Q!)!!U!$R*';7:P)%.P&lt;G:J:X6S982J&lt;WY!!"Z!1!!"`````Q!1%5&gt;S&lt;X6Q)%:*2E]A1W^O:GFH!"!!1!!#``````````]!#A!)!&amp;!!!1!3!!Q!1!!"`````Q!4!"F!=!!A!!%!&amp;!!.2'&amp;U93"5&lt;S"8=GFU:1!&lt;1"9!!1FT:7VB='BP=G5!#8.F&lt;7&amp;Q;'^S:1!R!0(#=G/O!!!!!2"4:7VB='BP=G5A5G6G4H6N!"B!=!!"!!%!&amp;AFT:7VB='BP=G5!&amp;!"1!!=!!!!"!!)!"Q!2!"5!&amp;Q!"!"A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>
