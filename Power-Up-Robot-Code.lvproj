@@ -1197,7 +1197,6 @@ DirectoryIndex index.htm
 			<Item Name="SensorLoop.vi" Type="VI" URL="../QCP_Config/SensorLoop.vi"/>
 			<Item Name="StartPointToEndPoint.vi" Type="VI" URL="../AutoSupport/StartPointToEndPoint.vi"/>
 			<Item Name="Startpos.ctl" Type="VI" URL="../DashboardSupport/Startpos.ctl"/>
-			<Item Name="Untitled Library 9.lvlib" Type="Library" URL="../../../../../../Documents/Untitled Library 9.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
