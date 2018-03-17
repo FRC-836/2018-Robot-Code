@@ -1,0 +1,8 @@
+
+soft stops
+  limits
+    hi: 24000
+    lo: 1200
+  near limits
+    hi: 4000
+    lo: 3000
