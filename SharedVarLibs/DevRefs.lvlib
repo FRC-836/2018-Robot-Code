@@ -17,6 +17,26 @@
 		<Property Name="typedefPath2" Type="PathRel">/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%W-A%!!"=!A!!!!!!-!""!-0````]'5X2S;7ZH!!!31%!!!@````]!!!6/97VF=Q!.1!I!"UZV&lt;76S;7-!%E"!!!(`````!!)&amp;18*S98E!%%"1!!%!!Q&gt;$&lt;(6T&gt;'6S!"2!1!!"`````Q!%"F:B&lt;(6F=Q!!%%!B#V2V&lt;GFO:UVP:'5`!$)!]1!!!!!!!!!"#V&amp;$5%2B&gt;'%O9X2M!"Z!5!!$!!%!"1!'$&amp;&amp;$5#"%982B)&amp;*F:A!!(5"Q!#!!!1!(!"&amp;%982B)&amp;:B&lt;(6F)&amp;*F:GZV&lt;1!&lt;1"9!!1FT:7VB='BP=G5!#8.F&lt;7&amp;Q;'^S:1!R!0(#=G/O!!!!!2"4:7VB='BP=G5A5G6G4H6N!"B!=!!"!!%!#1FT:7VB='BP=G5!#A"1!!)!#!!+!!%!#Q!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="BehindBackNotifier" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!G)A!!!"=!A!!!!!!#!!1!)1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="ClimbNotifier" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">Climb command.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../CommandTypes/Climb command.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"(1Q!!!"=!A!!!!!!#!#6!&amp;A!$#E2P)%ZP&gt;'BJ&lt;G='2'6Q&lt;'^Z"6&gt;J&lt;G.I!!2&amp;&lt;H6N!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Drive DevRef Out" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -138,7 +158,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">LiftCommands.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../CommandTypes/LiftCommands.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#AH!!!!"=!A!!!!!!#!(Y!]1!!!!!!!!!"%%RJ:H2$&lt;WVN97ZE=SZD&gt;'Q!:5!7!!A,2']A)%ZP&gt;'BJ&lt;G='47&amp;O&gt;76M"%BP&lt;75'2X*P&gt;7ZE#62P)&amp;.X;82D;!R5&lt;S"49W&amp;M:3"-&lt;X=06']A5W.B&lt;'5A476E;86N$62P)&amp;.D97RF)%BJ:WA!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#AH!!!!"=!A!!!!!!#!(Y!]1!!!!!!!!!"%%RJ:H2$&lt;WVN97ZE=SZD&gt;'Q!:5!7!!A,2']A)%ZP&gt;'BJ&lt;G='47&amp;O&gt;76M"E&gt;S&lt;X6O:!2)&lt;WVF#62P)&amp;.X;82D;!R5&lt;S"49W&amp;M:3"-&lt;X=06']A5W.B&lt;'5A476E;86N$62P)&amp;.D97RF)%BJ:WA!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="PBot?" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
