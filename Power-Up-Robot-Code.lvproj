@@ -242,6 +242,7 @@
 	<Property Name="varPersistentID:{B156DAFB-AEA7-4288-943E-DB986170BD51}" Type="Ref">/Target/DevRefs.lvlib/DriveNotifier</Property>
 	<Property Name="varPersistentID:{B308984A-8550-4E9F-A3FF-78E51FDCCDE2}" Type="Ref">/Target/QCP/Lift.lvlib/Verticle_Sensor_Hi</Property>
 	<Property Name="varPersistentID:{B3497161-83B5-4B2A-A8DB-A5C38161B46D}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Scale_L_Y</Property>
+	<Property Name="varPersistentID:{B3FC988A-E4BE-455D-B6A4-17960206C2A8}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Left Intake Speed</Property>
 	<Property Name="varPersistentID:{B479E6FD-B412-4618-A560-478CE3DFF700}" Type="Ref">/Target/Joystick.lvlib/Button_X</Property>
 	<Property Name="varPersistentID:{B50C2069-367E-42FC-82C8-9BA5435F29C5}" Type="Ref">/Target/QCP/Lift.lvlib/High_Pile_Desired_Height</Property>
 	<Property Name="varPersistentID:{B539AEB4-8752-4629-BA18-5A0FD2090330}" Type="Ref">/Target/QCP/Lift.lvlib/Climb_Desired_Height</Property>
