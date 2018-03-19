@@ -10,10 +10,10 @@ Start_1_To_Scale_Close_Y, 45, 45, 75
 Start_1_To_Scale_Close_Time, 4.25
 
 #Start_2
-Start_2_To_Switch_Far_X, 20, 70, 120
+Start_2_To_Switch_Far_X, 20, 70, 130
 Start_2_To_Switch_Far_Y, 159.9, 200, 219
 Start_2_To_Switch_Far_Time, 4
-Start_2_To_Switch_Close_X, 20, 70, 120
+Start_2_To_Switch_Close_X, 20, 70, 130
 Start_2_To_Switch_Close_Y, 159.5, 140, 125
 Start_2_To_Switch_Close_Time, 4
 
