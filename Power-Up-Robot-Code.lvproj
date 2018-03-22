@@ -127,6 +127,7 @@
 	<Property Name="varPersistentID:{645898BF-7866-4F02-AAA4-F0FFCCF4AE08}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_R_Y</Property>
 	<Property Name="varPersistentID:{64A7D00E-3A9B-4808-BE9D-DC504169D3BF}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_Back_R_X</Property>
 	<Property Name="varPersistentID:{64C5AE6A-D5CB-452C-ADD8-3F886B014E3B}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Rotational_Position</Property>
+	<Property Name="varPersistentID:{654DF246-7D10-43D9-8ED1-AEDEA512B6C4}" Type="Ref">/Target/Camera.lvlib/ledMode</Property>
 	<Property Name="varPersistentID:{6630729D-4457-4097-B767-C14C8A850088}" Type="Ref">/Target/DevRefs.lvlib/RightClimbNotifier</Property>
 	<Property Name="varPersistentID:{665EA094-9764-4CDB-A420-526A60F11F79}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_L_X</Property>
 	<Property Name="varPersistentID:{6697A9B0-D50C-4C66-862C-920D2FC6139B}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_Back_R_X</Property>
@@ -266,6 +267,7 @@
 	<Property Name="varPersistentID:{C22F0CD1-00D0-4A3F-9814-DA1D851D6C07}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Start_2_To.lvlib/Start_2_To_Switch_Back_R_Y</Property>
 	<Property Name="varPersistentID:{C2742F89-8F3C-45C0-B030-371007008648}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Center_Speed_Tuning</Property>
 	<Property Name="varPersistentID:{C2F88FAE-B9F8-44BD-9464-7EF051486D64}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Yaw</Property>
+	<Property Name="varPersistentID:{C3D5092A-4688-4704-8C07-EBD8C75188E6}" Type="Ref">/Target/Camera.lvlib/pipeline</Property>
 	<Property Name="varPersistentID:{C4771078-D343-4A06-BE91-90956DB67484}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Medium_Desired_Rotation_Tuning</Property>
 	<Property Name="varPersistentID:{C4FF5B57-FB30-4D40-BBC8-E05BC42DC357}" Type="Ref">/Target/QCP/Lift.lvlib/Free_Rotate_Height</Property>
 	<Property Name="varPersistentID:{C58127CF-FE1F-4A7B-A5A4-B80CB7EE2CF3}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/VertPidGainsUp</Property>
