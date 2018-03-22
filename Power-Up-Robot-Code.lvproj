@@ -1203,6 +1203,7 @@ DirectoryIndex index.htm
 			<Item Name="ScaleFirst.vi" Type="VI" URL="../AutoSupport/ScaleFirst.vi"/>
 			<Item Name="SensorLoop.vi" Type="VI" URL="../QCP_Config/SensorLoop.vi"/>
 			<Item Name="Startpos.ctl" Type="VI" URL="../DashboardSupport/Startpos.ctl"/>
+			<Item Name="SwitchAutoStates.ctl" Type="VI" URL="../AutoSupport/SwitchAutoStates.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
