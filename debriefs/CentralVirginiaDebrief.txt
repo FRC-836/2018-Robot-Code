@@ -1,0 +1,26 @@
+angle of intake is too limited
+  can't pick up cubes against the wall
+can't pick up cubes in tall orientation
+scoring cubes over a 2 stack on scale is a problem
+  cubes have spin when they come out
+    caused by having only one set of rollers
+    backspin behind back
+  can't place cubes in a precision method
+drivetrain
+  brownouts limit driver ability
+  can't spin in place
+arm and lift
+  up too long after scoring
+driver needs more practice
+  does everything in serial
+  needs feedback from the robot
+  light
+scorign cyble takes too long
+
+
+eric's recommendation
+  more drive time for driver
+  between district 2 and DCMP only driver training
+  
+  
+auto 2 cube in scale

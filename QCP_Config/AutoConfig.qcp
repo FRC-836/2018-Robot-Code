@@ -2,7 +2,7 @@
 Start_1_To_Switch_Side_Close_X, 20, 70, 172.5
 Start_1_To_Switch_Side_Close_Y, 45, 55, 60
 Start_1_To_Switch_Side_Close_Time, 4
-Start_1_To_Scale_Far_X, 1, 200, 212, 270
+Start_1_To_Scale_Far_X, 1, 206, 206, 260
 Start_1_To_Scale_Far_Y, 1, 1, 180, 190
 Start_1_To_Scale_Far_Time, 10
 Start_1_To_Scale_Close_X, 20, 200, 272
@@ -10,10 +10,10 @@ Start_1_To_Scale_Close_Y, 45, 45, 75
 Start_1_To_Scale_Close_Time, 4.25
 
 #Start_2
-Start_2_To_Switch_Far_X, 20, 70, 120
+Start_2_To_Switch_Far_X, 20, 70, 130
 Start_2_To_Switch_Far_Y, 159.9, 200, 219
 Start_2_To_Switch_Far_Time, 4
-Start_2_To_Switch_Close_X, 20, 70, 120
+Start_2_To_Switch_Close_X, 20, 70, 130
 Start_2_To_Switch_Close_Y, 159.5, 140, 125
 Start_2_To_Switch_Close_Time, 4
 
@@ -21,7 +21,7 @@ Start_2_To_Switch_Close_Time, 4
 Start_3_To_Switch_Side_Close_X, 20, 70, 172.5
 Start_3_To_Switch_Side_Close_Y, 180, 200, 240
 Start_3_To_Switch_Side_Close_Time, 4
-Start_3_To_Scale_Far_X, 1, 200, 212, 270
+Start_3_To_Scale_Far_X, 1, 206, 206, 260
 Start_3_To_Scale_Far_Y, 1, 1, 180, 190
 Start_3_To_Scale_Far_Time, 10
 Start_3_To_Scale_Close_X, 20, 200, 272
@@ -82,9 +82,9 @@ Scale_Far_To_CubeAcq_Close_Time, 2
 Cube_1_To_Scale_Far_X, 231, 250, 270
 Cube_1_To_Scale_Far_Y, 215, 200, 190
 Cube_1_To_Scale_Far_Time, 2
-Cube_1_To_Scale_Close_X, 231, 150, 270
-Cube_1_To_Scale_Close_Y, 215, 100, 70
-Cube_1_To_Scale_Close_Time, 2
+Cube_1_To_Scale_Close_X, 231, 270
+Cube_1_To_Scale_Close_Y, 215, 215
+Cube_1_To_Scale_Close_Time, 2.5
 Cube_1_To_Switch_Back_Far_X, 231, 225, 222
 Cube_1_To_Switch_Back_Far_Y, 215, 215, 214
 Cube_1_To_Switch_Back_Far_Time, 2

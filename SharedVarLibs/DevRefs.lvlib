@@ -158,7 +158,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">LiftCommands.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../CommandTypes/LiftCommands.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#AH!!!!"=!A!!!!!!#!(Y!]1!!!!!!!!!"%%RJ:H2$&lt;WVN97ZE=SZD&gt;'Q!:5!7!!A,2']A)%ZP&gt;'BJ&lt;G='47&amp;O&gt;76M"E&gt;S&lt;X6O:!2)&lt;WVF#62P)&amp;.X;82D;!R5&lt;S"49W&amp;M:3"-&lt;X=06']A5W.B&lt;'5A476E;86N$62P)&amp;.D97RF)%BJ:WA!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#GIA!!!"=!A!!!!!!#!)1!]1!!!!!!!!!"%%RJ:H2$&lt;WVN97ZE=SZD&gt;'Q!;U!7!!E,2']A)%ZP&gt;'BJ&lt;G='47&amp;O&gt;76M"E&gt;S&lt;X6O:!2)&lt;WVF#62P)&amp;.X;82D;!R5&lt;S"49W&amp;M:3"-&lt;X=06']A5W.B&lt;'5A476E;86N$62P)&amp;.D97RF)%BJ:WA&amp;1WRJ&lt;7)!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="PBot?" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>

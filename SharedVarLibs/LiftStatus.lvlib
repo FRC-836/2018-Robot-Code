@@ -28,6 +28,18 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"=!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Lift Command" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"X=Q!!!"=!A!!!!!!"!'%!&amp;A!*#U2P)#"/&lt;X2I;7ZH"EVB&lt;H6F&lt;!:(=G^V&lt;G1%3'^N:1F5&lt;S"4&gt;WFU9WA-6']A5W.B&lt;'5A4'^X$V2P)&amp;.D97RF)%VF:'FV&lt;1V5&lt;S"49W&amp;M:3");7&gt;I"5.M;7VC!!!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Lift Finished Late? [i-1]" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -111,18 +123,6 @@
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"=!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="LiftCommand" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"R&lt;1!!!"=!A!!!!!!"!&amp;M!&amp;A!)#U2P)#"/&lt;X2I;7ZH"EVB&lt;H6F&lt;!:(=G^V&lt;G1%3'^N:1F5&lt;S"4&gt;WFU9WA-6']A5W.B&lt;'5A4'^X$V2P)&amp;.D97RF)%VF:'FV&lt;1V5&lt;S"49W&amp;M:3");7&gt;I!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="LiftTuningMode" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
