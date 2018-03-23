@@ -16,6 +16,7 @@
 	<Property Name="varPersistentID:{0A539149-4C5B-45EF-B58F-CC9DF7B49582}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Start_1_To_.lvlib/Start_1_To_Scale_R_Y</Property>
 	<Property Name="varPersistentID:{0A709179-6278-4882-A00D-C495AFCAEB72}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Medium_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{0A95C9D8-7ACB-4BC4-98C6-F9EDC4E9E0BA}" Type="Ref">/Target/Match Data.lvlib/Auto/Cubes_On_Scale</Property>
+	<Property Name="varPersistentID:{0B1055BA-AABA-45F8-A68A-978D42657C8B}" Type="Ref">/Target/Camera.lvlib/Bore_Sight</Property>
 	<Property Name="varPersistentID:{0B36B42D-5D85-4721-BA7C-134ADAC8223A}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Mech_Hi_Tuning</Property>
 	<Property Name="varPersistentID:{0BE64F4D-E281-41BC-9142-9724EAEBA86F}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Start_1_To_.lvlib/Start_1_To_Scale_R_X</Property>
 	<Property Name="varPersistentID:{0CDF250C-E25B-4D50-A4ED-C06240CD82CD}" Type="Ref">/Target/QCP/Lift.lvlib/Climb_Desired_Rotation_Tuning_Value</Property>
