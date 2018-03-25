@@ -4,6 +4,7 @@
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{0048D722-F5DA-4B44-94EA-8197614284A8}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Mech_Low_Tuning</Property>
 	<Property Name="varPersistentID:{01F4623C-CFEB-4F42-8A90-4808B922D59C}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Driving_PID_Gains</Property>
+	<Property Name="varPersistentID:{024A175D-7F9C-4FDF-A3EF-E25188D85102}" Type="Ref">/Target/Mechanisms/IntakeStatus.lvlib/Force Intake?</Property>
 	<Property Name="varPersistentID:{037E574A-760F-4C30-B788-C88A7ADC05CA}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_5_To.lvlib/Cube_5_To_Switch_Back_R_X</Property>
 	<Property Name="varPersistentID:{038AAA3E-142D-42DB-9AB9-82E98C089A1F}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Scale_L_Y</Property>
 	<Property Name="varPersistentID:{03C0E11E-3701-4E13-99FE-C086564975D7}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Switch_Back_L_X</Property>
@@ -1220,7 +1221,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">32</Property>
+				<Property Name="Bld_version.build" Type="Int">34</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
