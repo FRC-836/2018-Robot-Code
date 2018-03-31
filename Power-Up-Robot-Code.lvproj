@@ -299,6 +299,7 @@
 	<Property Name="varPersistentID:{E1974AF7-16A3-42F3-9044-62689342BB4B}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_Back_R_Y</Property>
 	<Property Name="varPersistentID:{E22AB930-6343-42DD-8B2C-462471AFF431}" Type="Ref">/Target/QCP/Lift.lvlib/To_Scale_Medium_Desired_Height_Tuning</Property>
 	<Property Name="varPersistentID:{E49368AC-9C6E-4036-AC8D-048597D4CADF}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_2_To.lvlib/Cube_2_To_Scale_R_Y</Property>
+	<Property Name="varPersistentID:{E758A1EF-9FBE-4A3E-822D-5DB02FC6A369}" Type="Ref">/Target/Match Data.lvlib/Scale On Left?</Property>
 	<Property Name="varPersistentID:{E7D54807-C3BE-46AB-90A8-B9BDE3391E45}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Scale_R_X</Property>
 	<Property Name="varPersistentID:{E84F8947-0637-495D-B021-96B873082AC7}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_Back_R_X</Property>
 	<Property Name="varPersistentID:{E8AFBEC7-5E8F-448A-A93B-C4B48AFF84EE}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_6_To.lvlib/Cube_6_To_Switch_R_X</Property>
@@ -1221,7 +1222,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">51</Property>
+				<Property Name="Bld_version.build" Type="Int">54</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
