@@ -14,7 +14,7 @@ Start_2_To_Switch_Far_X, 20, 70, 130
 Start_2_To_Switch_Far_Y, 159.9, 200, 219
 Start_2_To_Switch_Far_Time, 4
 Start_2_To_Switch_Close_X, 20, 70, 130
-Start_2_To_Switch_Close_Y, 159.5, 140, 125
+Start_2_To_Switch_Close_Y, 159.5, 140, 113
 Start_2_To_Switch_Close_Time, 4
 
 #Start_3
@@ -152,9 +152,9 @@ Cube_5_To_Switch_Back_Close_Time, 5
 Cube_6_To_Scale_Far_X, 231, 250, 270
 Cube_6_To_Scale_Far_Y, 65, 120, 190
 Cube_6_To_Scale_Far_Time, 5
-Cube_6_To_Scale_Close_X, 231, 250, 270
-Cube_6_To_Scale_Close_Y, 65, 66, 70
-Cube_6_To_Scale_Close_Time, 5
+Cube_6_To_Scale_Close_X, 231, 270
+Cube_6_To_Scale_Close_Y, 215, 215
+Cube_6_To_Scale_Close_Time, 2.5
 Cube_6_To_Switch_Back_Far_X, 231, 227, 222
 Cube_6_To_Switch_Back_Far_Y, 65, 100, 214
 Cube_6_To_Switch_Back_Far_Time, 5
