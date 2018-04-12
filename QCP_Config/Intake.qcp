@@ -1,1 +1,21 @@
-Intake_Motor_Power, 0.6
+Intake_Motor_Power, 0
+Command, Do
+Out Speed, 1
+Behind Back Out Speed, 0.5
+Out High, 0.45
+Out High Behind, 0.6
+Out Med, 0.45
+Out Med Behind, 0.5
+Out Low, 0.4
+Out Low Behind, 0.4
+Out Switch, 0.5
+Out Switch Behind, 1
+Out Ground, 1
+Out Ground Behind, 1
+Out Home, 1
+Out Home Behind, 1
+Cube Out Time (s), 0.33
+Num True In, 2
+Cube In Time (s), 0.5
+Right Intake Speed, .750495
+Left Intake Speed, .750495

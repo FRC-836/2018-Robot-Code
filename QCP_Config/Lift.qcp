@@ -1,30 +1,30 @@
-Free_Rotate_Height, 99999
+Free_Rotate_Height, -10
 Ground_Desired_Height, 0
-Ground_Desired_Rotation, 0
-Lift_Tolerance, 0
+Ground_Desired_Rotation, -80
+Lift_Tolerance, 40
 Rotation_Mech_Hi, 90
 Rotation_Mech_Low, 0
 Rotation_Sensor_Hi, 20
 Rotation_Sensor_Low, 0
-Rotational_Manual_Motor_Power, 0.5
-Rotational_Tolerance, 0
-To_Home_Desired_Height, 2468.9
-To_Home_Desired_Rotation, 90
-To_Scale_High_Desired_Height, 26267.9
-To_Scale_High_Desired_Rotation, 54.2584
-To_Scale_Low_Desired_Height, 16306.2
-To_Scale_Low_Desired_Rotation, 54.2584
-To_Scale_Medium_Desired_Height, 21933
-To_Scale_Medium_Desired_Rotation, 54.2584
-To_Switch_Desired_Height, 7119.62
-To_Switch_Desired_Rotation, 31.0048
+Rotational_Manual_Motor_Power, 0.768037
+Rotational_Tolerance, 5
+To_Home_Desired_Height, 300
+To_Home_Desired_Rotation, -40
+To_Scale_High_Desired_Height, 32000
+To_Scale_High_Desired_Rotation, -30
+To_Scale_Low_Desired_Height, 32000
+To_Scale_Low_Desired_Rotation, -62.5359
+To_Scale_Medium_Desired_Height, 32000
+To_Scale_Medium_Desired_Rotation, -44
+To_Switch_Desired_Height, 300
+To_Switch_Desired_Rotation, -40
 Vertical_High_Limit, 27000
 Vertical_High_Near_Limit, 4000
 Vertical_High_Speed_Near_Limit, .2
 Vertical_Low_Limit, 200
 Vertical_Low_Near_Limit, 3000
 Vertical_Low_Speed_Near_Limit, .2
-Vertical_Manual_Motor_Power, .5
+Vertical_Manual_Motor_Power, .48923
 Verticle_Mech_Hi, 0
 Verticle_Mech_Low, 24.1875
 Verticle_Sensor_Hi, 26537
@@ -33,15 +33,46 @@ Brake_Engage_Time_Sec, .2
 Brake_Servo_Engage_Angle, 0
 Brake_Servo_Disengage_Angle, 0.2
 Rotation_Setpoint_Limit, 2000
-Rotation_Feed_Forward, -0.126041
-To_Scale_Medium_Behind_Rotation, 0
-To_Scale_High_Behind_Rotation, 0
-To_Scale_Low_Behind_Rotation, 0
-Cube_Pile_Hi_Desired_Rotation, 0
-Cube_Pile_Hi_Desired_Height, 0
-Cube_Pile_Med_Desired_Rotation, 0
-Cube_Pile_Med_Desired_Height, 0
-Cube_Pile_Lo_Desired_Rotation, 0
-Cube_Pile_Lo_Desired_Height, 0
-Climb_Desired_Height, 0
-Climb_Desired_Rotation, 0
+Rotation_Feed_Forward, -0.538358
+To_Scale_Medium_Behind_Rotation, 37
+To_Scale_High_Behind_Rotation, 37
+To_Scale_Low_Behind_Rotation, 37
+Cube_Pile_Hi_Desired_Rotation, -20
+Cube_Pile_Hi_Desired_Height, 25000
+Cube_Pile_Med_Desired_Rotation, -40
+Cube_Pile_Med_Desired_Height, 17500
+Cube_Pile_Lo_Desired_Rotation, -60
+Cube_Pile_Lo_Desired_Height, 10000
+Climb_Desired_Height, 32000
+Climb_Desired_Rotation, -24
+Home Stall, 0.1
+GroundStall, 0
+drive down speed, -0.275
+Behind Back Rotate Height, 23000
+Rot SP Limit, 5000.00
+Upper Limit, 35000
+Lower Limit, 0
+To_Floor_Height, 3500
+To_Floor_Power, -0.3
+Noise, 10
+Climb Up Speed, 0.75
+Climb PID Switch, 15000
+Rev Power, 0.35
+Slow Height, 12000
+Rev Time (S), 0.1
+Stop Time (s), 0
+Upward Feed Forward, 0.104
+Rotation P Gain, 0.02
+Rotation I Gain, 0.01
+Rotation D Gain, 0.002
+Rotation Max, 1
+Rotation Min, -1
+Roatation Setpoint, -12.81829
+Vertical P Gain U, 0.0001
+Vertical I Gain U, 0
+Vertical D Gain U, 0
+Vertical P Gain D, 0.00005
+Vertical I Gain D, 0
+Vertical D Gain D, 0
+I Clear Zone, 500
+Vertical Setpoint, 7870.81
