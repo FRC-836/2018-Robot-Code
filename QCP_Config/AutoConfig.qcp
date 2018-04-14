@@ -225,3 +225,14 @@ Angle_At_Point_Switch_Back_Close, -1
 
 
 
+Stall At set, 10
+Stall At reset, 2
+Set Seconds, 0
+Reset Second, 0.5
+Arm Behind Wait (ms), 500
+Final Spline Turn, -10
+Throttle Feed Fwd, 0.28
+Pid Setpoints, 500
+Limit of Orientation Change, 15
+Steer Feed Fwd, 0
+Absolute Theta Final, 0

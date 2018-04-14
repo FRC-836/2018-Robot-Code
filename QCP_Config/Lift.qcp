@@ -2,10 +2,10 @@ Free_Rotate_Height, -10
 Ground_Desired_Height, 0
 Ground_Desired_Rotation, -80
 Lift_Tolerance, 40
-Rotation_Mech_Hi, 90
-Rotation_Mech_Low, 0
-Rotation_Sensor_Hi, 20
-Rotation_Sensor_Low, 0
+Rotation_Mech_Hi, 0
+Rotation_Mech_Low, 90
+Rotation_Sensor_Hi, 1401
+Rotation_Sensor_Low, 6713
 Rotational_Manual_Motor_Power, 0.768037
 Rotational_Tolerance, 5
 To_Home_Desired_Height, 300
