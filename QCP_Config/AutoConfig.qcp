@@ -1,6 +1,6 @@
 #Start_1
 Start_1_To_Switch_Side_Close_X, 200, 250, 250
-Start_1_To_Switch_Side_Close_Y, 45, 45, 30
+Start_1_To_Switch_Side_Close_Y, 45, 45, 60
 Start_1_To_Switch_Side_Close_Time, 4
 Start_1_To_Scale_Far_X, 1, 206, 206, 260
 Start_1_To_Scale_Far_Y, 1, 1, 180, 190
@@ -220,7 +220,7 @@ Angle_At_Point_Start_2, 0
 Angle_At_Point_Start_3, 0
 Angle_At_Point_Switch_Far. 0
 Angle_At_Point_Switch_Side_Far, 90
-Angle_At_Point_Switch_Side_Close, 90
+Angle_At_Point_Switch_Side_Close, 270
 Angle_At_Point_Switch_Close. 0
 Angle_At_Point_Scale_Far, 0
 Angle_At_Point_Scale_Close, 0
