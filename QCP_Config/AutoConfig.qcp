@@ -218,10 +218,10 @@ CubeAcq_Far_To_Cube_6_Time, 5
 Angle_At_Point_Start_1, 0
 Angle_At_Point_Start_2, 0
 Angle_At_Point_Start_3, 0
-Angle_At_Point_Switch_Far. 0
+Angle_At_Point_Switch_Far, 0
 Angle_At_Point_Switch_Side_Far, 90
 Angle_At_Point_Switch_Side_Close, 270
-Angle_At_Point_Switch_Close. 0
+Angle_At_Point_Switch_Close, 0
 Angle_At_Point_Scale_Far, 0
 Angle_At_Point_Scale_Close, 0
 Angle_At_Point_Cube_1, -1
