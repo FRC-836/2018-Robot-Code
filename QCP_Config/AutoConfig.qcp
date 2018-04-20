@@ -94,8 +94,8 @@ Scale_Far_To_CubeAcq_Close_Time, 2
 Cube_1_To_Scale_Far_X, 231, 250, 270
 Cube_1_To_Scale_Far_Y, 215, 200, 190
 Cube_1_To_Scale_Far_Time, 2
-Cube_1_To_Scale_Close_X, 231, 270
-Cube_1_To_Scale_Close_Y, 215, 215
+Cube_1_To_Scale_Close_X, 231, 270 
+Cube_1_To_Scale_Close_Y, 215, 225
 Cube_1_To_Scale_Close_Time, 2.5
 Cube_1_To_Switch_Back_Far_X, 231, 225, 222
 Cube_1_To_Switch_Back_Far_Y, 215, 215, 214
