@@ -489,6 +489,7 @@ DirectoryIndex index.htm
 		<Item Name="MotorControlWithBrake.vi" Type="VI" URL="../Support/MotorControlWithBrake.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="RobotSpecific.lvlib" Type="Library" URL="../SharedVarLibs/RobotSpecific.lvlib"/>
+		<Item Name="Shock Detect.vi" Type="VI" URL="../Support/Shock Detect.vi"/>
 		<Item Name="SingleButtonDetect.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/SingleButtonDetect.vi"/>
 		<Item Name="SingleButtonDetectStates.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Logic_Support/SingleButtonDetectStates.ctl"/>
 		<Item Name="StartPointToEndPoint.vi" Type="VI" URL="../AutoSupport/StartPointToEndPoint.vi"/>
@@ -1207,6 +1208,7 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="ScaleFirst.vi" Type="VI" URL="../AutoSupport/ScaleFirst.vi"/>
 			<Item Name="SensorLoop.vi" Type="VI" URL="../QCP_Config/SensorLoop.vi"/>
+			<Item Name="Shock Detect.vi" Type="VI" URL="../Support/Shock Detect.vi"/>
 			<Item Name="Startpos.ctl" Type="VI" URL="../DashboardSupport/Startpos.ctl"/>
 			<Item Name="SwitchAutoStates.ctl" Type="VI" URL="../AutoSupport/SwitchAutoStates.ctl"/>
 		</Item>
