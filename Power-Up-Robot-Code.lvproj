@@ -192,6 +192,7 @@
 	<Property Name="varPersistentID:{90EB6616-7A89-44BE-B590-D642FC383DA1}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Switch_L_To.lvlib/Switch_L_To_CubeAcq_R_Y</Property>
 	<Property Name="varPersistentID:{91037A4C-F041-454F-8584-9FBE512A3900}" Type="Ref">/Target/QCP/Lift.lvlib/To_Switch_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{918A5505-BC34-4907-BA2E-334B6A52F804}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Switch_Back_L_To.lvlib/Switch_Back_L_To_CubeAcq_R_X</Property>
+	<Property Name="varPersistentID:{91A988DB-581F-4E6E-A4BB-6384B6BF106F}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Right_Drive_Rate</Property>
 	<Property Name="varPersistentID:{91B3E723-AD61-4F53-B648-AC5DE798044A}" Type="Ref">/Target/QCP/Lift.lvlib/Rotation_Sensor_Hi_Tuning</Property>
 	<Property Name="varPersistentID:{92790A0B-CF83-49B1-9F2A-C71C4D25D188}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Scale_R_To.lvlib/Scale_R_To_CubeAcq_R_X</Property>
 	<Property Name="varPersistentID:{9306A758-76F3-4621-A527-D609113E8B97}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Scale_L_To.lvlib/Scale_L_To_CubeAcq_R_X</Property>
@@ -205,6 +206,7 @@
 	<Property Name="varPersistentID:{9837E18D-44D0-4517-8E10-5D7306BF9D44}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Switch_Back_R_To.lvlib/Switch_Back_R_To_CubeAcq_L_Y</Property>
 	<Property Name="varPersistentID:{9A7AF7E4-1258-494D-BD6F-985749A5903D}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Behind Back?</Property>
 	<Property Name="varPersistentID:{9BE65746-309A-4800-9E7A-8461203D6411}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_R_Y</Property>
+	<Property Name="varPersistentID:{9C1277F7-4FC2-46A0-9E50-B9ABA8D3922E}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Left_Drive_Rate</Property>
 	<Property Name="varPersistentID:{9F48DAF0-B1F1-4776-9772-F30A6C33542B}" Type="Ref">/Target/QCP/DriveLoop.lvlib/Distance_Holding_Still_PID_Gains_Tuning</Property>
 	<Property Name="varPersistentID:{A0C2EB2F-06FC-43DD-B814-BF5973935468}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Scale_R_To.lvlib/Scale_R_To_CubeAcq_L_Y</Property>
 	<Property Name="varPersistentID:{A15918CF-40A2-4AF1-BA0B-FE183CA2D994}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Scale_L_X</Property>
