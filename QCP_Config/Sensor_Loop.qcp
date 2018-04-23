@@ -1,0 +1,8 @@
+Lift Pitch Ref, 87
+PBot Lift Pitch Ref, 230
+ledMode, 1
+pipeline, 0
+Hyster, 0.3
+lo limit, -211
+Rate Thresh, 500
+hi limit, 35
