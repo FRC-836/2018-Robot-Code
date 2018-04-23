@@ -1,6 +1,6 @@
 #Start_1
-Start_1_To_Switch_Side_Close_X, 20, 70, 172.5
-Start_1_To_Switch_Side_Close_Y, 45, 55, 60
+Start_1_To_Switch_Side_Close_X, 200, 225, 250
+Start_1_To_Switch_Side_Close_Y, 45, 45, 60
 Start_1_To_Switch_Side_Close_Time, 4
 Start_1_To_Scale_Far_X, 1, 206, 206, 260
 Start_1_To_Scale_Far_Y, 1, 1, 180, 190
@@ -8,18 +8,24 @@ Start_1_To_Scale_Far_Time, 10
 Start_1_To_Scale_Close_X, 20, 200, 272
 Start_1_To_Scale_Close_Y, 45, 45, 75
 Start_1_To_Scale_Close_Time, 4.25
+Start_1_To_Scale_Close_Side_X, 20, 200, 315
+Start_1_To_Scale_Close_Side_Y, 45, 25, 45
+Start_1_To_Scale_Close_Side_Time, 5.5
+Start_1_To_Cross_Baseline_X, 1, 190, 206
+Start_1_To_Cross_Baseline_Y, 1, 1, 100
+Start_1_To_Cross_Baseline_Time, 10
 
 #Start_2
 Start_2_To_Switch_Far_X, 20, 70, 130
 Start_2_To_Switch_Far_Y, 159.9, 200, 219
 Start_2_To_Switch_Far_Time, 4
 Start_2_To_Switch_Close_X, 20, 70, 130
-Start_2_To_Switch_Close_Y, 159.5, 140, 125
+Start_2_To_Switch_Close_Y, 159.5, 140, 113
 Start_2_To_Switch_Close_Time, 4
 
 #Start_3
-Start_3_To_Switch_Side_Close_X, 20, 70, 172.5
-Start_3_To_Switch_Side_Close_Y, 180, 200, 240
+Start_3_To_Switch_Side_Close_X, 200, 225, 250
+Start_3_To_Switch_Side_Close_Y, 45, 45, 60
 Start_3_To_Switch_Side_Close_Time, 4
 Start_3_To_Scale_Far_X, 1, 206, 206, 260
 Start_3_To_Scale_Far_Y, 1, 1, 180, 190
@@ -27,6 +33,12 @@ Start_3_To_Scale_Far_Time, 10
 Start_3_To_Scale_Close_X, 20, 200, 272
 Start_3_To_Scale_Close_Y, 45, 45, 70
 Start_3_To_Scale_Close_Time, 4.25
+Start_3_To_Scale_Close_Side_X, 20, 200, 315
+Start_3_To_Scale_Close_Side_Y, 45, 25, 45
+Start_3_To_Scale_Close_Side_Time, 5.5
+Start_3_To_Cross_Baseline_X, 1, 190, 206
+Start_3_To_Cross_Baseline_Y, 1, 1, 100
+Start_3_To_Cross_Baseline_Time, 10
 
 #Switch_Side_Close
 Switch_Side_Close_To_CubeAcq_Far_X, 172.5, 200, 242
@@ -82,8 +94,8 @@ Scale_Far_To_CubeAcq_Close_Time, 2
 Cube_1_To_Scale_Far_X, 231, 250, 270
 Cube_1_To_Scale_Far_Y, 215, 200, 190
 Cube_1_To_Scale_Far_Time, 2
-Cube_1_To_Scale_Close_X, 231, 270
-Cube_1_To_Scale_Close_Y, 215, 215
+Cube_1_To_Scale_Close_X, 231, 270 
+Cube_1_To_Scale_Close_Y, 215, 225
 Cube_1_To_Scale_Close_Time, 2.5
 Cube_1_To_Switch_Back_Far_X, 231, 225, 222
 Cube_1_To_Switch_Back_Far_Y, 215, 215, 214
@@ -152,9 +164,9 @@ Cube_5_To_Switch_Back_Close_Time, 5
 Cube_6_To_Scale_Far_X, 231, 250, 270
 Cube_6_To_Scale_Far_Y, 65, 120, 190
 Cube_6_To_Scale_Far_Time, 5
-Cube_6_To_Scale_Close_X, 231, 250, 270
-Cube_6_To_Scale_Close_Y, 65, 66, 70
-Cube_6_To_Scale_Close_Time, 5
+Cube_6_To_Scale_Close_X, 231, 270
+Cube_6_To_Scale_Close_Y, 215, 215
+Cube_6_To_Scale_Close_Time, 2.5
 Cube_6_To_Switch_Back_Far_X, 231, 227, 222
 Cube_6_To_Switch_Back_Far_Y, 65, 100, 214
 Cube_6_To_Switch_Back_Far_Time, 5
@@ -206,10 +218,10 @@ CubeAcq_Far_To_Cube_6_Time, 5
 Angle_At_Point_Start_1, 0
 Angle_At_Point_Start_2, 0
 Angle_At_Point_Start_3, 0
-Angle_At_Point_Switch_Far. 0
+Angle_At_Point_Switch_Far, 0
 Angle_At_Point_Switch_Side_Far, 90
-Angle_At_Point_Switch_Side_Close, 90
-Angle_At_Point_Switch_Close. 0
+Angle_At_Point_Switch_Side_Close, 270
+Angle_At_Point_Switch_Close, 0
 Angle_At_Point_Scale_Far, 0
 Angle_At_Point_Scale_Close, 0
 Angle_At_Point_Cube_1, -1
@@ -222,6 +234,5 @@ Angle_At_Point_CubeAcq_Far, -1
 Angle_At_Point_CubeAcq_Close, -1
 Angle_At_Point_Switch_Back_Far, -1
 Angle_At_Point_Switch_Back_Close, -1
-
-
-
+Angle_At_Point_Scale_Close_Side, 270
+Angle_At_Point_Cross_Baseline, 270
