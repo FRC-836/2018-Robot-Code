@@ -207,6 +207,7 @@
 	<Property Name="varPersistentID:{975CEBCD-CBC1-44A4-8128-A5AF2092AB1D}" Type="Ref">/Target/QCP/Lift.lvlib/Vertical_Manual_Motor_Power_Tuning</Property>
 	<Property Name="varPersistentID:{979143CD-8555-40EE-B4BD-6A5A1E897A28}" Type="Ref">/Target/DevRefs.lvlib/BehindBackNotifier</Property>
 	<Property Name="varPersistentID:{9837E18D-44D0-4517-8E10-5D7306BF9D44}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Switch_Back_R_To.lvlib/Switch_Back_R_To_CubeAcq_L_Y</Property>
+	<Property Name="varPersistentID:{9A6CB601-49BD-4724-8BD2-C813E94AA3D8}" Type="Ref">/Target/Camera.lvlib/Auto_Horizontal_Offset</Property>
 	<Property Name="varPersistentID:{9A7AF7E4-1258-494D-BD6F-985749A5903D}" Type="Ref">/Target/Mechanisms/LiftStatus.lvlib/Lift Behind Back?</Property>
 	<Property Name="varPersistentID:{9BE65746-309A-4800-9E7A-8461203D6411}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_1_To.lvlib/Cube_1_To_Switch_R_Y</Property>
 	<Property Name="varPersistentID:{9C1277F7-4FC2-46A0-9E50-B9ABA8D3922E}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Left_Drive_Rate</Property>
