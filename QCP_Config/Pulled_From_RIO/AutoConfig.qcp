@@ -1,0 +1,238 @@
+#Start_1
+Start_1_To_Switch_Side_Close_X, 200, 225, 250
+Start_1_To_Switch_Side_Close_Y, 45, 45, 60
+Start_1_To_Switch_Side_Close_Time, 4
+Start_1_To_Scale_Far_X, 1, 206, 206, 260
+Start_1_To_Scale_Far_Y, 1, 1, 180, 190
+Start_1_To_Scale_Far_Time, 10
+Start_1_To_Scale_Close_X, 20, 200, 272
+Start_1_To_Scale_Close_Y, 45, 45, 75
+Start_1_To_Scale_Close_Time, 4.25
+Start_1_To_Scale_Close_Side_X, 20, 200, 315
+Start_1_To_Scale_Close_Side_Y, 45, 25, 45
+Start_1_To_Scale_Close_Side_Time, 5.5
+Start_1_To_Cross_Baseline_X, 1, 190, 206
+Start_1_To_Cross_Baseline_Y, 1, 1, 100
+Start_1_To_Cross_Baseline_Time, 10
+
+#Start_2
+Start_2_To_Switch_Far_X, 20, 70, 130
+Start_2_To_Switch_Far_Y, 159.9, 200, 219
+Start_2_To_Switch_Far_Time, 4
+Start_2_To_Switch_Close_X, 20, 70, 130
+Start_2_To_Switch_Close_Y, 159.5, 140, 113
+Start_2_To_Switch_Close_Time, 4
+
+#Start_3
+Start_3_To_Switch_Side_Close_X, 200, 225, 250
+Start_3_To_Switch_Side_Close_Y, 45, 45, 60
+Start_3_To_Switch_Side_Close_Time, 4
+Start_3_To_Scale_Far_X, 1, 206, 206, 260
+Start_3_To_Scale_Far_Y, 1, 1, 180, 190
+Start_3_To_Scale_Far_Time, 10
+Start_3_To_Scale_Close_X, 20, 200, 272
+Start_3_To_Scale_Close_Y, 45, 45, 70
+Start_3_To_Scale_Close_Time, 4.25
+Start_3_To_Scale_Close_Side_X, 20, 200, 315
+Start_3_To_Scale_Close_Side_Y, 45, 25, 45
+Start_3_To_Scale_Close_Side_Time, 5.5
+Start_3_To_Cross_Baseline_X, 1, 190, 206
+Start_3_To_Cross_Baseline_Y, 1, 1, 100
+Start_3_To_Cross_Baseline_Time, 10
+
+#Switch_Side_Close
+Switch_Side_Close_To_CubeAcq_Far_X, 172.5, 200, 242
+Switch_Side_Close_To_CubeAcq_Far_Y, 60, 100, 184.25
+Switch_Side_Close_To_CubeAcq_Far_Time, 1
+Switch_Side_Close_To_CubeAcq_Close_X, 172.5, 200, 242
+Switch_Side_Close_To_CubeAcq_Close_Y, 60, 100, 121.75
+Switch_Side_Close_To_CubeAcq_Close_Time, 1
+
+
+#Switch_Side_Far
+Switch_Side_Far_To_CubeAcq_Far_X, 172.5, 200, 242
+Switch_Side_Far_To_CubeAcq_Far_Y, 240, 200, 184.25
+Switch_Side_Far_To_CubeAcq_Far_Time, 1
+Switch_Side_Far_To_CubeAcq_Close_X, 172.5, 200, 242
+Switch_Side_Far_To_CubeAcq_Close_Y, 240, 180, 121.75
+Switch_Side_Far_To_CubeAcq_Close_Time, 1
+
+#Switch_Back_Close
+Switch_Back_Close_To_CubeAcq_Far_X,  214, 230, 242
+Switch_Back_Close_To_CubeAcq_Far_Y, 222, 200, 184.25
+Switch_Back_Close_To_CubeAcq_Far_Time, 1
+Switch_Back_Close_To_CubeAcq_Close_X, 214, 230, 242
+Switch_Back_Close_To_CubeAcq_Close_Y, 102, 110, 121.75
+Switch_Back_Close_To_CubeAcq_Close_Time, 1
+
+#Switch_Back_Far
+Switch_Back_Far_To_CubeAcq_Far_X, 214, 230, 242
+Switch_Back_Far_To_CubeAcq_Far_Y, 222, 200, 184.25
+Switch_Back_Far_To_CubeAcq_Far_Time, 1
+Switch_Back_Far_To_CubeAcq_Close_X, 214, 230, 242
+Switch_Back_Far_To_CubeAcq_Close_Y, 102, 110, 121.75
+Switch_Back_Far_To_CubeAcq_Close_Time, 1
+
+#Scale_Close
+Scale_Close_To_CubeAcq_Far_X, 272, 250, 220
+Scale_Close_To_CubeAcq_Far_Y, 70, 72.5, 75
+Scale_Close_To_CubeAcq_Far_Time, 2
+Scale_Close_To_CubeAcq_Close_X, 272, 272
+Scale_Close_To_CubeAcq_Close_Y, 70, 70
+Scale_Close_To_CubeAcq_Close_Time, 0.1
+
+#Scale_Far
+Scale_Far_To_CubeAcq_Far_X, 270, 260, 242
+Scale_Far_To_CubeAcq_Far_Y, 190, 190, 184.25
+Scale_Far_To_CubeAcq_Far_Time, 2
+Scale_Far_To_CubeAcq_Close_X, 270, 260, 242
+Scale_Far_To_CubeAcq_Close_Y, 190, 180, 121.75
+Scale_Far_To_CubeAcq_Close_Time, 2
+
+
+#Cube_1
+Cube_1_To_Scale_Far_X, 231, 250, 270
+Cube_1_To_Scale_Far_Y, 215, 200, 190
+Cube_1_To_Scale_Far_Time, 2
+Cube_1_To_Scale_Close_X, 231, 270 
+Cube_1_To_Scale_Close_Y, 215, 225
+Cube_1_To_Scale_Close_Time, 2.5
+Cube_1_To_Switch_Back_Far_X, 231, 225, 222
+Cube_1_To_Switch_Back_Far_Y, 215, 215, 214
+Cube_1_To_Switch_Back_Far_Time, 2
+Cube_1_To_Switch_Back_Close_X, 231, 220
+Cube_1_To_Switch_Back_Close_Y, 215, 215
+Cube_1_To_Switch_Back_Close_Time, 0.1
+
+#Cube_2
+Cube_2_To_Scale_Far_X, 231, 250, 270
+Cube_2_To_Scale_Far_Y, 185, 187, 190
+Cube_2_To_Scale_Far_Time, 5
+Cube_2_To_Scale_Close_X, 231, 250, 270
+Cube_2_To_Scale_Close_Y, 185, 120, 70
+Cube_2_To_Scale_Close_Time, 1
+Cube_2_To_Switch_Back_Far_X, 231, 225, 222
+Cube_2_To_Switch_Back_Far_Y, 185, 200, 214
+Cube_2_To_Switch_Back_Far_Time, 5
+Cube_2_To_Switch_Back_Close_X, 231, 175, 122
+Cube_2_To_Switch_Back_Close_Y, 185, 200, 214
+Cube_2_To_Switch_Back_Close_Time, 3
+
+#Cube_3
+Cube_3_To_Scale_Far_X, 231, 250, 270
+Cube_3_To_Scale_Far_Y, 155, 170, 190
+Cube_3_To_Scale_Far_Time, 5
+Cube_3_To_Scale_Close_X, 231, 250, 270
+Cube_3_To_Scale_Close_Y, 155, 100, 70
+Cube_3_To_Scale_Close_Time, 5
+Cube_3_To_Switch_Back_Far_X, 231, 227, 222
+Cube_3_To_Switch_Back_Far_Y, 155, 130, 214
+Cube_3_To_Switch_Back_Far_Time, 5
+Cube_3_To_Switch_Back_Close_X, 231, 227, 122
+Cube_3_To_Switch_Back_Close_Y, 155, 175, 214
+Cube_3_To_Switch_Back_Close_Time, 5
+
+#Cube_4
+Cube_4_To_Scale_Far_X, 231, 250, 270
+Cube_4_To_Scale_Far_Y, 125, 170, 190
+Cube_4_To_Scale_Far_Time, 5
+Cube_4_To_Scale_Close_X, 231, 250, 270
+Cube_4_To_Scale_Close_Y, 125, 100, 70
+Cube_4_To_Scale_Close_Time, 5
+Cube_4_To_Switch_Back_Far_X, 231, 227, 222
+Cube_4_To_Switch_Back_Far_Y, 125, 150, 214
+Cube_4_To_Switch_Back_Far_Time, 5
+Cube_4_To_Switch_Back_Close_X, 231, 240, 122
+Cube_4_To_Switch_Back_Close_Y, 125, 150, 214
+Cube_4_To_Switch_Back_Close_Time, 5
+
+#Cube_5
+Cube_5_To_Scale_Far_X, 231, 250, 270
+Cube_5_To_Scale_Far_Y, 95, 145, 190
+Cube_5_To_Scale_Far_Time, 5
+Cube_5_To_Scale_Close_X, 231, 250, 270
+Cube_5_To_Scale_Close_Y, 95, 85, 70
+Cube_5_To_Scale_Close_Time, 5
+Cube_5_To_Switch_Back_Far_X, 231, 227, 222
+Cube_5_To_Switch_Back_Far_Y, 95, 150, 214
+Cube_5_To_Switch_Back_Far_Time, 5
+Cube_5_To_Switch_Back_Close_X, 231, 150, 122
+Cube_5_To_Switch_Back_Close_Y, 95, 140, 214
+Cube_5_To_Switch_Back_Close_Time, 5
+
+#Cube_6
+Cube_6_To_Scale_Far_X, 231, 250, 270
+Cube_6_To_Scale_Far_Y, 65, 120, 190
+Cube_6_To_Scale_Far_Time, 5
+Cube_6_To_Scale_Close_X, 231, 270
+Cube_6_To_Scale_Close_Y, 215, 215
+Cube_6_To_Scale_Close_Time, 2.5
+Cube_6_To_Switch_Back_Far_X, 231, 227, 222
+Cube_6_To_Switch_Back_Far_Y, 65, 100, 214
+Cube_6_To_Switch_Back_Far_Time, 5
+Cube_6_To_Switch_Back_Close_X, 231, 200, 122
+Cube_6_To_Switch_Back_Close_Y, 65, 100, 214
+Cube_6_To_Switch_Back_Close_Time, 5
+
+#CubeAcq_Close
+CubeAcq_Close_To_Cube_1_X, 242, 250
+CubeAcq_Close_To_Cube_1_Y, 221.75, 221.75
+CubeAcq_Close_To_Cube_1_Time, 0.1
+CubeAcq_Close_To_Cube_2_X, 242, 236, 231
+CubeAcq_Close_To_Cube_2_Y, 221.75, 200, 185
+CubeAcq_Close_To_Cube_2_Time, 5
+CubeAcq_Close_To_Cube_3_X, 242, 236, 231
+CubeAcq_Close_To_Cube_3_Y, 221.75, 200, 155
+CubeAcq_Close_To_Cube_3_Time, 5
+CubeAcq_Close_To_Cube_4_X, 242, 236, 231
+CubeAcq_Close_To_Cube_4_Y, 221.75, 200, 125
+CubeAcq_Close_To_Cube_4_Y, 5
+CubeAcq_Close_To_Cube_5_X, 242, 236, 231
+CubeAcq_Close_To_Cube_5_Y, 221.75, 200, 95
+CubeAcq_Close_To_Cube_5_Time, 5
+CubeAcq_Close_To_Cube_6_X, 242, 236, 231
+CubeAcq_Close_To_Cube_6_Y, 221.75, 120, 65
+CubeAcq_Close_To_Cube_6_Time, 5
+
+#CubeAcq_Far
+CubeAcq_Far_To_Cube_1_X, 242, 236, 231
+CubeAcq_Far_To_Cube_1_Y, 184.25, 200, 215
+CubeAcq_Far_To_Cube_1_Time, 5
+CubeAcq_Far_To_Cube_2_X, 242, 236, 231
+CubeAcq_Far_To_Cube_2_Y, 184.25, 185, 185
+CubeAcq_Far_To_Cube_2_Time, 5
+CubeAcq_Far_To_Cube_3_X, 242, 231
+CubeAcq_Far_To_Cube_3_Y, 184.25, 155
+CubeAcq_Far_To_Cube_3_Time, 5
+CubeAcq_Far_To_Cube_4_X, 242, 231
+CubeAcq_Far_To_Cube_4_Y, 184.25, 125
+CubeAcq_Far_To_Cube_4_Time, 5
+CubeAcq_Far_To_Cube_5_X, 242, 231
+CubeAcq_Far_To_Cube_5_Y, 184.25, 95
+CubeAcq_Far_To_Cube_5_Time, 5
+CubeAcq_Far_To_Cube_6_X, 242, 231
+CubeAcq_Far_To_Cube_6_Y, 184.25, 65
+CubeAcq_Far_To_Cube_6_Time, 5
+
+#Angles
+Angle_At_Point_Start_1, 0
+Angle_At_Point_Start_2, 0
+Angle_At_Point_Start_3, 0
+Angle_At_Point_Switch_Far, 0
+Angle_At_Point_Switch_Side_Far, 90
+Angle_At_Point_Switch_Side_Close, 270
+Angle_At_Point_Switch_Close, 0
+Angle_At_Point_Scale_Far, 0
+Angle_At_Point_Scale_Close, 0
+Angle_At_Point_Cube_1, -1
+Angle_At_Point_Cube_2, -1
+Angle_At_Point_Cube_3, -1
+Angle_At_Point_Cube_4, -1
+Angle_At_Point_Cube_5, -1
+Angle_At_Point_Cube_6, -1
+Angle_At_Point_CubeAcq_Far, -1
+Angle_At_Point_CubeAcq_Close, -1
+Angle_At_Point_Switch_Back_Far, -1
+Angle_At_Point_Switch_Back_Close, -1
+Angle_At_Point_Scale_Close_Side, 270
+Angle_At_Point_Cross_Baseline, 270
