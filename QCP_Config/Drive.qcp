@@ -1,14 +1,7 @@
-Center_On_Cube_Tolerance_Tuning, 8
-Acquire_Cube_Speed, 0.5
-Center_Speed, 0.6
-Wait For Arm Angle, -88
-Searching Speed, 0.5
-Throttle Scale, 1
-Steer Scale, 0.500002
-Throttle Slow Mode Mult, 0.518053
-Steer Slow Mode Mult, 0.562282
-T.I.P Deadband, 0.127684
-Accel T Rate Limit, 208.878
-Decel T Rate Limit, 1498.3
-Accel S Rate Limit, 1186.66
-Decel SRate Limit, 100000000
+Yaw_Driving_Straight_PID_Gains, 0
+Yaw_Holding_Still_PID_Gains, 0
+Distance_Driving_Straight_PID_Gains, 0
+Distance_Holding_Still_PID_Gains, 0
+Center_On_Cube_Tolerance, 0
+Acquire_Cube_Speed, 0
+Center_Speed, 0
