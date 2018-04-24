@@ -28,10 +28,10 @@ Start_3_To_Switch_Side_Close_X, 200, 225, 250
 Start_3_To_Switch_Side_Close_Y, 45, 45, 60
 Start_3_To_Switch_Side_Close_Time, 4
 Start_3_To_Scale_Far_X, 1, 206, 206, 260
-Start_3_To_Scale_Far_Y, 1, 1, 180, 190
+Start_3_To_Scale_Far_Y, 1, 1, 180, 208
 Start_3_To_Scale_Far_Time, 10
 Start_3_To_Scale_Close_X, 20, 200, 272
-Start_3_To_Scale_Close_Y, 45, 45, 70
+Start_3_To_Scale_Close_Y, 45, 45, 80
 Start_3_To_Scale_Close_Time, 4.25
 Start_3_To_Scale_Close_Side_X, 20, 200, 315
 Start_3_To_Scale_Close_Side_Y, 45, 25, 45

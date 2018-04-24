@@ -230,6 +230,7 @@
 	<Property Name="varPersistentID:{A782EB99-A07A-49A4-9807-AA39076E5DEF}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_L_Y</Property>
 	<Property Name="varPersistentID:{A7DAC38C-C921-4CBB-BD0A-C9B8E02278B2}" Type="Ref">/Target/QCP/Lift.lvlib/Tuning_Value_High_Pile_Desired_Rotation</Property>
 	<Property Name="varPersistentID:{A7DCE543-6F2D-42F8-85EB-F330F0EE9CB2}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_4_To.lvlib/Cube_4_To_Switch_Back_L_Y</Property>
+	<Property Name="varPersistentID:{A851E3FD-534C-437F-84C0-7E8FAFF6AFAF}" Type="Ref">/Target/Mechanisms/DriveStatus.lvlib/Auto_Bump_Level</Property>
 	<Property Name="varPersistentID:{A9A9A038-0117-496A-A1F9-72D913D7EBD7}" Type="Ref">/Target/QCP/Auto/AutoQCP.lvlib/Cube_3_To.lvlib/Cube_3_To_Switch_L_X</Property>
 	<Property Name="varPersistentID:{A9F6D784-6CFE-4E4B-96CF-9C6999ABEB93}" Type="Ref">/Target/RobotSpecific.lvlib/Disabled?</Property>
 	<Property Name="varPersistentID:{AA0DB621-5CBF-42C9-917F-5EF94F761E3F}" Type="Ref">/Target/Joystick.lvlib/Button_Start</Property>
@@ -1216,6 +1217,7 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="SensorLoop.vi" Type="VI" URL="../QCP_Config/SensorLoop.vi"/>
 			<Item Name="Startpos.ctl" Type="VI" URL="../DashboardSupport/Startpos.ctl"/>
+			<Item Name="SwitchAutoStates.ctl" Type="VI" URL="../AutoSupport/SwitchAutoStates.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
